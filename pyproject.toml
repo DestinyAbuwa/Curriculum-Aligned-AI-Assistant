@@ -1,0 +1,36 @@
+[project]
+name = "curriculum-aligned-ai-assistant"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "vince-vm", email = "vmartinelli@mail.bradley.edu" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+curriculum-aligned-ai-assistant = "curriculum_aligned_ai_assistant:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+
+[dependency-groups]
+dev = [
+    "mypy>=2.3.1",
+    "pytest>=9.1.1",
+    "ruff>=0.16.9",
+]
