@@ -31,6 +31,7 @@ strict = true
 [dependency-groups]
 dev = [
     "mypy>=2.3.1",
+    "pre-commit>=4.0.0",
     "pytest>=9.1.1",
     "ruff>=0.16.9",
 ]
