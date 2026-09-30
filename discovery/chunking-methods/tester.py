@@ -9,7 +9,7 @@ converter = DocumentConverter()
 emb = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 splitter = SemanticChunker(emb, breakpoint_threshold_type="percentile")
 
-out_dir = Path("chunks_out")
+out_dir = Path("semanticresults")
 out_dir.mkdir(exist_ok=True)
 
 for path in Path("sample_pdfs").glob("*.*"):
@@ -20,7 +20,7 @@ for path in Path("sample_pdfs").glob("*.*"):
     chunks = splitter.split_text(text)
 
     # JSON: one entry per chunk
-    (out_dir / f"{path.stem}_chunks.json").write_text(
+    (out_dir / f"{path.stem}_semantic.json").write_text(
         json.dumps(
             [{"id": i, "text": c.strip()} for i, c in enumerate(chunks)],
             indent=2,
@@ -30,7 +30,7 @@ for path in Path("sample_pdfs").glob("*.*"):
     )
 
     # Plain text: easy to eyeball where the cuts landed
-    (out_dir / f"{path.stem}_chunks.txt").write_text(
+    (out_dir / f"{path.stem}_semantic.txt").write_text(
         "\n\n--- CHUNK BREAK ---\n\n".join(c.strip() for c in chunks),
         encoding="utf-8",
     )
