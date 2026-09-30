@@ -12,7 +12,7 @@ splitter = SemanticChunker(emb, breakpoint_threshold_type="percentile")
 out_dir = Path("chunks_out")
 out_dir.mkdir(exist_ok=True)
 
-for path in Path("docs").glob("*.*"):
+for path in Path("sample_pdfs").glob("*.*"):
     if path.suffix.lower() not in {".pdf", ".docx", ".pptx", ".html"}:
         continue
 

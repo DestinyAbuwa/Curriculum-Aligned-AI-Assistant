@@ -10,7 +10,7 @@ chunker = HybridChunker()
 out_dir = Path("hybridresults")
 out_dir.mkdir(exist_ok=True)
 
-for path in Path("docs").glob("*.*"):
+for path in Path("sample_pdfs").glob("*.*"):
     if path.suffix.lower() not in {".pdf", ".docx", ".pptx", ".html"}:
         continue
 
