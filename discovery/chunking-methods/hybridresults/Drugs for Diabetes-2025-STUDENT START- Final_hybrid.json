@@ -1,0 +1,695 @@
+[
+  {
+    "id": 0,
+    "headings": [
+      "Drugs for Diabetes"
+    ],
+    "text": "Linda Chang, PharmD, MPH Monzurul Roni, PhD Robert M Sargis, MD, PhD\nMATERIALS INTENDED FOR UNIVERSITY OF ILLINOIS STUDENTS ONLY. DO NOT DISTRIBUTE."
+  },
+  {
+    "id": 1,
+    "headings": [
+      "Conflict of Interest Statement"
+    ],
+    "text": "The presenters do not have a financial interest, arrangement or affiliation with any organization that could be perceived as a real or apparent conflict of interest in the context of this presentation.\n2"
+  },
+  {
+    "id": 2,
+    "headings": [
+      "Learning Objectives"
+    ],
+    "text": "- 1.Describe the pharmacology of insulin preparations with respect to onset and duration of action, listing the primary preparation(s) in each group.\n- 2.Describe the mechanisms of action, use, and adverse effects of hypoglycemic agents for the treatment of diabetes mellitus: sulfonylureas, biguanides, thiazolidinediones, alpha-glucosidase inhibitors, GLP-1 agonists, amylin agonist, DPP-4 inhibitors, SGLT2 inhibitors, glinides.\n- 3.Describe underlying co-morbidities that impact the choice of hypoglycemic agents."
+  },
+  {
+    "id": 3,
+    "headings": [
+      "Diagnosis of Diabetes (ADA)"
+    ],
+    "text": "A hemoglobin A1c (HbA1c) level of 6.5% or higher; or\nA fasting plasma glucose (FPG) level of 126 mg/dL (7 mmol/L) or higher; fasting is defined as no caloric intake for at least 8 hours, or\nA 2-hour plasma glucose level of 200 mg/dL (11.1 mmol/L) or higher during a 75-g oral glucose tolerance test (OGTT), or\nA random plasma glucose of 200 mg/dL (11.1 mmol/L) or higher in a patient with classic symptoms of hyperglycemia (i.e., polyuria, polydipsia, polyphagia, weight loss) or hyperglycemic crisis\nUNIVERSITY OF ILLINOIS\nCOLLEGE OF MEDICINE"
+  },
+  {
+    "id": 4,
+    "headings": [
+      "Diabetes Mellitus"
+    ],
+    "text": "Chronic disease characterized by hyperglycemia and glucosuria.\nType 2 diabetics"
+  },
+  {
+    "id": 5,
+    "headings": [
+      "Type 1 (T1D)"
+    ],
+    "text": "Patient secretes little to no insulin (absolute deficiency). Autoimmune disorder.\nType 1 diabetics"
+  },
+  {
+    "id": 6,
+    "headings": [
+      "Type 2 (T2D)"
+    ],
+    "text": "T\nMost common type (90%).\n10\nInsulin resistance and relative insulin deficiency.\nAssociated with obesity, dyslipidemia, hypertension, and other conditions.\nInfusion of glucose\nSource: Lippincott's Illustrated Review of Pharmacology, 7 th Ed."
+  },
+  {
+    "id": 7,
+    "headings": [
+      "DM Characteristics"
+    ],
+    "text": "Onset, 1 = Type 1 Most often abrupt. Onset, 2 = Type 2 Gradual. Clinical Symptoms, 1 = Polydipsia, polyphagia, polyuria. Clinical Symptoms, 2 = Often none. Ketosis, 1 = Frequent. Ketosis, 2 = Infrequent (except with infection or stress). Endogenous Insulin, 1 = Negligible. Endogenous Insulin, 2 = Present but often ineffective. Insulin Therapy, 1 = Immediate. Insulin Therapy, 2 = Years after diagnosis. Non-Insulin Hypoglycemic Agents, 1 = Rarely used. Non-Insulin Hypoglycemic Agents, 2 = Clinically indicated"
+  },
+  {
+    "id": 8,
+    "headings": [
+      "Drug-Induced Causes of Type 2 Diabetes"
+    ],
+    "text": "Glucocorticoids\nThyroid hormones\n𝜷 -blockers\nPost-transplant drugs\n- (tacrolimus, cyclosporine, sirolimus)\nThiazides\nAnti-retrovirals\nAnti-psychotics\nStatins\nNicotinic acid"
+  },
+  {
+    "id": 9,
+    "headings": [
+      "Case"
+    ],
+    "text": "A 19 yo woman with Type 1 DM on insulin presents to your clinic for routine follow up.  She was diagnosed with Type 1 DM 3 months ago, and she is currently taking insulin glargine 32 units at nighttime, and insulin aspart 6 units with breakfast, 6 units with lunch and 8 units with dinner.  She denies any sweats, confusion, jitteriness.  She brings her meter with her today, which shows fasting AM blood sugars of 170-190, with post-prandial sugars of 120-150.\nWhat is the glucose target goal for this patient?"
+  },
+  {
+    "id": 10,
+    "headings": [
+      "ADA Recommended Goals of Therapy"
+    ],
+    "text": "Test, 1 = Goals. HgA1c, 1 = <7% (checked every 3 months). Preprandial plasma glucose, 1 = 80-130 mg/dl. Peak Postprandial plasma glucose, 1 = <180 mg/dl. Blood pressure, 1 = <140/90mmHg. Lipid, 1 = Check every 1-2 years. Eye, 1 = Yearly exam. Feet, 1 = Every visit exam. Urinary microalbumin, 1 = Yearly"
+  },
+  {
+    "id": 11,
+    "headings": [
+      "Let's talk about Drugs!"
+    ],
+    "text": "Treatment of type 1 diabetes will involve one or more forms of insulin while regimens for type 2 diabetes include monotherapy and combinations of two or three drugs from different classes.\n- Classes of antidiabetic drugs:\n- Insulins\n- Biguanides\n- Thiazolidinediones\n- Dipeptidyl peptidase-4 (DPP-4) inhibitors\n- Sodium Glucose Co-Transporter 2 (SGLT2) Inhibitors\n- Glucagon-like peptide-1 (GLP-1) receptor agonists and glucose-dependent insulinotropic polypeptide (GIP) receptor/GLP-1R dual agonists\n- Sulfonylureas\n- Meglitinides*\n- Amylin analogue (pramlintide)*\n- 𝛼 -glucosidase inhibitors (acarbose)*\n- Dopamine agonists (bromocriptine)*\n- Bile acid sequestrants (colesevelam)*\n*Infrequently used but FDA-approved.\nGut\nUNIVERSITY OF ILLINOIS\nCOLLEGE OF MEDICINE"
+  },
+  {
+    "id": 12,
+    "headings": [
+      "Target Sites of Anti-Diabetic Agents"
+    ],
+    "text": "Sulfonyl\nBiguanides"
+  },
+  {
+    "id": 13,
+    "headings": [
+      "Which agent to start --think about the patient's co -morbidities"
+    ],
+    "text": "Refer for\nDSMES, MNT,\nPharmacotherapy for T2DM\nIdentify social determinants\nand barriers\nMonitor:\nglycemic status, pressure, lipids,\nweight, blood renal function\nASCVD coronary artery disease, cerebrovascular disease, or peripheral arterial disease, CKD eGFR < 60 ml/min/1.73 mª or albumin-to-creatinine ratio (ACR) ≥ 30 mg/g,\nHF reduced LVEF < 40% (HFrEF), mildly reduced LVEF 40-49% (HFmrEF), and preserved LVEF > 50% (HFpEF), DSMES diabetes self-management education and support,\nMNT medical nutrition therapy, SMART specific measurable achievable relevant time-bound\nDrugs that reduce\ninsulin resistance\nDrugs that stimulate\ninsulin release\nDrug category\nDrug names\nBiguanides\nThiazolidinediones Rosiglitazone,\nGLP-1 agonists\nDPP-4 inhibitors\nSulfonylureas\nMeglitinides\nMechanism\nStrengths/\nuses\nAdverse effects"
+  },
+  {
+    "id": 14,
+    "headings": [
+      "Which agent to start --think about the patient's co -morbidities"
+    ],
+    "text": "pioglitazone, Stimulate GLUT4, = gluconeogenesis, + gut glucose reabsorption IPPAR-Y, causing cells to. pioglitazone, First-choice drug = Can't take metformin. pioglitazone, Lactic acidosis (rare), GI = upset Fluid retention,. Exenatide, liraglutide,, Stimulate GLUT4, = store fatty acids and take up glucose Bind to GLP-1 receptor, +. Exenatide, liraglutide,, First-choice drug = disease,. Exenatide, liraglutide,, Lactic acidosis (rare), GI = bladder cancer Cardiovascular GI upset, acute. dulaglutide Sitagliptin, linagliptin,, Stimulate GLUT4, = gastric emptying weight loss Inhibit DPP-4, increase GLP-1. dulaglutide Sitagliptin, linagliptin,, First-choice drug = Weight neutral. dulaglutide Sitagliptin, linagliptin,,"
+  },
+  {
+    "id": 15,
+    "headings": [
+      "Which agent to start --think about the patient's co -morbidities"
+    ],
+    "text": "Lactic acidosis (rare), GI = pancreatitis Pancreatitis. saxagliptin Glipizide, glyburide, Stimulate GLUT4, = Depolarize B cells, causing. saxagliptin Glipizide, glyburide, First-choice drug = Inexpensive, time-tested. saxagliptin Glipizide, glyburide, Lactic acidosis (rare), GI = Hypoglycemia, weight gain. Repaglinide, nateglinide, Stimulate GLUT4, = calcium influx and t insulin release. Repaglinide, nateglinide, First-choice drug = . Repaglinide, nateglinide, Lactic acidosis (rare), GI = Hypoglycemia, weight gain\nDrugs that increase\nrenal glucose\nexcretion\nDrugs that Amylin analog emptying\nslow gastric\nDrugs that a-Glucosidase inhibit GI\ncarbohydrate absorption\nSGLT2 inhibitors\nCanagliflozin, 1 Proximal dapagliflozin,"
+  },
+  {
+    "id": 16,
+    "headings": [
+      "Which agent to start --think about the patient's co -morbidities"
+    ],
+    "text": "empagliflozin tubule glucose\nreabsorption\nCardio- vascular\ndisease,\nDehydration, urinary tract\ninfections,\n+ Glucagon, 1 = euglycemic diabetic ketoacidosis GI upset. emptying, cause sense of satiety Inhibit a- glucosidase and pancreatic a- amylase, 1 = Flatulence\nweight loss"
+  },
+  {
+    "id": 17,
+    "headings": [
+      "Question - Poll"
+    ],
+    "text": "Which of the following drugs is most likely to produce the largest decrease in hemoglobin A1c?\n- A. pramlintide\n- B. glyburide\n- C. insulin\n- D. metformin\n- E. acarbose"
+  },
+  {
+    "id": 18,
+    "headings": [
+      "Question -answer"
+    ],
+    "text": "Which of the following drugs is most likely to produce the largest decrease in hemoglobin A1c?\n- A. pramlintide\n- B. glyburide\n- C. Insulin\n- >2% HgA1c reduction (if the blood sugar is very high, insulin is best)\n- D. metformin\n- E. acarbose"
+  },
+  {
+    "id": 19,
+    "headings": [
+      "Group 1: Insulin Therapy"
+    ],
+    "text": "UNIVERSITY OF ILLINOIS\nCOLLEGE OF MEDICINE"
+  },
+  {
+    "id": 20,
+    "headings": [
+      "The Miracle of Insulin"
+    ],
+    "text": "Patient J.L., December 15, 1922\nFeb. 15, 1923"
+  },
+  {
+    "id": 21,
+    "headings": [
+      "Normal Insulin Secretion"
+    ],
+    "text": "Time (Hours)\nUNIVERSITY OF ILLINOIS\nCOLLEGE OF MEDICINE\nGly Glu Leu\nSer)\nGin\nLys\nArg\nA chain\nGly) (Ile (Val) GIu Gin\n1\nB chain\nPhe Val (Asn\nGin His Leu Cys)\n1\n3\nSource: Bertram G. Katzung:\nBasic & Clinical Pharmacology, Fourteenth Edition\nC-peptide\nProX\nAla Leu ProGin Leu Ser Cly Ala Gly\nGly Gly Gly) Leu\nCopyright © McGraw-Hill Education. All rights reserved.\nStructure of human proinsulin (C-peptide plus A and B chains) and insulin. Insulin is shown as the shaded (orange color) peptide chains, A and B. Differences in the A and B chains"
+  },
+  {
+    "id": 22,
+    "headings": [
+      "Pharmacology of Insulin"
+    ],
+    "text": "- Insulin preparations differ in:  onset and duration of action\n- Humulins:  recombinant DNA synthesis of human insulin\n- Insulin rapidly metabolized, not given orally\n- Insulin preps classified as ultra-rapid-, rapid-, short-, intermediate- or long-acting\n- duration prolonged by conjugation with protein, crystallization with zinc, or AA substitutions\n- Effect on Weight: Increase\n- HbA1c: > 2% reduction (most effective)\n- Side effects: hypoglycemia, weight gain, injection site discomfort\nUNIVERSITY OF ILLINOIS\nCOLLEGE OF MEDICINE\nGlucose infusion rate (mg/kg/min)"
+  },
+  {
+    "id": 23,
+    "headings": [
+      "Pharmacokinetic Profiles of Insulins"
+    ],
+    "text": "Regular\nL\n1\n2\n3\n4\n5\nSource: Bertram G. Katzung:\nBasic & Clinical Pharmacology, Fourteenth Edition\nCopyright © McGraw-Hill Education. All rights reserved.\nExtent and duration of action of various types of insulin as indicated by the glucose infusion rates (mg/kg/min) required to maintain a constant glucose concentration. The durations of action shown are typical of an average dose of 0.2 -0.3 U/kg. The durations of regular and NPH insulin increase considerably when dosage is increased.\n3\n1\n24"
+  },
+  {
+    "id": 24,
+    "headings": [
+      "Insulins: Time Course of Action of Human Insulin Preparations"
+    ],
+    "text": "Rapid acting analogs Lispro/Aspart/Glulisine, Onset of Action (h) = <0.25. Rapid acting analogs Lispro/Aspart/Glulisine, Peak Action (h) = 0.5-1.5. Rapid acting analogs Lispro/Aspart/Glulisine, Effective Duration of Action (h) = 2-4. Rapid acting analogs Lispro/Aspart/Glulisine, Maximum Duration of Action (h) = 4-6. Short acting, Onset of Action (h) = . Short acting, Peak Action (h) = . Short acting, Effective Duration of Action (h) = . Short acting, Maximum Duration of Action (h) = . Regular (soluble), Onset of Action (h) = 0.5-1. Regular (soluble), Peak Action (h) = 2-3. Regular (soluble), Effective Duration of Action (h) = 3-6. Regular (soluble), Maximum Duration of Action (h) = 6-8. Regular U-500, Onset of Action (h) ="
+  },
+  {
+    "id": 25,
+    "headings": [
+      "Insulins: Time Course of Action of Human Insulin Preparations"
+    ],
+    "text": "0.5-1. Regular U-500, Peak Action (h) = 2-3. Regular U-500, Effective Duration of Action (h) = 12-24. Regular U-500, Maximum Duration of Action (h) = >24. Intermediate acting NPH (isophane), Onset of Action (h) = 2-4. Intermediate acting NPH (isophane), Peak Action (h) = 4-10. Intermediate acting NPH (isophane), Effective Duration of Action (h) = 10-16. Intermediate acting NPH (isophane), Maximum Duration of Action (h) = 14-18. Long acting - basal analogs Glargine Detemir, Onset of Action (h) = 1-2. Long acting - basal analogs Glargine Detemir, Peak Action (h) = None relatively flat. Long acting - basal analogs Glargine Detemir, Effective Duration of Action (h) = >24. Long acting - basal analogs Glargine Detemir, Maximum Duration of Action (h) = Unknown. , Onset of Action (h) ="
+  },
+  {
+    "id": 26,
+    "headings": [
+      "Insulins: Time Course of Action of Human Insulin Preparations"
+    ],
+    "text": "1-2. , Peak Action (h) = . , Effective Duration of Action (h) = 16-20. , Maximum Duration of Action (h) = 20-24. Degludec, Onset of Action (h) = 1-2. Degludec, Peak Action (h) = None. Degludec, Effective Duration of Action (h) = 28-36. Degludec, Maximum Duration of Action (h) = >36. Inhaled Insulin Afrezza, Onset of Action (h) = <0.25. Inhaled Insulin Afrezza, Peak Action (h) = 0.5-1. Inhaled Insulin Afrezza, Effective Duration of Action (h) = 2-3. Inhaled Insulin Afrezza, Maximum Duration of Action (h) = 4-6\nMost Combination products AM doses  affect pre lunch and predinner  sugars PM doses affect bedtime and AM fasting sugars"
+  },
+  {
+    "id": 27,
+    "headings": [
+      "Insulins: Time Course of Action of Human Insulin Preparations"
+    ],
+    "text": "Combinations, Onset of Action (h) = . Combinations, Peak Action (h) = . Combinations, Effective Duration of Action (h) = . Combinations, Maximum Duration of Action (h) = . 70/30 (70% NPH, 30% regular) Humolog 75/25 (75% NPL, 25% lispro), Onset of Action (h) = 0.5-1 0.25. 70/30 (70% NPH, 30% regular) Humolog 75/25 (75% NPL, 25% lispro), Peak Action (h) = Dual Dual. 70/30 (70% NPH, 30% regular) Humolog 75/25 (75% NPL, 25% lispro), Effective Duration of Action (h) = 10-16 10-16. 70/30 (70% NPH, 30% regular) Humolog 75/25 (75% NPL, 25% lispro), Maximum Duration of Action (h) = 14-18 14-18. Humolog 50/50, Onset of Action (h) = 0.25. Humolog"
+  },
+  {
+    "id": 28,
+    "headings": [
+      "Insulins: Time Course of Action of Human Insulin Preparations"
+    ],
+    "text": "50/50, Peak Action (h) = Dual. Humolog 50/50, Effective Duration of Action (h) = 10-16. Humolog 50/50, Maximum Duration of Action (h) = 14-18. (50% NPL, 50% lispro) Novolog 70/30 (70% NPA, 30% aspart), Onset of Action (h) = 0.25. (50% NPL, 50% lispro) Novolog 70/30 (70% NPA, 30% aspart), Peak Action (h) = Dual. (50% NPL, 50% lispro) Novolog 70/30 (70% NPA, 30% aspart), Effective Duration of Action (h) = 10-16. (50% NPL, 50% lispro) Novolog 70/30 (70% NPA, 30% aspart), Maximum Duration of Action (h) = 14-18. Ryzodeg 70/30 (70% degludec, 30% aspart), Onset of Action (h) ="
+  },
+  {
+    "id": 29,
+    "headings": [
+      "Insulins: Time Course of Action of Human Insulin Preparations"
+    ],
+    "text": "0.25. Ryzodeg 70/30 (70% degludec, 30% aspart), Peak Action (h) = Dual. Ryzodeg 70/30 (70% degludec, 30% aspart), Effective Duration of Action (h) = >24. Ryzodeg 70/30 (70% degludec, 30% aspart), Maximum Duration of Action (h) = >36. Fiasp U-100 (Insulin aspart combined with, Onset of Action (h) = 0-0.05 niacinamide. Fiasp U-100 (Insulin aspart combined with, Peak Action (h) = 0.5-1.0 for rapid. Fiasp U-100 (Insulin aspart combined with, Effective Duration of Action (h) = 2-4 absorption). Fiasp U-100 (Insulin aspart combined with, Maximum Duration of Action (h) = 2-4\nUNIVERSITY OF ILLINOIS"
+  },
+  {
+    "id": 30,
+    "headings": [
+      "Daily insulin need for a type 1DM with low insulin resistance -0.5 unit/kg/day"
+    ],
+    "text": "Basal insulin ~50-60% TDD\n- Controls glucose production between meals and overnight\n- Near-constant levels\nFor ideal insulin replacement therapy, each component should come from a different insulin with a specific profile or via an insulin pump (with 1 insulin)\nBolus insulin ~40-50% TDD\n- Limits hyperglycemia after meals\n- Immediate rise and sharp peak at 1 hour post-meal\n- 10% to 20% of total daily insulin requirement at each meal\n27"
+  },
+  {
+    "id": 31,
+    "headings": [
+      "Basal Insulin"
+    ],
+    "text": "- Suppresses glucose production between meals and overnight\n- Nearly constant levels\n- 40 to 50% of daily needs"
+  },
+  {
+    "id": 32,
+    "headings": [
+      "Bolus Insulin (Mealtime or Prandial)"
+    ],
+    "text": "- Limits hyperglycemia after meals\n- Immediate rise and sharp peak at 1 hour\n- 10% to 20% of total daily insulin requirement at each meal\nIdeally, for insulin replacement therapy, each component should come from a different insulin with a specific profile…or is delivered with a system that allows for physiological matching."
+  },
+  {
+    "id": 33,
+    "headings": [
+      "Basal/Bolus Treatment"
+    ],
+    "text": "4:00\n29"
+  },
+  {
+    "id": 34,
+    "headings": [
+      "Question - Poll"
+    ],
+    "text": "A patient with long-standing type2DM is currently on 3 different oral hypoglycemic medications and on both basal and bolus insulins.  Recent HgA1c continues to be suboptimal at 9.2%.\nWhich of the following insulins is the most appropriate to make adjustment for better glucose control?"
+  },
+  {
+    "id": 35,
+    "headings": [
+      "Question -answer"
+    ],
+    "text": "A patient with long-standing type2DM is currently on 3 different oral hypoglycemic medications and on both basal and bolus insulins.  Recent HgA1c continues to be suboptimal at 10.9%.\nWhich of the following insulins is the most appropriate to make adjustment for better glucose control?\nA. Bolus insulin"
+  },
+  {
+    "id": 36,
+    "headings": [
+      "Insulins: Time Course of Action of Human Insulin Preparations"
+    ],
+    "text": "Rapid acting analogs Lispro/Aspart/Glulisine, Onset of Action (h) = <0.25. Rapid acting analogs Lispro/Aspart/Glulisine, Peak Action (h) = 0.5-1.5. Rapid acting analogs Lispro/Aspart/Glulisine, Effective Duration of Action (h) = 2-4. Rapid acting analogs Lispro/Aspart/Glulisine, Maximum Duration of Action (h) = 4-6. Short acting, Onset of Action (h) = . Short acting, Peak Action (h) = . Short acting, Effective Duration of Action (h) = . Short acting, Maximum Duration of Action (h) = . Regular (soluble), Onset of Action (h) = 0.5-1. Regular (soluble), Peak Action (h) = 2-3. Regular (soluble), Effective Duration of Action (h) = 3-6. Regular (soluble), Maximum Duration of Action (h) = 6-8. Regular U-500, Onset of Action (h) ="
+  },
+  {
+    "id": 37,
+    "headings": [
+      "Insulins: Time Course of Action of Human Insulin Preparations"
+    ],
+    "text": "0.5-1. Regular U-500, Peak Action (h) = 2-3. Regular U-500, Effective Duration of Action (h) = 12-24. Regular U-500, Maximum Duration of Action (h) = >24. Intermediate acting NPH (isophane), Onset of Action (h) = 2-4. Intermediate acting NPH (isophane), Peak Action (h) = 4-10. Intermediate acting NPH (isophane), Effective Duration of Action (h) = 10-16. Intermediate acting NPH (isophane), Maximum Duration of Action (h) = 14-18. Long acting - basal analogs Glargine Detemir, Onset of Action (h) = 1-2 1-2. Long acting - basal analogs Glargine Detemir, Peak Action (h) = None relatively flat. Long acting - basal analogs Glargine Detemir, Effective Duration of Action (h) = >24 16-20. Long acting - basal analogs Glargine Detemir, Maximum Duration of Action (h) = Unknown"
+  },
+  {
+    "id": 38,
+    "headings": [
+      "Insulins: Time Course of Action of Human Insulin Preparations"
+    ],
+    "text": "20-24. Degludec, Onset of Action (h) = 1-2. Degludec, Peak Action (h) = None. Degludec, Effective Duration of Action (h) = 28-36. Degludec, Maximum Duration of Action (h) = >36. Inhaled Insulin, Onset of Action (h) = . Inhaled Insulin, Peak Action (h) = . Inhaled Insulin, Effective Duration of Action (h) = . Inhaled Insulin, Maximum Duration of Action (h) = . Afrezza, Onset of Action (h) = <0.25. Afrezza, Peak Action (h) = 0.5-1. Afrezza, Effective Duration of Action (h) = 2-3. Afrezza, Maximum Duration of Action (h) = 4-6\nUNIVERSITY OF ILLINOIS\nCOLLEGE OF MEDICINE\nNovoPen® 3"
+  },
+  {
+    "id": 39,
+    "headings": [
+      "Insulin Delivery Systems"
+    ],
+    "text": "Injectors\nInjection Aids\nPen delivery\nMedtronics Diabetes / AP\nInsulin Pump"
+  },
+  {
+    "id": 40,
+    "headings": [
+      "What's Wrong with these Values?"
+    ],
+    "text": "TJ is a 52-year-old male with type 1 diabetes and hyperlipidemia presents to the clinic for DM follow-up.  He denies of any complaints. Patient is on multiple medications including glargine insulin and lispro insulin before meals. He brings in home glucose readings as shown here.  HgA1c 9.1%.\nWhat is the most appropriate recommendation for this patient?\n150, After Break- fast = 142. 150, Befor e Lunc h = 90. 150, After Lunch = 226. 150, Before Dinne r = 101. 150, After Dinn er = . 150, Bed- Time = 206. 166, After Break- fast = . 166, Befor e Lunc h = 85. 166, After Lunch = 244. 166, Before Dinne r = 96. 166, After Dinn er = 199. 166, Bed- Time = . 158, After Break- fast = 132. 158, Befor e Lunc h = . 158, After Lunch = 238. 158, Before Dinne r = . 158, After Dinn er = . 158, Bed- Time = 198"
+  },
+  {
+    "id": 41,
+    "headings": [
+      "What's Wrong with these Values? - Answer"
+    ],
+    "text": "TJ is a 52-year-old male with type 1 diabetes and hyperlipidemia presents to the clinic for DM follow-up.  He denies of any complaints.  Patient is on multiple medications including glargine insulin and lispro insulin before meals.  He brings in home glucose readings as shown here.  HgA1c 9.1%.\nWhat is the most appropriate recommendation for this patient?\nAnswer:  increase lispro (bolus insulin) since post meals are elevated.  Pre-meals are normal"
+  },
+  {
+    "id": 42,
+    "headings": [
+      "What's Wrong with these Values? - Answer"
+    ],
+    "text": "150, After Break- fast = 142. 150, Befor e Lunc h = 90. 150, After Lunch = 226. 150, Before Dinne r = 101. 150, After Dinn er = . 150, Bed- Time = 206. 166, After Break- fast = . 166, Befor e Lunc h = 85. 166, After Lunch = 244. 166, Before Dinne r = 96. 166, After Dinn er = 199. 166, Bed- Time = . 158, After Break- fast = 132. 158, Befor e Lunc h = . 158, After Lunch = 238. 158, Before Dinne r = . 158, After Dinn er = . 158, Bed- Time = 198"
+  },
+  {
+    "id": 43,
+    "headings": [
+      "Sulfonylureas (SUs)"
+    ],
+    "text": "Commonly use Agents: Glyburide, Glipizide, Glimepiride\nMOA: Enhances Insulin Secretion by closing K-ATP channels on Beta cell membranes\nKinetic: eliminated renally\nEffect on Weight:\nIncreased (~2kg)\nHbA1c: up to 1.5% reduction"
+  },
+  {
+    "id": 44,
+    "headings": [
+      "Major Side Effect: Hypoglycemia"
+    ],
+    "text": "- Esp is 1 st and 2 nd  generation agents (ex: glyburide)\n- Hypoglycemia is worse in elderly or with liver/ renal insufficiency\n- Hypoglycemia can be prolonged and severe requiring hospitalization (esp with glyburide!)\n- Less hypoglycemia with glimepiride & glipizide"
+  },
+  {
+    "id": 45,
+    "headings": [
+      "Major Side Effect: Hypoglycemia"
+    ],
+    "text": "FIRST GENERATION, Daily Dose Range (Average) = . FIRST GENERATION, Elimination Half-life (Hours) = . FIRST GENERATION, Duration of Action (Hours) = . FIRST GENERATION, Potency = . Chlorpropamide, Daily Dose Range (Average) = 100 mg-500 mg (250 mg). Chlorpropamide, Elimination Half-life (Hours) = 30-36. Chlorpropamide, Duration of Action (Hours) = 2-3 days. Chlorpropamide, Potency = +++. Tolazamide, Daily Dose Range (Average) = 100 mg-1 g (250 mg). Tolazamide, Elimination Half-life (Hours) = 4.7-8. Tolazamide, Duration of Action (Hours) = 10-14. Tolazamide, Potency = +++. Tolbutamide, Daily Dose Range (Average) = 500 mg-2 g (2 g). Tolbutamide, Elimination Half-life (Hours) = 4-8. Tolbutamide, Duration of Action (Hours) = 6-12. Tolbutamide, Potency ="
+  },
+  {
+    "id": 46,
+    "headings": [
+      "Major Side Effect: Hypoglycemia"
+    ],
+    "text": "+. SECOND GENERATION, Daily Dose Range (Average) = . SECOND GENERATION, Elimination Half-life (Hours) = . SECOND GENERATION, Duration of Action (Hours) = . SECOND GENERATION, Potency = . Glipizide, Daily Dose Range (Average) = 5 mg-30 mg (15-20 mg). Glipizide, Elimination Half-life (Hours) = 2-4. Glipizide, Duration of Action (Hours) = 10-24. Glipizide, Potency = ++++. Glyburide, Daily Dose Range (Average) = 1.25 mg-20 mg. Glyburide, Elimination Half-life (Hours) = 4.6-12. Glyburide, Duration of Action (Hours) = 10-24. Glyburide, Potency = ++++. Glimepiride, Daily Dose Range (Average) = 1 mg-8 mg. Glimepiride, Elimination Half-life (Hours) = ---. Glimepiride, Duration of Action (Hours) = 12-24. Glimepiride, Potency ="
+  },
+  {
+    "id": 47,
+    "headings": [
+      "Major Side Effect: Hypoglycemia"
+    ],
+    "text": "++++"
+  },
+  {
+    "id": 48,
+    "headings": [
+      "Meglitinides (secretagogues)"
+    ],
+    "text": "Agents: Repaglinide, Nateglinide\nMOA: enhances insulin secretion thru the K-ATP channels\n- Shorter duration of action than sulfonylureas\nEffect on Weight: Increase\nHbA1c: up to\n1.5% reduction (with repaglinide)\nHypoglycemia : Yes (less than the SU's)"
+  },
+  {
+    "id": 49,
+    "headings": [
+      "Question - Poll"
+    ],
+    "text": "A 52-year-old man with recently diagnosed type 2 diabetes mellitus comes to the physician for a follow-up examination. Physical examination shows no abnormalities. Laboratory studies show an increased hemoglobin A1c despite patient compliance with diet and exercise recommendations. Treatment with a sulfonylurea is started. Which of the following is most likely to occur in this patient?\n- A. Decreased entry of glucose into the muscle cells\n- B. Decreased secretion of insulin from the pancreas\n- C. Decreased speed of carbohydrate absorption from the intestines\n- D. Increased production of glucose from the liver\n- E. Increased secretion of insulin from the pancreas"
+  },
+  {
+    "id": 50,
+    "headings": [
+      "Question -answer"
+    ],
+    "text": "A 52-year-old man with recently diagnosed type 2 diabetes mellitus comes to the physician for a follow-up examination. Physical examination shows no abnormalities. Laboratory studies show an increased hemoglobin A1c despite patient compliance with diet and exercise recommendations. Treatment with a sulfonylurea is started. Which of the following is most likely to occur in this patient?\n- A. Decreased entry of glucose into the muscle cells\n- B. Decreased secretion of insulin from the pancreas\n- C. Decreased speed of carbohydrate absorption from the intestines\n- D. Increased production of glucose from the liver\n- E. Increased secretion of insulin from the pancreas\nGroup 3 -Drugs that Lower Glucose Levels by Actions on Liver, Muscle, Adipose tissue, and Brain"
+  },
+  {
+    "id": 51,
+    "headings": [
+      "Thiazolidinediones ('Glitazones' or TZDs)"
+    ],
+    "text": "Agent: pioglitazone"
+  },
+  {
+    "id": 52,
+    "headings": [
+      "MOA:"
+    ],
+    "text": "- PPARϒ activators (peroxisome proliferator-activated receptor gamma) in adipocytes\n- Peripheral 'Insulin sensitizer': promotes fatty acid uptake peripherally\n- Increase muscle, fat and liver sensitivity to insulin by decreasing free fatty acids levels\nEffect on Weight: Increased ('but it's good fat')\nHbA1c: up to 0.5-1.4% reduction\nSide effects: risk of hypoglycemia, weight gain, fluid retention , hepatotoxicity"
+  },
+  {
+    "id": 53,
+    "headings": [
+      "MOA"
+    ],
+    "text": "- Potentiates glucose-stimulated insulin secretion\n- Depresses glucagon secretion\n- Delays gastric emptying\n- Suppresses appetite\nHbA1c: up to lowered by 1.5%\nEffect on Weight: Decrease (3-4kg)*\n*Weight loss greater with semaglutide and tirzepatide"
+  },
+  {
+    "id": 54,
+    "headings": [
+      "Agents"
+    ],
+    "text": "- Exenatide\n- Liraglutide\n- Lixisenatide\n- Semaglutide\n- Dulaglutide\n- *Tirzepatide\n- (GLP-1R and GLP-1R/GIP-R Dual Agonist)"
+  },
+  {
+    "id": 55,
+    "headings": [
+      "Side Effects:"
+    ],
+    "text": "- GI most common (nausea, vomiting, diarrhea), pancreatitis , cholecystitis\n- medullary thyroid cancer/ C cell hyperplasia in rats, no reported cases in humans at this time"
+  },
+  {
+    "id": 56,
+    "headings": [
+      "Contraindicated:"
+    ],
+    "text": "- pancreatitis, family history of medullar thyroid cancer*"
+  },
+  {
+    "id": 57,
+    "headings": [
+      "Hypoglycemia: minimal"
+    ],
+    "text": "TODAY\nUNIVERSITY OF ILLINOIS\nCOLLEGE OF MEDICINE\nThe weight loss is visible on Jeannine DellaVecchia's face. Courtesy Jeannine DellaVecchia\nOzempic brand name for semaglutide\nProfound loss of weight can lead to changes in appearance that some may view as undesirable.\nON THE SHOW SHOP WELLNESS PARENTS FOOD\n• TODAY all day\nQ"
+  },
+  {
+    "id": 58,
+    "headings": [
+      "DPP-IV inhibitors"
+    ],
+    "text": "Agents: Sitagliptin, Saxagliptin , Linagliptin, Alogliptin\nMOA: Dipeptidyl peptidase-4 degrades GLP-1 and GIP (incretins), DPP-4 inhibitors enhance incretin effects\nHbA1c: reduced by up to 0.6-0.9%\nWeight: neutral\nSide Effects: upper respiratory infections, pancreatitis, minimal hypoglycemia"
+  },
+  {
+    "id": 59,
+    "headings": [
+      "Amylin Analog"
+    ],
+    "text": "Agent: Pramlintide (Injectable synthetic analogue of the protein amylin)\nMOA: Slows gastric emptying, inhibits glucagon production, decreases postprandial glucose\nHbA1c: reduced up to 0.5-0.7%\nSide Effects: GI, nausea that abates with time, headache\nWeight loss:\n1-1.5kg\nFor use with regular or rapid-acting insulin"
+  },
+  {
+    "id": 60,
+    "headings": [
+      "Biguanide"
+    ],
+    "text": "Agent:  Metformin"
+  },
+  {
+    "id": 61,
+    "headings": [
+      "MOA:"
+    ],
+    "text": "- Decrease Hepatic Glucose Output\n- Decrease Intestinal Glucose Absorption\n- Insulin sensitizer"
+  },
+  {
+    "id": 62,
+    "headings": [
+      "Metformin"
+    ],
+    "text": "Effect on weight:\nNeutral\nHypoglycemia: None when used as monotherapy\nHbA1c: up to\n2.0% reduction\nElimination:\nexcreted unchanged in the urine\nSide Effects:\nGastrointestinal, B12 deficiency, lactic acidosis (1/100,000 cases)"
+  },
+  {
+    "id": 63,
+    "headings": [
+      "Renal function considerations:"
+    ],
+    "text": "- eGFR 30-45 mL /minute/1.73 m 2 is not recommended  (contraindicated <30 mL/minute/1.73 m 2 )\n- Recommended to hold for 48 hours before and after iodinated contrast media if eGFR is 30-60."
+  },
+  {
+    "id": 64,
+    "headings": [
+      "Alpha-glucosidase inhibitors"
+    ],
+    "text": "Agents: acarbose, miglitol\nMOA:  inhibit alpha-glucosidase enzymes that convert complex carbohydrates into simple carbohydrates\nHgA1c reduction: 0.3-1%\nSide effects: mainly GI related, minimal hypoglycemia"
+  },
+  {
+    "id": 65,
+    "headings": [
+      "Question - Poll"
+    ],
+    "text": "Drugs from which of the following classes are most likely to promote weight loss?\n- A. sulfonylureas\n- B. α -glucosidase inhibitors\n- C. incretin mimetics\n- D. thiazolidinediones\n- E. synthetic insulins"
+  },
+  {
+    "id": 66,
+    "headings": [
+      "Question - answer"
+    ],
+    "text": "Drugs from which of the following classes are most likely to promote weight loss?\n- A. sulfonylureas\n- B. α -glucosidase inhibitors\n- C. incretin mimetics\n- D. thiazolidinediones\n- E. synthetic insulins"
+  },
+  {
+    "id": 67,
+    "headings": [
+      "Case - Poll"
+    ],
+    "text": "64yo M h/o DMII comes in for follow up.  He was diagnosed about 3 months ago, he is morbidly obese and having a difficult time losing weight.  Since diagnosis you have titrated him up to the maximum recommended dose of metformin.  His A1C is still 8.7%, with his logs revealing both elevated fasting and post-prandial sugars.  Which of the following is the next best step in management?\n- A. rapid acting insulin with meals\n- B. stop the metformin\n- C. long-acting insulin once daily\n- D. acarbose\n- E. semaglutide"
+  },
+  {
+    "id": 68,
+    "headings": [
+      "Case - answer"
+    ],
+    "text": "64yo M h/o DMII comes in for follow up.  He was diagnosed about 3 months ago, he is morbidly obese and having a difficult time losing weight.  Since diagnosis you have titrated him up to the maximum recommended dose of metformin.  His A1C is still 8.7%, with his logs revealing both elevated fasting and post-prandial sugars.  Which of the following is the next best step in management?\n- A. rapid acting insulin with meals\n- B. stop the metformin\n- C. long-acting insulin once daily\n- D. acarbose"
+  },
+  {
+    "id": 69,
+    "headings": [
+      "Question - Poll"
+    ],
+    "text": "A 45-year-old woman presents to your office with a serum glucose of 250 mg/dL and you diagnose diabetes mellitus type II. You intend to prescribe the patient metformin, but you decide to order laboratory tests before proceeding. Which of the following basic metabolic panel values would serve as a contraindication to the use of metformin?\n- A. K+ > 4.0\n- B. Na+ > 140\n- C. HCO3- > 30\n- D. Glucose > 300\n- E. eGFR  25 mL/minute/1.73 m 2"
+  },
+  {
+    "id": 70,
+    "headings": [
+      "Question -answer"
+    ],
+    "text": "A 45-year-old woman presents to your office with a serum glucose of 250 mg/dL and you diagnose diabetes mellitus type II. You intend to prescribe the patient metformin, but you decide to order laboratory tests before proceeding. Which of the following basic metabolic panel values would serve as a contraindication to the use of metformin?\n- A. K+ > 4.0\n- B. Na+ > 140\n- C. HCO3- > 30\n- D. Glucose > 300\n- E. eGFR  25 mL/minute/1.73 m 2"
+  },
+  {
+    "id": 71,
+    "headings": [
+      "SGLT2 inhibitors"
+    ],
+    "text": "Agents: Canagliflozin, Dapagliflozin, Empagliflozin , Ertugliflozin, Bexagliflozin\nMOA: SGLT2 (sodium glucose transporter) responsible in reabsorption of glucose in proximal tubule of the kidney. SGLT2 inhibitors reduce glucose reabsorption, thus increasing glycosuria\nEffect on weight: 2- 3Kg reduction\nHba1c: 0.5-1% reduction"
+  },
+  {
+    "id": 72,
+    "headings": [
+      "Adverse reactions:"
+    ],
+    "text": "- Hypovolemia, hyperkalemia\n- Genital mycotic and urinary tract infections (3 -fold risk)\n- Acute kidney injury\n- Euglycemia ketoacidosis"
+  },
+  {
+    "id": 73,
+    "headings": [
+      "Question - Poll"
+    ],
+    "text": "In monotherapy, medication from which of the following classes is most likely to cause hypoglycemia as an adverse effect?\n- A. sulfonylurea\n- B. SGLT2 inhibitor\n- C. thiazolidinedione\n- D. α -glucosidase inhibitor\n- E. biguanide"
+  },
+  {
+    "id": 74,
+    "headings": [
+      "Question -answer"
+    ],
+    "text": "In monotherapy, medication from which of the following classes is most likely to cause hypoglycemia as an adverse effect?\n- A. sulfonylurea\n- B. SGLT2 inhibitor\n- C. thiazolidinedione\n- D. α -glucosidase inhibitor\n- E. biguanide"
+  },
+  {
+    "id": 75,
+    "headings": [
+      "Question -poll"
+    ],
+    "text": "A patient with history of long-standing type 2 DM, hypertension, depression, and gastroparesis. Her current A1c is 8.2% and she is unable to tolerate metformin due to gastroinstestinal side effects.  Which of the following agent is NOT the most appropriate option for this patient's diabetes care?\nA. liraglutide\nB. glipizide\nC. pioglitazone\nD. canagliflozin"
+  },
+  {
+    "id": 76,
+    "headings": [
+      "Question -answer"
+    ],
+    "text": "A patient with history of long-standing type 2 DM, hypertension, depression, and gastroparesis. Her current A1c is 8.2% and she is unable to tolerate metformin due to gastroinstestinal side effects.  Which of the following agent is NOT the most appropriate option for this patient's diabetes care?"
+  },
+  {
+    "id": 77,
+    "headings": [
+      "A. liraglutide"
+    ],
+    "text": "B. glipizide\nC. pioglitazone\nD. canagliflozin"
+  },
+  {
+    "id": 78,
+    "headings": [
+      "Question - Poll"
+    ],
+    "text": "19yo F with DM I on insulin presents to your clinic for routine follow up.  She was diagnosed about 3 months ago, and she is currently taking insulin glargine 15 units at nighttime, and insulin aspart 6 units with breakfast, 6 units with lunch and 8 units with dinner.  She denies any sweats, confusion, jitteriness.  She brings her meter with her today, which shows fasting AM blood sugars of 170-190, with post-prandial sugars of 120-150.  How would you like to change her regimen?\nA. Increase her breakfast aspart to 8, lunch to 8 and dinner to 10 units\n- B. Start her on metformin\n- C. Start her on glipizide\n- D. Increase her lunch aspart to 12 units\n- E. Increase her glargine to 18 units"
+  },
+  {
+    "id": 79,
+    "headings": [
+      "Question - Poll"
+    ],
+    "text": "19yo F with DM I on insulin presents to your clinic for routine follow up.  She was diagnosed about 3 months ago, and she is currently taking insulin glargine 15 units at nighttime, and insulin aspart 6 units with breakfast, 6 units with lunch and 8 units with dinner.  She denies any sweats, confusion, jitteriness.  She brings her meter with her today, which shows fasting AM blood sugars of 170-190, with post-prandial sugars of 120-150.  How would you like to change her regimen?\nA. Increase her breakfast aspart to 8, lunch to 8 and dinner to 10 units\n- B. Start her on metformin\n- C. Start her on glipizide\n- D. Increase her lunch aspart to 12 units\n- E. Increase her glargine to 18 units\nUNIVERSITY OF ILLINOIS\nCOLLEGE OF MEDICINE\nHgbAle\n4\nAverage Blood Sugar\n61\n92"
+  },
+  {
+    "id": 80,
+    "headings": [
+      "Relationship of average Blood Glucose to HbA1c"
+    ],
+    "text": "188\n6.6 and above - Diabetic\nThe HbA1c test is a measure of the average long term Blood Glucose level because RBC's tend to remain in circulation for 100 to 120 days treatment should ideally have a\n11\n12\n314\n283\nHgbAle less than 7.0\nInterpretation\n5.6 and less -Normal"
+  },
+  {
+    "id": 81,
+    "headings": [
+      "Figure 23-24"
+    ],
+    "text": "Lehninger Principles of Biochemistry, Sixth Edition\n© 2013 W.H. Freeman and Company\n76"
+  },
+  {
+    "id": 82,
+    "headings": [
+      "Classification of Hypoglycemia"
+    ],
+    "text": "Level 1 : A glucose alert value of 70 mg/dL or less.\nLevel 2 : A glucose level of 54 mg/dL is sufficiently low to indicate potentially serious, clinically important hypoglycemia.\nLevel 3 : Severe hypoglycemia, as defined by the ADA, denotes severe cognitive impairment requiring external assistance for recovery.\nIbrahim M, Baker J, Cahn A, et al. Hypoglycemia and its management in primary care setting [published online ahead of print, 2020 Apr 28]. Diabetes Metab Res Rev . 2020;e3332. doi:10.1002/dmrr.3332"
+  },
+  {
+    "id": 83,
+    "headings": [
+      "Hypoglycemia"
+    ],
+    "text": "- Common complication\n- Major limiting factors to optimal glycemic control"
+  },
+  {
+    "id": 84,
+    "headings": [
+      "Intervention"
+    ],
+    "text": "- 'rule of 15'\n- 15 gram of fast-acting carbohydrates (1/2 cup of milk/juice/soda)\n- Check glucose in 15 minutes, if glucose below 70mg/dl, repeat\n- If glucose is above 70mg/dl, eat a normal snack or meal\nUNIVERSITY OF ILLINOIS"
+  },
+  {
+    "id": 85,
+    "headings": [
+      "Glucagon"
+    ],
+    "text": "Gvoke HypoPen®\n(glucagon injection)\nIndicated as a treatment for severe hypoglycemia, which may occur in patients with diabetes mellitus.\nSupplementary carbohydrate should be given as soon as possible, especially in pediatric patients."
+  },
+  {
+    "id": 86,
+    "headings": [
+      "Case"
+    ],
+    "text": "A 67 y/o woman with uncontrolled type 2 DM despite maximal dosage of glucophage, pioglitazone,and insulin 70/30  35units qam, 28 units qpm, presents to the clinic and is wondering if any herbal supplement that will help control her diabetes?\nHgA1C is 9.2 today\nHerbal Supplements (extra information)"
+  },
+  {
+    "id": 87,
+    "headings": [
+      "Ginsenosides"
+    ],
+    "text": "- Chemical & potency varies\n- CNS stimulant\n- Alters lipid, carbohydrate metabolism\n- Stimulates the immune system\n- Interferes with the platelet aggregation"
+  },
+  {
+    "id": 88,
+    "headings": [
+      "Indications"
+    ],
+    "text": "- Tonic, stimulant, diabetes, impotence, insomnia, stress resistance"
+  },
+  {
+    "id": 89,
+    "headings": [
+      "High in fiber"
+    ],
+    "text": "- trigonelline, nicotinic acid, and coumarin\n- Improves plasma glucose & insulin response\n- reduces postprandial glucose levels\n- cardiotonic, diuretic, anti-inflammatory, antihypertensive effects\nDosage: 15-40mg/day"
+  },
+  {
+    "id": 90,
+    "headings": [
+      "Adverse rxn:"
+    ],
+    "text": "- allergic rxns, diarrhea, flatulence"
+  },
+  {
+    "id": 91,
+    "headings": [
+      "Garlic"
+    ],
+    "text": "- reduces blood glucose & increases insulin in healthy volunteers"
+  },
+  {
+    "id": 92,
+    "headings": [
+      "Lifestyle modification"
+    ],
+    "text": "- High fiber, low fat, high vegetable\n- 35-40 gram / day\n- HgA1c  by >2 %"
+  },
+  {
+    "id": 93,
+    "headings": [
+      "Bitter melon"
+    ],
+    "text": "- proposed mechanism\n- direct action similar to insulin\n- inhibits gluconeogenesis\n- 15 to 50mg per day"
+  },
+  {
+    "id": 94,
+    "headings": [
+      "Gymnema"
+    ],
+    "text": "- native plant of India ' sugar blocker '\n- enhances endogenous insulin production\n- 400mg/day extract\n- reduces taste sensation of sweetness & bitterness"
+  },
+  {
+    "id": 95,
+    "headings": [
+      "Cinnamon"
+    ],
+    "text": "```\n3-6 months trials, participants 60-100/trial 3 to 5 g/day Delayed gastric emptying\n```"
+  },
+  {
+    "id": 96,
+    "headings": [
+      "Remember..."
+    ],
+    "text": "- Individualize treatment and glycemic goals to your patient\n- Always emphasize lifestyle changes\n- Review diabetic diet, low fat diet\n- Assess for medication adherence\n- Encourage weight loss and regular exercise (there is always some form exercise for everyone)"
+  },
+  {
+    "id": 97,
+    "headings": [
+      "Key Points: Drugs for T2DM"
+    ],
+    "text": "- Metformin is the typical initial agent, provided there is no contraindication for its use or compelling reasons for an alternative agent\n- Multiple classes of agents are available as add-on agents or if metformin is not an option\n- Each class of anti-diabetes medications has its own good and bad features\n- Agents such as metformin, GLP-1R agonists, DPP-4 inhibitors, and SGLT2 inhibitors are weight neutral or have potential for weight loss"
+  },
+  {
+    "id": 98,
+    "headings": [
+      "Summary of Agents"
+    ],
+    "text": "Drug, 1 = Major Side Effects. Insulin, 1 = Acute hypoglycemia, weight gain. Sulfonylurea, 1 = Acute hypoglycemia, weight gain. TZD, 1 = Weight gain, edema, risk of bladder cancer (pioglitazone), hepatic failure. GLP-1R &GLP-1R/GIP-R agonists, 1 = Pancreatitis, cholelithiasis, theoretical risk of medullary thyroid cancer. DPP-4 inhibitor, 1 = Pancreatitis. Amylin analog, 1 = N/V, headache. Metformin, 1 = Lactic acidosis, N/V/D, B12 deficiency. Avoid in severe renal impairment.. SGLT2 Inhibitor, 1 = Increased urination, weight loss, hypotension, genital mycotic infection, UTI. Avoid in severe renal impairment.. Alpha-glucosidase inhibitor, 1 = GI"
+  }
+]

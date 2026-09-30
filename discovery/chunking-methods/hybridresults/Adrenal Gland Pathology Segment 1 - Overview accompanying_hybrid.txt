@@ -1,0 +1,113 @@
+Adrenal Gland Pathology
+Segment 1 Overview
+THE UNIVERSITY OF ILLINOIS
+COLLEGE OF MEDICINE
+Greetings students and welcome to a 4-part series on adrenal gland pathology.  This first video is an overview that provides a limited physiologic and pathologic framework for understanding adrenal disease.  The clinical and laboratory analysis of adrenal disease can be challenging because of the system complexity and the physiologic consequences of too little or too much hormone.
+These are the learning objectives for this session.  The essential diseases center on hyperfunction or hypofunction of the layers or zones of the adrenal gland.  So we'll talk about excess cortisol, too little cortisol, excess aldosterone or too little aldosterone, and enzyme abnormalities that result in virulizing syndromes.  The remaining disease category is adrenal gland tumors, which can be functional or nonfunctional.  Functional means they secrete unregulated amounts of hormone. All of these problems are expressed clinically.
+
+--- CHUNK BREAK ---
+
+Segment, 1 = Title. Segment, 2 = Duration. Segment 1, 1 = Overview. Segment 1, 2 = 4 min 46 sec. Segment 2, 1 = Adrenal Hyperfunction. Segment 2, 2 = 17 min 13 sec. Segment 3, 1 = Adrenal Hypofunction. Segment 3, 2 = 14 min 35 sec. Segment 4, 1 = Adrenal Neoplasia. Segment 4, 2 = 10 min 01 sec
+This is a four part series.  This recording is an overview.  The second covers hyperfunction of the cortex.  The third covers hypofunction of the cortex.  The last recording summarizes tumors of the cortex and medulla and some of the multiple endocrine neoplasia syndromes that include adrenal medullary tumors.
+capsule
+Cortex
+Salt glomerulosa
+zona glomerulosa
+zona fasiculata
+zona reticularis
+Medulla
+Sugar
+Sex
+
+--- CHUNK BREAK ---
+
+This is anatomy and physiology information that should be or will be covered in the discussions of the normal endocrine system.  It is however important framework for understanding the diseases of adrenal gland.  So you need to understand the anatomy and the hormones produced. The GFR memory hint is useful to remember the layers and hormones. Understanding what those hormones do is also key to understanding the disease expression.  The salt-sugar-sex implies regulation of sodium, glucose, and sex steroids, which are predominantly androgens in the adrenal gland.  Estrogens are usually derived from androgens.
+Zona Glomerulosa
+Cholesterol
+Pregnenolone
+Progesterone
+Deoxycorticosterone
+11B(B1)
+Corticosterone
+Aldosterone
+170
+17a
+This slide shows the synthetic pathways in each zone of the adrenal cortex.  While you don't need to memorize intermediates, it is important to recognize some of the enzymes, particularly 21-hydroxylase.  Deficiency of that enzyme is an important cause of adrenal hyperplasia and a virulizing syndrome that I'll discuss in the second recording.
+Zona Fasciculata
+Hydroxypregnenolone
+
+--- CHUNK BREAK ---
+
+Hydroxyprogestesrone
+Zona Reticularis
+Dehydroepiandro- stenedione
+Androstenedione
+OH
+он-
+-COOH+
+OH
+Он-
+Dopamine
+OH
+ОН-
+Norepinephrine
+OH
+OH-
+Epinephrine
+L-Amino acid decarboxylase
+- NH=
+Tyramine
+The adrenal medulla secretes epinephrine.  This is the synthetic pathway for that compound, but intermediates are also important neurotransmitters.  The most significant disease of the adrenal medulla is pheochromocytoma, a tumor that can be productive for catecholamines.  The tumor is often associated with intractable hypertension.
+=0
+- NH,
+Tyrosine
+| Tyrosine hydroxylase
+C=O
+Dopa
+OH-
+Cortisol,
+10-
+8 -
+4+
+2+
+Midnight
+3 AM
+Cortisol values vary with time of c
+Reference ranges vary with time c
+Loss of diurnal variation is clinical
+
+--- CHUNK BREAK ---
+
+You should also realize that secretion of cortisol varies during the day.  This concept is actually very important in the interpretation of laboratory measurements of cortisol and ACTH.  It is also critical to realize that while laboratory values may be within the reference range, loss of the diurnal cycling is a clinically significant finding.
+on ion
+Renin (kidney)
+Angiotensin /
+Angiotensin I|
+1-regions.png
+Corticotropin Releasing Hormone
+(CRH)
+Pituitary
+Adrenocorticotropic Hormone
+(ACTH)
+The laboratory testing of the adrenal gland is based on the physiologic regulation of that gland.  So, this testing involves consideration of pituitary hormones produced by the pituitary or produced by some other neuroendocrine tumor.  The testing involves glucocorticoids, mineralocorticoids, and many regulated analytes altered by these hormones.  All of these tests can be used to evaluate adrenal function.  The choice of testing depends to a large degree on the clinical presentation.  I'll cover this testing in the second and third recording.
+Inhibition
+
+--- CHUNK BREAK ---
+
+Adrenal gland disease falls into three big categories.  They are hyperfunction, hypofunction and neoplasia.  The clinical presentation depends entirely on what hormones are in excess or deficient and co-morbidities that may be operating.  By the end of the series, you'll have some familiarity with these clinical problems.
+
+--- CHUNK BREAK ---
+
+[Summary]
+- The learning objectives for this topic area.
+- The microscopic anatomy of the adrenal gland relative to hormones produced.
+- The synthesis pathways for steroid hormones.
+- The synthesis pathways for catecholamines hormones.
+- The diurnal rhythm of cortisol and its relevance to testing.
+- The regulation and physiology of the hypothalamic-pituitary-adrenal axis.
+- The regulation of aldosterone secretion.
+- A summary of laboratory tests that will be mentioned in other videos.
+- UP NEXT:  Adrenal gland hyperfunction.
+THE UNIVERSITY OF ILLINOIS COLLEGE OF MEDICINE
+10
+In this recording, I've summarized the learning objectives and the microlecture series. I have recalled information on adrenal anatomy and adrenal hormones.  I emphasized the importance of diurnal rhythms for cortisol.  I emphasized the critical importance of the pituitary adrenal axis and the kidney-renin-aldosterone axis in laboratory testing.  In the next recording, I'll cover the syndromes related to excessive adrenal hormones.
