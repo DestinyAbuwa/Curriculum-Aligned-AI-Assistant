@@ -54,7 +54,14 @@ Open `.env` and add your specific API credentials as needed:
 
 ## Running the Project
 
-*(Application entry points will be added as backend and API routes are implemented.)*
+1. Ensure your `.env` file contains a valid `OPENAI_API_KEY`.
+
+2. Launch the Streamlit prototype:
+
+   ```
+   uv run streamlit run discovery/rag-prototype/prototype.py
+   ```
+3. Open the local web interface (http://localhost:8501), upload a course PDF, and submit queries to inspect LLM responses, retrieved context chunks, and distance scores.
 
 ---
 
