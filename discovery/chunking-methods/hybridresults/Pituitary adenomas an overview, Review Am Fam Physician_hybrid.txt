@@ -1,0 +1,326 @@
+[Pituitary Adenomas: An Overview]
+MARCY G. LAKE, DO, U.S. Naval Hospital, Sigonella, Italy LINDA S. KROOK, MD, Naval Hospital, Bremerton, Washington SAMYA V. CRUZ, MD, U.S. Naval Hospital, Rota, Spain
+
+--- CHUNK BREAK ---
+
+[Pituitary Adenomas: An Overview]
+Prolactinomas and nonfunctioning adenomas are the most common types of pituitary adenomas. Patients with pituitary adenomas may present initially with symptoms of endocrine dysfunction such as infertility, decreased libido, and galactorrhea, or with neurologic symptoms such as headache and visual changes. The diagnosis may also be made following imaging done for an unrelated issue in an asymptomatic patient; this is termed a pituitary incidentaloma. Oversecretion of hormones from a dysfunctional pituitary gland may result in classic clinical syndromes, the most common of which are hyperprolactinemia (from oversecretion of prolactin), acromegaly (from excess growth hormone), and Cushing disease (from overproduction of adrenocorticotropic hormone). In the diagnostic approach to a suspected pituitary adenoma, it is important to evaluate complete pituitary function, because hypopituitarism is common.
+
+--- CHUNK BREAK ---
+
+[Pituitary Adenomas: An Overview]
+Therapy for pituitary adenomas depends on the specific type of tumor, and should be managed with a team approach to include endocrinology and neurosurgery when indicated. Dopamine agonists are the primary treatment for prolactinomas. Small nonfunctioning adenomas and prolactinomas in asymptomatic patients do not require immediate intervention and can be observed. (Am Fam Physician. 2013;88(5):319-327. Copyright © 2013 American Academy of Family Physicians.)
+
+--- CHUNK BREAK ---
+
+[▲]
+Patient information: A handout on this topic, written by the authors of this article, is available at http://www. aafp.org/afp/2013/0901/ p319-s1.html. Access to the handout is free and unrestricted.
+CME This clinical content conforms to AAFP criteria for continuing medical education (CME). See CME Quiz on page 302.
+Author disclosure: No relevant financial affiliations.
+
+--- CHUNK BREAK ---
+
+[▲]
+P ituitary adenomas are the most common type of pituitary disorder. 1 They are benign neoplasms that account for 10% to 15% of all intracranial masses. Few large studies have delineated the exact prevalence, but a recent study of the inhabitants of a community in the United Kingdom found the overall prevalence to be higher than previously reported, at 77.6 per 100,000 persons. 2 Although autopsy and radiologic studies indicate that the prevalence may be as high as 20%, the majority of these tumors are incidentalomas without clinical significance. 3,4 Whether during an evaluation of symptoms commonly presented to them, or through incidental discovery of a pituitary mass, family physicians are often the first to consider the diagnosis of a pituitary adenoma.
+
+--- CHUNK BREAK ---
+
+[Classification]
+Pituitary adenomas are categorized based on primary cell origin and type of hormone secreted (Table 1 5-12 ). If the adenoma does not secrete a sufficient level of hormones to be detectable in the blood or to result in clinical manifestations, it is considered nonfunctioning. Prolactinomas comprise 40% to 57% of all adenomas, followed by nonfunctioning adenomas (28% to 37%), growth hormone-secreting adenomas (11% to 13%), and adrenocorticotropic hormone (ACTH)- secreting adenomas (1% to 2%). Pituitary adenomas that secrete follicle-stimulating hormone (FSH), luteinizing hormone (LH), or thyroid-stimulating hormone (TSH) are rare. 2,13 Tumors are also categorized based on size. If the tumor is 10 mm or larger, it is considered a macroadenoma; if it is less than 10 mm, it is considered a microadenoma. Microadenomas are slightly more common than macroadenomas (57.4% vs. 42.6%). 13
+
+--- CHUNK BREAK ---
+
+[Pathophysiology]
+The pituitary gland sits inferior to the hypothalamus (Figure 1). It is surrounded caudally by the sphenoid bone in a basketlike structure called the sella turcica, and superiorly by the optic chiasm. The sella turcica forces an expanding adenoma superiorly, leading to compression of the optic nerve and headaches from mass effect. Additionally, destruction or compression of the pituitary gland may cause complete or partial hypopituitarism. 5
+Pituitary adenomas are benign tumors that arise from one of the five cell types that comprise the anterior pituitary (lactotrophs, gonadotrophs, somatotrophs, corticotrophs, and thyrotrophs). Tumors rarely form from a combination of these cells. Pituitary ILLUSTRATION BY DAVID KLEMM
+
+--- CHUNK BREAK ---
+
+[Pathophysiology]
+Table 1. Classification and Clinical Presentation of Pituitary Adenomas
+Corticotroph, Hormone secreted = Adrenocorticotropic hormone. Corticotroph, Clinical syndrome = Cushing disease. Corticotroph, Presentation = Symptoms Labile mood, proximal muscle weakness, skin changes, changes in facial features, weight gain, depression, hirsutism, decrease in libido, menstrual changes Signs Thin skin, striae/bruising, central obesity, moon facies, plethora, hypertension, acne, glucose intolerance, neutrophilia, lymphocytopenia, eosinopenia Morbidity Diabetes mellitus, cardiac disease, osteoporosis. Corticotroph, Corresponding diagnostic tests = 24-hour urine free cortisol Late-night salivary cortisol 1-mg overnight dexamethasone suppression. Gonadotroph, Hormone secreted = LH/FSH, alpha- and beta-subunits. Gonadotroph, Clinical syndrome = No specific syndrome. Gonadotroph, Presentation = Symptoms from mass effect;
+
+--- CHUNK BREAK ---
+
+[Pathophysiology]
+hypopituitarism; silent (nonfunctioning). Gonadotroph, Corresponding diagnostic tests = LH/FSH. Lactotroph, Hormone secreted = Prolactin. Lactotroph, Clinical syndrome = Hyperprolactinemia. Lactotroph, Presentation = Symptoms General: galactorrhea, decrease in libido, infertility Men: gynecomastia, impotence Premenopausal women: oligomenorrhea or amenorrhea Signs Gynecomastia, hypogonadism (testicular atrophy, breast shrinkage, hair loss) Morbidity Osteoporosis. Lactotroph, Corresponding diagnostic tests = Serum prolactin. Somatotroph, Hormone secreted = Growth hormone. Somatotroph, Clinical syndrome = Acromegaly, gigantism (if occurs before closure of growth plate). Somatotroph, Presentation = Symptoms Increase in hand and foot size, change in facial features (large mandible), carpal tunnel symptoms, hyperhidrosis, fatigue, proximal muscle weakness, decrease in libido,
+
+--- CHUNK BREAK ---
+
+[Pathophysiology]
+menstrual changes Signs Hypertension, coarse facial features, left ventricular hypertrophy, cardiomyopathy, visceromegaly, hypercalciuria, goiter Morbidity Cardiac disease, diabetes, sleep apnea, increased risk of colon cancer, osteoporosis. Somatotroph, Corresponding diagnostic tests = Serum insulinlike growth factor 1 levels Oral glucose suppression test (75-g load) followed by growth hormone measurement after two hours. Thyrotroph, Hormone secreted = Thyroid-stimulating hormone. Thyrotroph, Clinical syndrome = Hyperthyroidism. Thyrotroph, Presentation = Hyperthyroid symptoms. Thyrotroph, Corresponding diagnostic tests = Thyroid-stimulating hormone, thyroxine. Tumor type, Hormone secreted = Hormone secreted. Tumor type, Clinical syndrome = Clinical syndrome. Tumor type, Presentation = Presentation. Tumor type, Corresponding diagnostic tests = Corresponding diagnostic tests. Mixed-cell adenomas, Hormone secreted = Any combination of hormones. Mixed-cell adenomas, Clinical syndrome = Varies based on dominant hormone. Mixed-cell adenomas, Presentation = Symptoms from mass effect; hypopituitarism; silent
+
+--- CHUNK BREAK ---
+
+[Pathophysiology]
+(nonfunctioning). Mixed-cell adenomas, Corresponding diagnostic tests = No specific corresponding test. Nonfunctioning adenoma, Hormone secreted = None. Nonfunctioning adenoma, Clinical syndrome = No specific syndrome. Nonfunctioning adenoma, Presentation = Symptoms from mass effect; hypopituitarism; silent (nonfunctioning). Nonfunctioning adenoma, Corresponding diagnostic tests = No specific corresponding test. Pituitary carcinoma, Hormone secreted = None. Pituitary carcinoma, Clinical syndrome = No specific syndrome. Pituitary carcinoma, Presentation = Symptoms from mass effect; hypopituitarism; silent (nonfunctioning). Pituitary carcinoma, Corresponding diagnostic tests = No specific corresponding test. FSH = follicle-stimulating hormone; LH = luteinizing hormone. Information from references 5 through 12., Hormone secreted = FSH = follicle-stimulating hormone; LH = luteinizing hormone. Information from references 5 through 12.. FSH = follicle-stimulating hormone; LH = luteinizing hormone. Information from references 5 through 12., Clinical syndrome = FSH
+
+--- CHUNK BREAK ---
+
+[Pathophysiology]
+= follicle-stimulating hormone; LH = luteinizing hormone. Information from references 5 through 12.. FSH = follicle-stimulating hormone; LH = luteinizing hormone. Information from references 5 through 12., Presentation = FSH = follicle-stimulating hormone; LH = luteinizing hormone. Information from references 5 through 12.. FSH = follicle-stimulating hormone; LH = luteinizing hormone. Information from references 5 through 12., Corresponding diagnostic tests = FSH = follicle-stimulating hormone; LH = luteinizing hormone. Information from references 5 through 12.
+Pituitary Adenomas
+
+--- CHUNK BREAK ---
+
+[Pathophysiology]
+Clinical recommendation Serum prolactin level should be measured in all patients with signs or symptoms of pituitary adenoma., Evidence rating = C. Clinical recommendation Serum prolactin level should be measured in all patients with signs or symptoms of pituitary adenoma., References = 7, 9, 34. Evaluation of a suspected pituitary mass should include magnetic resonance imaging., Evidence rating = C. Evaluation of a suspected pituitary mass should include magnetic resonance imaging., References = 7, 21. Patients with pituitary adenomas affecting the optic chiasm on imaging should have formal visual field testing., Evidence rating = C. Patients with pituitary adenomas affecting the optic chiasm on imaging should have formal visual field testing., References = 7. Symptomatic prolactinomas and macroprolactinomas should be treated medically with dopamine agonists., Evidence rating = B. Symptomatic prolactinomas and macroprolactinomas should be treated medically with dopamine agonists., References = 9, 17. Cabergoline is the preferred dopamine agonist for the treatment of
+
+--- CHUNK BREAK ---
+
+[Pathophysiology]
+prolactinomas., Evidence rating = B. Cabergoline is the preferred dopamine agonist for the treatment of prolactinomas., References = 23, 24. Patients who have growth hormone- and adrenocorticotropic hormone-secreting tumors and those with symptomatic nonfunctioning macroadenomas should be referred for surgical removal., Evidence rating = B. Patients who have growth hormone- and adrenocorticotropic hormone-secreting tumors and those with symptomatic nonfunctioning macroadenomas should be referred for surgical removal., References = 7, 25, 30
+A = consistent, good-quality patient-oriented evidence; B = inconsistent or limited-quality patient-oriented evidence; C = consensus, diseaseoriented evidence, usual practice, expert opinion, or case series. For information about the SORT evidence rating system, go to http://www.aafp. org/afpsort.
+
+--- CHUNK BREAK ---
+
+[Pathophysiology]
+adenomas are true neoplasms with a monoclonal cell origin. 14 Hypersecretion or diminished inhibition of the hormones of the hypothalamic-pituitary axis can lead to the constellation of endocrine symptoms often seen in patients with pituitary adenomas.
+
+--- CHUNK BREAK ---
+
+[Clinical Features]
+Pituitary adenomas present clinically in three ways: syndromes of hormone hypersecretion or deficiency; neurologic manifestations from mass effect of an expanding gland; or an incidental finding on imaging done for an unrelated issue.
+
+--- CHUNK BREAK ---
+
+[HORMONAL]
+A pituitary adenoma may present as a distinct syndrome of hormone hypersecretion, the most common of which are hyperprolactinemia, acromegaly, and Cushing disease (Table 1 5-12 ). Another hormonal manifestation of a pituitary adenoma is either partial or complete hypopituitarism, most often hypogonadism. This is a result of interference with normal hormone secretion, either from direct compression of the pituitary gland or (in the case of hyperprolactinemia) inhibition of the pulsatile secretion of LH, leading to inadequate gonadal stimulation. 6 The clinical presentation depends on the patient's sex. In women, the clinical presentation also depends on whether the patient is premenopausal or postmenopausal. Fatigue and loss of libido are common in men and women. Men may have erectile dysfunction, whereas premenopausal women often experience oligomenorrhea or amenorrhea 6,11 (Table 1 5-12 ).
+
+--- CHUNK BREAK ---
+
+[NEUROLOGIC]
+The most common neurologic symptoms in patients with pituitary adenomas are headaches and visual changes. Neurologic symptoms are more common in nonfunc-
+Figure 1. Anatomy of the pituitary gland.
+tioning adenomas or gonadotroph adenomas because these tumors do not secrete sufficient hormones to cause endocrine-type symptoms, and their diagnosis often is delayed until patients present with symptoms of mass effect. 11 Headaches, which are believed to result from stretching of the dural sheath, are nonspecific and do not necessarily correlate with tumor size. 5
+
+--- CHUNK BREAK ---
+
+[NEUROLOGIC]
+When the tumor enlarges, it compresses the optic chiasm superiorly, primarily causing visual field deficits, most often bitemporal hemianopia. 6 If the adenoma expands laterally into the cavernous sinus, it has the potential to affect the cranial nerves housed there, including cranial nerves III (oculomotor), IV (trochlear), and VI (abducens). With more severe compression or direct invasion of the optic nerve, decreased visual acuity may occur. In contrast with headaches, visual disturbances tend to correlate with tumor size. They also tend to occur insidiously, Pituitary Adenomas FSH = follicle-stimulating hormone; hCG = human chorionic gonadotropin; LH = luteinizing hormone; T4 = thyroxine; TSH = thyroid-stimulating hormone.
+
+--- CHUNK BREAK ---
+
+[NEUROLOGIC]
+Table 2. Diagnostic Tests Useful in the Evaluation of a Suspected Adenoma
+24-hour urine free cortisol, Indication = Cortisol excess. 24-hour urine free cortisol, Abnormal (reference range)* = Elevated (10 to 84 mcg total per 24-hour period). 24-hour urine free cortisol, Clinical notes = Urine collection must be accurate and total High false-positive rate in women taking estrogen Diagnostic if four times greater than normal. Adrenocorticotropic hormone, Indication = Determine source of excess cortisol. Adrenocorticotropic hormone, Abnormal (reference range)* = Elevated (6 to 48 pg per mL [1 to 11 pmol per L]). Adrenocorticotropic hormone, Clinical notes = Levels will be elevated with pituitary or ectopic source of excess cortisol. Estradiol, Indication = Hormone deficiency in females. Estradiol, Abnormal (reference range)* = Low (1.5 to 3 pg per mL [6 to 11 pmol per L])†. Estradiol, Clinical notes = Not accurate in women taking oral contraceptives or hormone therapy Values vary based on phase of menstrual
+
+--- CHUNK BREAK ---
+
+[NEUROLOGIC]
+cycle. Free T4, Indication = Thyroid deficiency. Free T4, Abnormal (reference range)* = Low (4.2 to 13 ng per dL [54 to 167 pmol per L]). Free T4, Clinical notes = Low T4 with normal or low TSH indicates secondary hypothyroidism (possibly from pituitary dysfunction). Late night salivary cortisol, Indication = Cortisol excess. Late night salivary cortisol, Abnormal (reference range)* = Elevated (< 0.01 to 0.09 mcg per dL). Late night salivary cortisol, Clinical notes = Midnight sample. Low-dose dexamethasone suppression, Indication = Initial test for cortisol excess. Low-dose dexamethasone suppression, Abnormal (reference range)* = Elevated (serum cortisol ≥ 1.8 ng per dL). Low-dose dexamethasone suppression, Clinical notes = 1 mg of dexamethasone given at 11 p.m., cortisol test at 8 a.m. Abnormal if cortisol levels fail to decrease to < 1.8 ng per dL High false-positive rate in women taking estrogen Further
+
+--- CHUNK BREAK ---
+
+[NEUROLOGIC]
+testing needed to rule out the source of excess cortisol and to rule out "pseudo-Cushing syndrome". Oral glucose suppression, Indication = Acromegaly (excess growth hormone) confirmatory test. Oral glucose suppression, Abnormal (reference range)* = Elevated (0 to 1 ng per mL)†. Oral glucose suppression, Clinical notes = Failure of growth hormone to decrease to < 1 ng per mL two hours after administering 75 g of oral glucose. Serum alpha- subunit, Indication = Determine if nonfunctioning or gonadotroph- secreting tumor. Serum alpha- subunit, Abnormal (reference range)* = Elevated (0.04 to 1.23 ng per mL)†. Serum alpha- subunit, Clinical notes = Test for the alpha subunit common to LH, FSH, TSH, and hCG May be overproduced in some pituitary adenomas (most commonly gonadotroph- and thyrotroph-secreting types) Useful if elevated LH/FSH levels and etiology of elevation is unknown. Serum cortisol, Indication = Cortisol deficiency. Serum cortisol, Abnormal (reference range)* = Low (8 to 19 mcg per dL [221
+
+--- CHUNK BREAK ---
+
+[NEUROLOGIC]
+to 524 nmol per L]). Serum cortisol, Clinical notes = Early morning testing If < 13 mcg per dL (359 nmol per L), patient should undergo dynamic testing continued
+*-Reference ranges vary widely with performing laboratory. Values given for adults.
+†-Varies with age, sex, and hormonal status.
+‡-Varies widely with age.
+so that many patients are not aware of them until they are specifically tested. 15 Other neurologic presentations, such as cerebrospinal fluid rhinorrhea, seizures, and pituitary apoplexy, can occur but are uncommon.
+
+--- CHUNK BREAK ---
+
+[INCIDENTAL]
+Increased use and sensitivity of computed tomography (CT) and magnetic resonance imaging (MRI) have identified many pituitary lesions that otherwise might not have been detected. Autopsy and radiology studies suggest that between 10% and 20% of all pituitary adenomas may be unsuspected or found incidentally. 3,4
+
+--- CHUNK BREAK ---
+
+[Diagnostic Approach]
+The diagnostic approach to a suspected pituitary adenoma depends on the presenting symptoms. There is no evidence from controlled trials to guide a specific investigative approach, and recommendations are based largely on expert opinion and extrapolation from observational studies. 6-9,16,17
+
+--- CHUNK BREAK ---
+
+[HORMONAL SYMPTOMS]
+A patient who presents with symptoms of hormone excess likely has a functioning adenoma. Evaluation can be geared toward the specific hypersecretory Pituitary Adenomas FSH = follicle-stimulating hormone; hCG = human chorionic gonadotropin; LH = luteinizing hormone; T4 = thyroxine; TSH = thyroid-stimulating hormone.
+
+--- CHUNK BREAK ---
+
+[HORMONAL SYMPTOMS]
+Table 2. Diagnostic Tests Useful in the Evaluation of a Suspected Adenoma (continued)
+Serum insulinlike growth factor 1, Indication = Excess growth hormone. Serum insulinlike growth factor 1, Abnormal (reference range)* = Elevated (76 to 328 ng per mL [10 to 43 nmol per L])‡. Serum insulinlike growth factor 1, Clinical notes = High sensitivity Normally elevated during pregnancy May be low in patients with poorly controlled diabetes mellitus, liver disease, hypothyroidism, and malnutrition. Serum LH/FSH, Indication = Gonadotroph- secreting tumor Hypogonadism. Serum LH/FSH, Abnormal (reference range)* = Elevated FSH (2 to 35 mIU per mL [2 to 35 IU per L])† LH (1.5 to 50 mIU per mL [1.5 to 50 IU per L])† Low FSH (2 to 35 mIU per mL)† LH (1.5 to 50 mIU per mL)†. Serum LH/FSH, Clinical notes = In postmenopausal women, elevated LH/FSH levels are normal Value for menstruating women
+
+--- CHUNK BREAK ---
+
+[HORMONAL SYMPTOMS]
+varies based on phase of menstrual cycle. Serum macroprolactin, Indication = Hyperprolactinemia. Serum macroprolactin, Abnormal (reference range)* = Present. Serum macroprolactin, Clinical notes = Biologically inactive form of prolactin, with no pathologic association Useful to check in patients with hyperprolactinemia who have moderate elevations (100 to 300 mcg per L [4,348 to 13,043 pmol per L]) of serum prolactin with unknown etiology or when radiographic findings and clinical presentation are not consistent with serum prolactin level. Serum prolactin, Indication = Hyperprolactinemia. Serum prolactin, Abnormal (reference range)* = Elevated (3 to 24 mcg per L [130 to 1,043 pmol per L]). Serum prolactin, Clinical notes = ≥ 250 mcg per L (10,870 pmol per L) highly suggestive of prolactinoma Moderate elevations (25 to 249 mcg per L [1,087 to 10,826 pmol per L]) should prompt investigation of other causes of
+
+--- CHUNK BREAK ---
+
+[HORMONAL SYMPTOMS]
+hyperprolactinemia Serum level correlates with tumor size; when level does not correlate with size, consider serial dilutions. Serum TSH, Indication = Evaluate thyrotroph- secreting tumor Thyroid hormone deficiency. Serum TSH, Abnormal (reference range)* = Elevated (0.5 to 4.8 mIU per L) Low (0.5 to 4.8 mIU per L). Serum TSH, Clinical notes = May be atypically normal in relation to free T4. Testosterone (total) Testosterone (free), Indication = Hormone deficiency in males. Testosterone (total) Testosterone (free), Abnormal (reference range)* = Low (350 to 1,030 ng per dL [12 to 36 nmol per L])‡ Low (52 to 280 pg per mL)‡. Testosterone (total) Testosterone (free), Clinical notes = Total (free + protein-bound) alone is generally an accurate picture of testosterone level Measurements should be taken at 8 a.m.
+*-Reference ranges vary widely with performing laboratory. Values given for adults.
+†-Varies with age, sex, and hormonal status.
+‡-Varies widely with age.
+
+--- CHUNK BREAK ---
+
+[HORMONAL SYMPTOMS]
+Information from references 6 through 12, and 17 through 19.
+
+--- CHUNK BREAK ---
+
+[HORMONAL SYMPTOMS]
+syndrome (Table 1 5-12 ). Hormone deficiencies should also be evaluated because hypopituitarism is present in up to 30% of adenomas, 13,16 and because of the need to address deficiencies in future treatment regimens. Consensus guidelines recommend obtaining an endocrine panel as an initial set of laboratory tests. 7,9 This includes serum prolactin, insulinlike growth factor 1 (IGF-1), LH/FSH, TSH, thyroxine (T4), and an initial test for cortisol excess-a 24-hour urine free cortisol, a late night salivary cortisol, or a low-dose dexamethasone suppression test. The 24-hour urine free cortisol, late night salivary cortisol, and overnight dexamethasone suppression tests have similar accuracy (positive likelihood ratio [LR+] = 10.6, negative likelihood ratio [LR-] = - 0.16; LR+ = 8.8, LR- = 0.07; and LR+ = 16.4, LR- = 0.06, respectively).
+
+--- CHUNK BREAK ---
+
+[HORMONAL SYMPTOMS]
+12 Dexamethasone suppression and 24-hour urine free cortisol tests have the highest specificity (97% and 91%, respectively) and the most evidence to support their use 8,18 (Table 2 6-12,17-19 ). When the diagnosis remains uncertain after these initial studies, dynamic endocrine function tests should be performed, usually in consultation with an endocrinologist.
+Figure 2. Macroadenoma (arrow) on computed tomography.
+
+--- CHUNK BREAK ---
+
+[HORMONAL SYMPTOMS]
+A higher serum prolactin level (250 mcg per L [10,870 pmol per L] or more) suggests a prolactinoma over other causes of hyperprolactinemia (e.g., hypothyroidism, medications, non-prolactin-secreting pituitary adenomas, pregnancy, renal failure). 9,17 A serum prolactin level greater than 500 mcg per L (21,739 pmol per L) is diagnostic for a macroprolactinoma (98% specificity), although only about one-third of persons with prolactinoma have levels that high (35% sensitivity). 17 Nonprolactin-secreting pituitary tumors may cause moderate elevations in prolactin through compression of the pituitary stalk, resulting in loss of inhibition of prolactin release; this is termed the stalk effect. 6,17
+
+--- CHUNK BREAK ---
+
+[NEUROLOGIC SYMPTOMS]
+If a pituitary mass is suspected, MRI is the best initial imaging study. 7 MRI is 61% to 72% sensitive and 88% to 90% specific for sellar masses. 20,21 The study should be done with and without gadolinium enhancement. CT is limited by its inability to precisely image the optic chiasm. If an MRI is contraindicated or unavailable, CT done with thin sections (1.5 mm or less) and in a coronal plane will improve imaging of the pituitary region 22 (Figures 2 and 3).
+If a patient presents with visual symptoms, or if imaging reveals impingement on the optic nerve, the patient should be referred for formal visual field testing and a complete ophthalmologic examination. 7 Early referral for visual field testing should be considered even in the absence of presenting symptoms, because unrecognized deficits occur in approximately 10% of incidentally discovered pituitary adenomas. 15,16
+
+--- CHUNK BREAK ---
+
+[INCIDENTALOMA]
+When a pituitary mass is discovered incidentally, diagnostic studies should be geared toward determining if the mass is functioning or nonfunctioning (Figure 4 7 ).
+Figure 3. Macroadenoma on magnetic resonance imaging.
+There is debate over the extent of laboratory assessment warranted in the evaluation of incidentalomas, especially microadenomas. The Endocrine Society's 2011 clinical practice guidelines for pituitary incidentalomas recommend a complete assessment of pituitary function, even if the patient is asymptomatic. 7 The basis for this recommendation stems from the effectiveness of prolactinoma treatment and the value of identifying growth hormoneand ACTH-secreting adenomas early to avoid associated long-term morbidity. Most patients do not require surgical intervention, although prospective biochemical monitoring and repeated imaging are recommended by expert panel guidelines. 7 Clinical trials of the best approach to monitoring these patients have not been done.
+
+--- CHUNK BREAK ---
+
+[Therapy]
+There are three primary treatment goals for pituitary adenomas: reducing hormone hypersecretion and its clinical manifestations; decreasing tumor size to improve symptoms of mass effect; and correcting hormone deficiencies (Table 3 9,10,23-27 ).
+The majority of prolactinomas can be managed medically with dopamine agonists. Dopamine agonists approved for use in the United States are bromocriptine (Parlodel) and cabergoline. By inhibiting the release of prolactin from the anterior pituitary, these medications resolve hyperprolactinemia symptoms, reduce tumor size, and often restore reproductive function. 9,17,28 Several controlled trials have shown improved effectiveness and better patient tolerance of cabergoline over bromocriptine. Patient-oriented outcomes such as quicker restoration of normal vision, faster return of regular menses, and fewer gastrointestinal adverse effects were noted in those using cabergoline. 23,24
+Pituitary Adenomas
+Figure 4. Approach to the evaluation and management of a pituitary incidentaloma.
+
+--- CHUNK BREAK ---
+
+[Therapy]
+Adapted with permission from Freda PU, Beckers AM, Katznelson L, et al.; Endocrine Society. Pituitary incidentaloma: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2011;96(4):899.
+The most common adverse effects of dopamine agonists are nausea, vomiting, and fatigue. Long-term use of high-dose ergoline-derived dopamine agonists for Parkinson disease increases the risk of cardiac valvular regurgitation. However, this same association has not been found with use of short-term, lower-dose agents in the treatment of prolactinomas. 29
+Although dopamine agonists are not approved for use during pregnancy, both bromocriptine and cabergoline are thought to be safe. 28 Because of the greater body of published evidence on bromocriptine, it is the recommended dopamine agonist for initiation during pregnancy. 9,28 Expert consultation is advised for all women with a prolactinoma who intend to become pregnant.
+
+--- CHUNK BREAK ---
+
+[Therapy]
+Medical management of growth hormone- and ACTHsecreting tumors is less effective than for prolactinomas, and surgery via transsphenoidal resection is the preferred treatment. 7,25,30 Somatostatin analogues such as octreotide (Sandostatin) and lanreotide (Somatuline) inhibit growth hormone secretion and somatotroph proliferation. They Pituitary Adenomas Information from references 9, 10, and 23 through 27.
+
+--- CHUNK BREAK ---
+
+[Therapy]
+Table 3. Treatment Recommendations for the Most Common Pituitary Adenomas
+Adrenocorticotropic hormone-secreting adenoma, Treatment = Surgical resection Adrenostatic medication Ketoconazole: 200 mg twice a day (maximum daily dosage: 1,200 mg) Metyrapone (Metopirone): 250 mg four times a day (maximum daily dosage: 6,000 mg) Mifepristone (Mifeprex): 300 mg once a day (maximum daily dosage: 1,200 mg) Mitotane (Lysodren): 500 mg three times a day (maximum daily dosage: 9,000 mg) Radiation therapy Bilateral adrenalectomy. Adrenocorticotropic hormone-secreting adenoma, Therapeutic goal = Remove tumor or decrease in size Restore pituitary function Suppress excess cortisol. Growth hormone- secreting adenoma, Treatment = Surgical resection Somatostatin analogues* Octreotide (Sandostatin): 50 mcg subcutaneously three times a day or depot preparation, 20 mg every four weeks Lanreotide (Somatuline): 90 mg subcutaneously every four weeks
+
+--- CHUNK BREAK ---
+
+[Therapy]
+Titration based on growth hormone and insulinlike growth factor 1 levels Growth hormone antagonists* Pegvisomant (Somavert): 15 to 20 mg daily Radiation therapy. Growth hormone- secreting adenoma, Therapeutic goal = Remove tumor or decrease in size Restore pituitary function Suppress growth hormone secretion Lower insulinlike growth factor 1 level. Nonfunctioning adenomas, Treatment = No immediate therapy necessary unless macroadenoma or symptomatic Monitor with laboratory tests and imaging. Nonfunctioning adenomas, Therapeutic goal = Early intervention for increasing tumor size or hormone hyposecretion/hypersecretion. Prolactinoma, Treatment = Dopamine agonists* Cabergoline: 0.25 to 1 mg orally two times per week; increase by 0.25 mg to reach therapeutic goal Bromocriptine (Parlodel): start with 1.5 to 2.5 mg orally daily; increase by 2.5 mg every two to seven days to reach therapeutic goal. Prolactinoma, Therapeutic goal = Decrease tumor size Lower prolactin level Restore gonadal function
+
+--- CHUNK BREAK ---
+
+[Therapy]
+decrease the size of growth hormone-secreting tumors and the symptoms of growth hormone excess. The growth hormone receptor antagonist pegvisomant (Somavert) reduces the production of IGF-1, which is primarily responsible for the symptoms of acromegaly. 26 Medications that decrease or halt steroidogenesis at the adrenal gland (ketoconazole, metyrapone [Metopirone], mitotane [Lysodren], and mifepristone [Mifeprex]) are used to decrease symptoms in patients with ACTH-secreting tumors, and for palliation in persons unable to tolerate surgery (Table 3 9,10,23-27 ), but they have no effect on the tumor itself or in restoration of normal pituitary function. 27 Radiation and radiosurgery can decrease tumor size and enhance endocrine functioning, especially when used to treat postresection residual adenoma. 27,31,32
+
+--- CHUNK BREAK ---
+
+[Therapy]
+Nonfunctioning microadenomas and microprolactinomas in asymptomatic patients do not require immediate treatment. However, a small percentage of these tumors will increase in size or cause new pituitary dysfunction, and therefore warrant monitoring. 16,33 No clinical trials have been done to compare a conservative approach with early therapy, so management and monitoring intervals are based on expert opinion. An expert guideline recommends a repeat MRI in 12 months and, if there is no increase in size, lengthening the imaging interval to two to three years. 7 Biochemical testing via an endocrine panel is not recommended unless the tumor enlarges or the patient develops symptoms (Figure 4 7 ). Measurement of prolactin alone may also be an effective strategy to monitor microadenomas; a cost analysis found this test to have the lowest cost per quality-adjusted life-year. 34
+
+--- CHUNK BREAK ---
+
+[Therapy]
+Data Sources: A PubMed search was completed in Clinical Queries using the key terms pituitary adenoma, prolactinoma, pituitary incidentaloma, Cushing's disease, and acromegaly in both diagnosis and treatment. The search included systematic reviews, meta-analyses, clinical practice guidelines, and clinical studies. We also used the National Guideline Clearinghouse, Essential Evidence Plus, the Cochrane database, UpToDate, and Google Scholar. Search dates: June 2011 and January 2012.
+The opinions and assertions contained herein are the private views of the authors and are not to be construed as official or as reflecting the views of the U.S. Navy Medical Department or the U.S. Navy at large.
+
+--- CHUNK BREAK ---
+
+[The Authors]
+MARCY G. LAKE, DO, is a family physician at the U.S. Naval Hospital, Sigonella, Italy.
+LINDA S. KROOK, MD, FACP, FACE, is an endocrinologist at the Naval Hospital, Bremerton, Wash.
+SAMYA V. CRUZ, MD, is a family physician at the U.S. Naval Hospital, Rota, Spain. At the time this article was written, she was a family physician at the U.S. Naval Hospital, Guantanamo Bay, Cuba.
+Address correspondence to Marcy G. Lake, DO, U.S. Naval Hospital, Sigonella, Italy, USNH Box 64, FPO, AE 09589-1000 (e-mail: marcy.lake22@ gmail.com). Reprints are not available from the authors.
+
+--- CHUNK BREAK ---
+
+[REFERENCES]
+1. Famini P, Maya MM, Melmed S. Pituitary magnetic resonance imaging for sellar and parasellar masses: ten-year experience in 2598 patients. J Clin Endocrinol Metab. 2011;96(6):1633-1641.
+2. Fernandez A, Karavitaki N, Wass JA. Prevalence of pituitary adenomas: a community-based, cross-sectional study in Banbury (Oxfordshire, UK). Clin Endocrinol (Oxf). 2010;72(3):377-382.
+3. Hall WA, Luciano MG, Doppman JL, Patronas NJ, Oldfield EH. Pituitary magnetic resonance imaging in normal human volunteers: occult adenomas in the general population. Ann Intern Med. 1994;120(10):817-820.
+4. Ezzat S, Asa SL, Couldwell WT, et al. The prevalence of pituitary adenomas: a systematic review. Cancer. 2004;101(3):613-619.
+
+--- CHUNK BREAK ---
+
+[REFERENCES]
+5. Arafah BM, Prunty D, Ybarra J, Hlavin ML, Selman WR. The dominant role of increased intrasellar pressure in the pathogenesis of hypopituitarism, hyperprolactinemia, and headaches in patients with pituitary adenomas. J Clin Endocrinol Metab. 2000;85(5):1789-1793.
+6. Vance ML. Diagnosis, management, and prognosis of pituitary tumors. In: Thapar K, Kovacs K, Scheithauer BW, Lloyd RV, eds. Diagnosis and Management of Pituitary Tumors. Totowa, N.J.: Humana Press; 2001:165-172.
+7. Freda PU, Beckers AM, Katznelson L, et al.; Endocrine Society. Pituitary incidentaloma: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2011;96(4):894-904.
+
+--- CHUNK BREAK ---
+
+[REFERENCES]
+8. Nieman LK, Biller BM, Findling JW, et al. The diagnosis of Cushing's syndrome: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2008;93(5):1526-1540.
+9. Melmed S, Casanueva FF, Hoffman AR, et al.; Endocrine Society. Diagnosis and treatment of hyperprolactinemia: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2011;96(2):273-288.
+10. Melmed S. Medical progress: acromegaly [published correction appears in N Engl J Med. 2007;356(8):879.] N Engl J Med. 2006;355(24): 2558-2573.
+11. Snyder PJ. Gonadotroph cell adenomas. In: Melmed S, ed. The Pituitary. 3rd ed. Amsterdam: Elsevier; 2011:637-651.
+
+--- CHUNK BREAK ---
+
+[REFERENCES]
+12. Elamin MB, Murad MH, Mullan R, et al. Accuracy of diagnostic tests for Cushing's syndrome: a systematic review and metaanalyses. J Clin Endocrinol Metab. 2008;93(5):1553-1562.
+13. Daly AF, Rixhon M, Adam C, Dempegioti A, Tichomirowa MA, Beckers A. High prevalence of pituitary adenomas: a cross-sectional study in the province of Liege, Belgium. J Clin Endocrinol Metab. 2006;91(12):4769-4775.
+14. Alexander JM, Biller BM, Bikkal H, Zervas NT, Arnold A, Klibanski A. Clinically nonfunctioning pituitary tumors are monoclonal in origin. J Clin Invest. 1990;86(1):336-340.
+
+--- CHUNK BREAK ---
+
+[REFERENCES]
+15. Monteiro ML, Zambon BK, Cunha LP. Predictive factors for the development of visual loss in patients with pituitary macroadenomas and for visual recovery after optic pathway decompression. Can J Ophthalmol. 2010;45(4):404-408.
+16. Fainstein Day P, Guitelman M, Artese R, et al. Retrospective multicentric study of pituitary incidentalomas. Pituitary. 2004;7(3):145-148.
+17. Vilar L, Freitas MC, Naves LA, et al. Diagnosis and management of hyperprolactinemia: results of a Brazilian multicenter study with 1234 patients. J Endocrinol Invest. 2008;31(5):436-444.
+
+--- CHUNK BREAK ---
+
+[REFERENCES]
+18. Pecori Giraldi F, Ambrogio AG, De Martin M, Fatti LM, Scacchi M, Cavagnini F. Specificity of first-line tests for the diagnosis of Cushing's syndrome: assessment in a large series. J Clin Endocrinol Metab. 2007;92(11):4123-4129.
+19. Endocrinology expected values and S.I. unit conversion tables. Endocrine Science Laboratories. Laboratory Corporation of America. 2009. https://science.nichd.nih.gov/confluence/download/attachments/ 23920688/Inside-Expected-Values_ESO.pdf. Accessed September 25, 2012.
+20. Gao R, Isoda H, Tanaka T, et al. Dynamic gadolinium-enhanced MR imaging of pituitary adenomas: usefulness of sequential sagittal and coronal plane images. Eur J Radiol. 2001;39(3):139-146.
+
+--- CHUNK BREAK ---
+
+[REFERENCES]
+21. Friedman TC, Zuckerbraun E, Lee ML, Kabil MS, Shahinian H. Dynamic pituitary MRI has high sensitivity and specificity for diagnosis of mild Cushing's syndrome and should be part of the initial workup. Horm Metab Res. 2007;39(6):451-456.
+22. Rennert J, Doerfler A. Imaging of sellar and parasellar lesions. Clin Neurol Neurosurg. 2007;109(2):111-124.
+23. Webster J, Piscitelli G, Polli A, Ferrari CI, Ismail I, Scanlon MF. A comparison of cabergoline and bromocriptine in the treatment of hyperprolactinemic amenorrhea. Cabergoline Comparative Study Group. N Engl J Med. 1994;331(14):904-909.
+
+--- CHUNK BREAK ---
+
+[REFERENCES]
+24. Colao A, Di Sarno A, Landi ML, et al. Macroprolactinoma shrinkage during cabergoline treatment is greater in naive patients than in patients pretreated with other dopamine agonists: a prospective study in 110 patients. J Clin Endocrinol Metab. 2000;85(6):2247-2252.
+25. Colao A, Cappabianca P, Caron P, et al. Octreotide LAR vs. surgery in newly diagnosed patients with acromegaly: a randomized, open-label, multicentre study. Clin Endocrinol (Oxf). 2009;70(5):757-768.
+26. Trainer PJ, Drake WM, Katznelson L, et al. Treatment of acromegaly with the growth hormone-receptor antagonist pegvisomant. N Engl J Med. 2000;342(16):1171-1177.
+
+--- CHUNK BREAK ---
+
+[REFERENCES]
+27. Biller BM, Grossman AB, Stewart PM, et al. Treatment of adrenocorticotropin-dependent Cushing's syndrome: a consensus statement. J Clin Endocrinol Metab. 2008;93(7):2454-2462.
+28. Berinder K, Stackenäs I, Akre O, Hirschberg AL, Hulting AL. Hyperprolactinaemia in 271 women: up to three decades of clinical follow-up. Clin Endocrinol (Oxf). 2005;63(4):450-455.
+29. Lafeber M, Stades AM, Valk GD, Cramer MJ, Teding van Berkhout F, Zelissen PM. Absence of major fibrotic adverse events in hyperprolactinemic patients treated with cabergoline. Eur J Endocrinol. 2010;162(4): 667-675.
+
+--- CHUNK BREAK ---
+
+[REFERENCES]
+30. Kreutzer J, Vance ML, Lopes MB, Laws ER Jr. Surgical management of GH-secreting pituitary adenomas: an outcome study using modern remission criteria. J Clin Endocrinol Metab. 2001;86(9):4072-4077.
+31. Castinetti F, Nagai M, Morange I, et al. Long-term results of stereotactic radiosurgery in secretory pituitary adenomas. J Clin Endocrinol Metab. 2009;94(9):3400-3407.
+32. Starke RM, Williams BJ, Vance ML, Sheehan JP. Radiation therapy and stereotactic radiosurgery for the treatment of Cushing's disease: an evidence-based review. Curr Opin Endocrinol Diabetes Obes. 2010;17(4):356-364.
+
+--- CHUNK BREAK ---
+
+[REFERENCES]
+33. Fernández-Balsells MM, Murad MH, Barwise A, et al. Natural history of nonfunctioning pituitary adenomas and incidentalomas: a systematic review and metaanalysis. J Clin Endocrinol Metab. 2011;96(4):905-912.
+34. King JT Jr, Justice AC, Aron DC. Management of incidental pituitary microadenomas: a cost-effectiveness analysis. J Clin Endocrinol Metab. 1997;82(11):3625-3632.

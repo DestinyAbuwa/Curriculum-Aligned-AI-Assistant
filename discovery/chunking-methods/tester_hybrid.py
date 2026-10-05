@@ -7,10 +7,11 @@ from docling.document_converter import DocumentConverter
 converter = DocumentConverter()
 chunker = HybridChunker()
 
-out_dir = Path("hybridresults")
+BASE_DIR = Path(__file__).parent
+out_dir = BASE_DIR / "hybridresults"
 out_dir.mkdir(exist_ok=True)
 
-for path in Path("sample_pdfs").glob("*.*"):
+for path in (BASE_DIR / "sample_pdfs").glob("*.*"):
     if path.suffix.lower() not in {".pdf", ".docx", ".pptx", ".html"}:
         continue
 

@@ -22,30 +22,23 @@ A hemoglobin A1c (HbA1c) level of 6.5% or higher; or
 A fasting plasma glucose (FPG) level of 126 mg/dL (7 mmol/L) or higher; fasting is defined as no caloric intake for at least 8 hours, or
 A 2-hour plasma glucose level of 200 mg/dL (11.1 mmol/L) or higher during a 75-g oral glucose tolerance test (OGTT), or
 A random plasma glucose of 200 mg/dL (11.1 mmol/L) or higher in a patient with classic symptoms of hyperglycemia (i.e., polyuria, polydipsia, polyphagia, weight loss) or hyperglycemic crisis
-UNIVERSITY OF ILLINOIS
-COLLEGE OF MEDICINE
 
 --- CHUNK BREAK ---
 
 [Diabetes Mellitus]
 Chronic disease characterized by hyperglycemia and glucosuria.
-Type 2 diabetics
 
 --- CHUNK BREAK ---
 
 [Type 1 (T1D)]
 Patient secretes little to no insulin (absolute deficiency). Autoimmune disorder.
-Type 1 diabetics
 
 --- CHUNK BREAK ---
 
 [Type 2 (T2D)]
-T
 Most common type (90%).
-10
 Insulin resistance and relative insulin deficiency.
 Associated with obesity, dyslipidemia, hypertension, and other conditions.
-Infusion of glucose
 Source: Lippincott's Illustrated Review of Pharmacology, 7 th Ed.
 
 --- CHUNK BREAK ---
@@ -58,7 +51,7 @@ Onset, 1 = Type 1 Most often abrupt. Onset, 2 = Type 2 Gradual. Clinical Symptom
 [Drug-Induced Causes of Type 2 Diabetes]
 Glucocorticoids
 Thyroid hormones
-𝜷 -blockers
+𝜷-blockers
 Post-transplant drugs
 - (tacrolimus, cyclosporine, sirolimus)
 Thiazides
@@ -70,13 +63,15 @@ Nicotinic acid
 --- CHUNK BREAK ---
 
 [Case]
-A 19 yo woman with Type 1 DM on insulin presents to your clinic for routine follow up.  She was diagnosed with Type 1 DM 3 months ago, and she is currently taking insulin glargine 32 units at nighttime, and insulin aspart 6 units with breakfast, 6 units with lunch and 8 units with dinner.  She denies any sweats, confusion, jitteriness.  She brings her meter with her today, which shows fasting AM blood sugars of 170-190, with post-prandial sugars of 120-150.
+A 19 yo woman with Type 1 DM on insulin presents to your clinic for routine follow up. She was diagnosed with Type 1 DM 3 months ago, and she is currently taking insulin glargine 32 units at nighttime, and insulin aspart 6 units with breakfast, 6 units with lunch and 8 units with dinner. She denies any sweats, confusion, jitteriness. She brings her meter with her today, which shows fasting AM blood sugars of 170-190, with post-prandial sugars of 120-150.
 What is the glucose target goal for this patient?
 
 --- CHUNK BREAK ---
 
 [ADA Recommended Goals of Therapy]
-Test, 1 = Goals. HgA1c, 1 = <7% (checked every 3 months). Preprandial plasma glucose, 1 = 80-130 mg/dl. Peak Postprandial plasma glucose, 1 = <180 mg/dl. Blood pressure, 1 = <140/90mmHg. Lipid, 1 = Check every 1-2 years. Eye, 1 = Yearly exam. Feet, 1 = Every visit exam. Urinary microalbumin, 1 = Yearly
+UNIVEI
+Test, 1 = Goals. HgA1c, 1 = <7% (checked every 3 months). Preprandial plasma glucose, 1 = 80-130 mg/dl. Peak Postprandial plasma glucose, 1 = <180 mg/dl. Blood pressure, 1 = <140/90 mmHg. Lipid, 1 = Check every 1-2 years. Eye, 1 = Yearly exam. Feet, 1 = Every visit exam. Urinary microalbumin, 1 = Yearly
+COLLEGE
 
 --- CHUNK BREAK ---
 
@@ -92,81 +87,35 @@ Treatment of type 1 diabetes will involve one or more forms of insulin while reg
 - Sulfonylureas
 - Meglitinides*
 - Amylin analogue (pramlintide)*
-- 𝛼 -glucosidase inhibitors (acarbose)*
+- 𝛼-glucosidase inhibitors (acarbose)*
 - Dopamine agonists (bromocriptine)*
 - Bile acid sequestrants (colesevelam)*
 *Infrequently used but FDA-approved.
-Gut
-UNIVERSITY OF ILLINOIS
-COLLEGE OF MEDICINE
 
 --- CHUNK BREAK ---
 
-[Target Sites of Anti-Diabetic Agents]
-Sulfonyl
-Biguanides
+[Which agent to start --- think about the patient's co-morbidities]
+ASCVD coronary artery disease, cerebrovascular disease, or peripheral arterial disease, CKD eGFR < 60 ml/min/1.73 m² or albumin-to-creatinine ratio (ACR) ≥ 30 mg/g, HF reduced LVEF < 40% (HFrEF), mildly reduced LVEF 40-49% (HFmrEF), and preserved LVEF > 50% (HFpEF), DSMES diabetes self-management education and support, MNT medical nutrition therapy, SMART specific measurable achievable relevant time-bound
 
 --- CHUNK BREAK ---
 
-[Which agent to start --think about the patient's co -morbidities]
-Refer for
-DSMES, MNT,
-Pharmacotherapy for T2DM
-Identify social determinants
-and barriers
-Monitor:
-glycemic status, pressure, lipids,
-weight, blood renal function
-ASCVD coronary artery disease, cerebrovascular disease, or peripheral arterial disease, CKD eGFR < 60 ml/min/1.73 mª or albumin-to-creatinine ratio (ACR) ≥ 30 mg/g,
-HF reduced LVEF < 40% (HFrEF), mildly reduced LVEF 40-49% (HFmrEF), and preserved LVEF > 50% (HFpEF), DSMES diabetes self-management education and support,
-MNT medical nutrition therapy, SMART specific measurable achievable relevant time-bound
-Drugs that reduce
-insulin resistance
-Drugs that stimulate
-insulin release
-Drug category
-Drug names
-Biguanides
-Thiazolidinediones Rosiglitazone,
-GLP-1 agonists
-DPP-4 inhibitors
-Sulfonylureas
-Meglitinides
-Mechanism
-Strengths/
-uses
-Adverse effects
+[Which agent to start --- think about the patient's co-morbidities]
+Drugs that reduce insulin resistance, Drug category = Biguanides. Drugs that reduce insulin resistance, Drug names = Metformin. Drugs that reduce insulin resistance, Mechanism = Stimulate GLUT4, ↑ gluconeogenesis, ↓ gut glucose reabsorption. Drugs that reduce insulin resistance, Strengths/ uses = First-choice. Drugs that reduce insulin resistance, Adverse effects = Lactic acidosis (rare), GI upset. , Drug category = Thiazolidinediones. , Drug names = Rosiglitazone, pioglitazone. , Mechanism = ↑PPAR-γ, causing cells to store fatty acids and take up glucose. , Strengths/ uses = Can't take metformin. , Adverse effects = Fluid retention, bladder cancer. Drugs that stimulate insulin release, Drug category = GLP-1 agonists. Drugs that stimulate insulin release, Drug names = Exenatide, liraglutide, dulaglutide. Drugs that stimulate insulin release, Mechanism = Bind to GLP-1 receptor, ↓ gastric emptying. Drugs that stimulate insulin release, Strengths/ uses = Cardiovascular disease, weight loss. Drugs that stimulate insulin release, Adverse effects = GI upset, acute
 
 --- CHUNK BREAK ---
 
-[Which agent to start --think about the patient's co -morbidities]
-pioglitazone, Stimulate GLUT4, = gluconeogenesis, + gut glucose reabsorption IPPAR-Y, causing cells to. pioglitazone, First-choice drug = Can't take metformin. pioglitazone, Lactic acidosis (rare), GI = upset Fluid retention,. Exenatide, liraglutide,, Stimulate GLUT4, = store fatty acids and take up glucose Bind to GLP-1 receptor, +. Exenatide, liraglutide,, First-choice drug = disease,. Exenatide, liraglutide,, Lactic acidosis (rare), GI = bladder cancer Cardiovascular GI upset, acute. dulaglutide Sitagliptin, linagliptin,, Stimulate GLUT4, = gastric emptying weight loss Inhibit DPP-4, increase GLP-1. dulaglutide Sitagliptin, linagliptin,, First-choice drug = Weight neutral. dulaglutide Sitagliptin, linagliptin,,
+[Which agent to start --- think about the patient's co-morbidities]
+pancreatitis. , Drug category = DPP-4 inhibitors. , Drug names = Sitagliptin, linagliptin, saxagliptin. , Mechanism = Inhibit DPP-4, increase GLP-1. , Strengths/ uses = Weight neutral. , Adverse effects = Pancreatitis. , Drug category = Sulfonylureas. , Drug names = Glipizide, glyburide. , Mechanism = Depolarize β cells, causing calcium influx and ↑ insulin release. , Strengths/ uses = Inexpensive, time-tested. , Adverse effects = Hypoglycemia, weight gain. , Drug category = Meglitinides. , Drug names = Repaglinide, nateglinide. , Mechanism = . , Strengths/ uses = . , Adverse effects = Hypoglycemia, weight gain
 
 --- CHUNK BREAK ---
 
-[Which agent to start --think about the patient's co -morbidities]
-Lactic acidosis (rare), GI = pancreatitis Pancreatitis. saxagliptin Glipizide, glyburide, Stimulate GLUT4, = Depolarize B cells, causing. saxagliptin Glipizide, glyburide, First-choice drug = Inexpensive, time-tested. saxagliptin Glipizide, glyburide, Lactic acidosis (rare), GI = Hypoglycemia, weight gain. Repaglinide, nateglinide, Stimulate GLUT4, = calcium influx and t insulin release. Repaglinide, nateglinide, First-choice drug = . Repaglinide, nateglinide, Lactic acidosis (rare), GI = Hypoglycemia, weight gain
-Drugs that increase
-renal glucose
-excretion
-Drugs that Amylin analog emptying
-slow gastric
-Drugs that a-Glucosidase inhibit GI
-carbohydrate absorption
-SGLT2 inhibitors
-Canagliflozin, 1 Proximal dapagliflozin,
+[Which agent to start --- think about the patient's co-morbidities]
+Drugs that increase renal glucose excretion, 1 = SGLT2 inhibitors. Drugs that increase renal glucose excretion, 2 = Canagliflozin, dapagliflozin, empagliflozin. Drugs that increase renal glucose excretion, 3 = ↓Proximal tubule glucose reabsorption. Drugs that increase renal glucose excretion, 4 = Cardio- vascular disease, weight loss. Drugs that increase renal glucose excretion, 5 = Dehydration, urinary tract infections, euglycemic diabetic ketoacidosis. Drugs that slow gastric emptying, 1 = Amylin analog. Drugs that slow gastric emptying, 2 = Pramlintide. Drugs that slow gastric emptying, 3 = ↓ Glucagon secretion, ↓ gastric emptying, cause sense of satiety. Drugs that slow gastric emptying, 4 = . Drugs that slow gastric emptying, 5 = GI upset. Drugs that inhibit GI carbohydrate absorption, 1 = a-Glucosidase inhibitors. Drugs that inhibit GI carbohydrate absorption, 2 = Acarbose, miglitol. Drugs
 
 --- CHUNK BREAK ---
 
-[Which agent to start --think about the patient's co -morbidities]
-empagliflozin tubule glucose
-reabsorption
-Cardio- vascular
-disease,
-Dehydration, urinary tract
-infections,
-+ Glucagon, 1 = euglycemic diabetic ketoacidosis GI upset. emptying, cause sense of satiety Inhibit a- glucosidase and pancreatic a- amylase, 1 = Flatulence
-weight loss
+[Which agent to start --- think about the patient's co-morbidities]
+that inhibit GI carbohydrate absorption, 3 = Inhibit a- glucosidase and pancreatic α- amylase. Drugs that inhibit GI carbohydrate absorption, 4 = . Drugs that inhibit GI carbohydrate absorption, 5 = Flatulence
 
 --- CHUNK BREAK ---
 
@@ -180,7 +129,7 @@ Which of the following drugs is most likely to produce the largest decrease in h
 
 --- CHUNK BREAK ---
 
-[Question -answer]
+[Question - answer]
 Which of the following drugs is most likely to produce the largest decrease in hemoglobin A1c?
 - A. pramlintide
 - B. glyburide
@@ -188,12 +137,6 @@ Which of the following drugs is most likely to produce the largest decrease in h
 - >2% HgA1c reduction (if the blood sugar is very high, insulin is best)
 - D. metformin
 - E. acarbose
-
---- CHUNK BREAK ---
-
-[Group 1: Insulin Therapy]
-UNIVERSITY OF ILLINOIS
-COLLEGE OF MEDICINE
 
 --- CHUNK BREAK ---
 
@@ -205,94 +148,62 @@ Feb. 15, 1923
 
 [Normal Insulin Secretion]
 Time (Hours)
-UNIVERSITY OF ILLINOIS
-COLLEGE OF MEDICINE
-Gly Glu Leu
-Ser)
-Gin
-Lys
-Arg
-A chain
-Gly) (Ile (Val) GIu Gin
-1
-B chain
-Phe Val (Asn
-Gin His Leu Cys)
-1
-3
 Source: Bertram G. Katzung:
+Copyright ©McGraw-Hill Education. All rights reserved.
 Basic & Clinical Pharmacology, Fourteenth Edition
-C-peptide
-ProX
-Ala Leu ProGin Leu Ser Cly Ala Gly
-Gly Gly Gly) Leu
-Copyright © McGraw-Hill Education. All rights reserved.
 Structure of human proinsulin (C-peptide plus A and B chains) and insulin. Insulin is shown as the shaded (orange color) peptide chains, A and B. Differences in the A and B chains
 
 --- CHUNK BREAK ---
 
 [Pharmacology of Insulin]
-- Insulin preparations differ in:  onset and duration of action
-- Humulins:  recombinant DNA synthesis of human insulin
+- Insulin preparations differ in: onset and duration of action
+- Humulins: recombinant DNA synthesis of human insulin
 - Insulin rapidly metabolized, not given orally
 - Insulin preps classified as ultra-rapid-, rapid-, short-, intermediate- or long-acting
 - duration prolonged by conjugation with protein, crystallization with zinc, or AA substitutions
 - Effect on Weight: Increase
 - HbA1c: > 2% reduction (most effective)
 - Side effects: hypoglycemia, weight gain, injection site discomfort
-UNIVERSITY OF ILLINOIS
-COLLEGE OF MEDICINE
-Glucose infusion rate (mg/kg/min)
 
 --- CHUNK BREAK ---
 
 [Pharmacokinetic Profiles of Insulins]
-Regular
-L
-1
-2
-3
-4
-5
 Source: Bertram G. Katzung:
 Basic & Clinical Pharmacology, Fourteenth Edition
-Copyright © McGraw-Hill Education. All rights reserved.
-Extent and duration of action of various types of insulin as indicated by the glucose infusion rates (mg/kg/min) required to maintain a constant glucose concentration. The durations of action shown are typical of an average dose of 0.2 -0.3 U/kg. The durations of regular and NPH insulin increase considerably when dosage is increased.
-3
-1
+Copyright ©McGraw-Hill Education. All rights reserved.
+Extent and duration of action of various types of insulin as indicated by the glucose infusion rates (mg/kg/min) required to maintain a constant glucose concentration. The durations of action shown are typical of an average dose of 0.2-0.3 U/kg. The durations of regular and NPH insulin increase considerably when dosage is increased.
 24
 
 --- CHUNK BREAK ---
 
 [Insulins: Time Course of Action of Human Insulin Preparations]
-Rapid acting analogs Lispro/Aspart/Glulisine, Onset of Action (h) = <0.25. Rapid acting analogs Lispro/Aspart/Glulisine, Peak Action (h) = 0.5-1.5. Rapid acting analogs Lispro/Aspart/Glulisine, Effective Duration of Action (h) = 2-4. Rapid acting analogs Lispro/Aspart/Glulisine, Maximum Duration of Action (h) = 4-6. Short acting, Onset of Action (h) = . Short acting, Peak Action (h) = . Short acting, Effective Duration of Action (h) = . Short acting, Maximum Duration of Action (h) = . Regular (soluble), Onset of Action (h) = 0.5-1. Regular (soluble), Peak Action (h) = 2-3. Regular (soluble), Effective Duration of Action (h) = 3-6. Regular (soluble), Maximum Duration of Action (h) = 6-8. Regular U-500, Onset of Action (h) =
+Rapid acting analogs Lispro/Aspart/Glulisine, Onset of Action (h) = <0.25. Rapid acting analogs Lispro/Aspart/Glulisine, Peak Action (h) = 0.5-1.5. Rapid acting analogs Lispro/Aspart/Glulisine, Effective Duration of Action (h) = 2-4. Rapid acting analogs Lispro/Aspart/Glulisine, Maximum Duration of Action (h) = 4-6. Short acting, Onset of Action (h) = . Short acting, Peak Action (h) = . Short acting, Effective Duration of Action (h) = . Short acting, Maximum Duration of Action (h) = . Regular (soluble), Onset of Action (h) = 0.5-1. Regular (soluble), Peak Action (h) = 2-3. Regular (soluble), Effective Duration of Action (h) = 3-6. Regular (soluble), Maximum Duration of Action (h) = 6-8. Regular U-500, Onset of Action (h) = 0.5-1. Regular U-500, Peak Action
 
 --- CHUNK BREAK ---
 
 [Insulins: Time Course of Action of Human Insulin Preparations]
-0.5-1. Regular U-500, Peak Action (h) = 2-3. Regular U-500, Effective Duration of Action (h) = 12-24. Regular U-500, Maximum Duration of Action (h) = >24. Intermediate acting NPH (isophane), Onset of Action (h) = 2-4. Intermediate acting NPH (isophane), Peak Action (h) = 4-10. Intermediate acting NPH (isophane), Effective Duration of Action (h) = 10-16. Intermediate acting NPH (isophane), Maximum Duration of Action (h) = 14-18. Long acting - basal analogs Glargine Detemir, Onset of Action (h) = 1-2. Long acting - basal analogs Glargine Detemir, Peak Action (h) = None relatively flat. Long acting - basal analogs Glargine Detemir, Effective Duration of Action (h) = >24. Long acting - basal analogs Glargine Detemir, Maximum Duration of Action (h) = Unknown. , Onset of Action (h) =
+(h) = 2-3. Regular U-500, Effective Duration of Action (h) = 12-24. Regular U-500, Maximum Duration of Action (h) = >24. Intermediate acting NPH (isophane), Onset of Action (h) = 2-4. Intermediate acting NPH (isophane), Peak Action (h) = 4-10. Intermediate acting NPH (isophane), Effective Duration of Action (h) = 10-16. Intermediate acting NPH (isophane), Maximum Duration of Action (h) = 14-18. Long acting - basal analogs Glargine Detemir, Onset of Action (h) = 1-2. Long acting - basal analogs Glargine Detemir, Peak Action (h) = None relatively flat. Long acting - basal analogs Glargine Detemir, Effective Duration of Action (h) = >24 16-20. Long acting - basal analogs Glargine Detemir, Maximum Duration of Action (h) = Unknown. , Onset of Action (h) = 1-2. , Peak Action (h) = . , Effective Duration of Action (h) =
 
 --- CHUNK BREAK ---
 
 [Insulins: Time Course of Action of Human Insulin Preparations]
-1-2. , Peak Action (h) = . , Effective Duration of Action (h) = 16-20. , Maximum Duration of Action (h) = 20-24. Degludec, Onset of Action (h) = 1-2. Degludec, Peak Action (h) = None. Degludec, Effective Duration of Action (h) = 28-36. Degludec, Maximum Duration of Action (h) = >36. Inhaled Insulin Afrezza, Onset of Action (h) = <0.25. Inhaled Insulin Afrezza, Peak Action (h) = 0.5-1. Inhaled Insulin Afrezza, Effective Duration of Action (h) = 2-3. Inhaled Insulin Afrezza, Maximum Duration of Action (h) = 4-6
-Most Combination products AM doses  affect pre lunch and predinner  sugars PM doses affect bedtime and AM fasting sugars
+. , Maximum Duration of Action (h) = 20-24. Degludec Inhaled Insulin Afrezza, Onset of Action (h) = 1-2 <0.25. Degludec Inhaled Insulin Afrezza, Peak Action (h) = None 0.5-1. Degludec Inhaled Insulin Afrezza, Effective Duration of Action (h) = 28-36 2-3. Degludec Inhaled Insulin Afrezza, Maximum Duration of Action (h) = >36 4-6
+Most Combination products AM doses affect pre lunch and predinner sugars PM doses affect bedtime and AM fasting sugars
 
 --- CHUNK BREAK ---
 
 [Insulins: Time Course of Action of Human Insulin Preparations]
-Combinations, Onset of Action (h) = . Combinations, Peak Action (h) = . Combinations, Effective Duration of Action (h) = . Combinations, Maximum Duration of Action (h) = . 70/30 (70% NPH, 30% regular) Humolog 75/25 (75% NPL, 25% lispro), Onset of Action (h) = 0.5-1 0.25. 70/30 (70% NPH, 30% regular) Humolog 75/25 (75% NPL, 25% lispro), Peak Action (h) = Dual Dual. 70/30 (70% NPH, 30% regular) Humolog 75/25 (75% NPL, 25% lispro), Effective Duration of Action (h) = 10-16 10-16. 70/30 (70% NPH, 30% regular) Humolog 75/25 (75% NPL, 25% lispro), Maximum Duration of Action (h) = 14-18 14-18. Humolog 50/50, Onset of Action (h) = 0.25. Humolog
+Combinations, Onset of Action (h) = . Combinations, Peak Action (h) = . Combinations, Effective Duration of Action (h) = . Combinations, Maximum Duration of Action (h) = . 70/30 (70% NPH, 30% regular) Humolog 75/25 (75% NPL, 25% lispro), Onset of Action (h) = 0.5-1 0.25. 70/30 (70% NPH, 30% regular) Humolog 75/25 (75% NPL, 25% lispro), Peak Action (h) = Dual Dual. 70/30 (70% NPH, 30% regular) Humolog 75/25 (75% NPL, 25% lispro), Effective Duration of Action (h) = 10-16 10-16. 70/30 (70% NPH, 30% regular) Humolog 75/25 (75% NPL, 25% lispro), Maximum Duration of Action (h) = 14-18 14-18. Humolog 50/50, Onset of Action (h) = 0.25. Humolog 50/50, Peak Action (h) =
 
 --- CHUNK BREAK ---
 
 [Insulins: Time Course of Action of Human Insulin Preparations]
-50/50, Peak Action (h) = Dual. Humolog 50/50, Effective Duration of Action (h) = 10-16. Humolog 50/50, Maximum Duration of Action (h) = 14-18. (50% NPL, 50% lispro) Novolog 70/30 (70% NPA, 30% aspart), Onset of Action (h) = 0.25. (50% NPL, 50% lispro) Novolog 70/30 (70% NPA, 30% aspart), Peak Action (h) = Dual. (50% NPL, 50% lispro) Novolog 70/30 (70% NPA, 30% aspart), Effective Duration of Action (h) = 10-16. (50% NPL, 50% lispro) Novolog 70/30 (70% NPA, 30% aspart), Maximum Duration of Action (h) = 14-18. Ryzodeg 70/30 (70% degludec, 30% aspart), Onset of Action (h) =
+Dual. Humolog 50/50, Effective Duration of Action (h) = 10-16. Humolog 50/50, Maximum Duration of Action (h) = 14-18. (50% NPL, 50% lispro) Novolog 70/30 (70% NPA, 30% aspart), Onset of Action (h) = 0.25. (50% NPL, 50% lispro) Novolog 70/30 (70% NPA, 30% aspart), Peak Action (h) = Dual. (50% NPL, 50% lispro) Novolog 70/30 (70% NPA, 30% aspart), Effective Duration of Action (h) = 10-16. (50% NPL, 50% lispro) Novolog 70/30 (70% NPA, 30% aspart), Maximum Duration of Action (h) = 14-18. Ryzodeg 70/30 (70% degludec, 30% aspart), Onset of Action (h) = 0.25. Ryzodeg 70/30 (70% degludec, 30%
 
 --- CHUNK BREAK ---
 
 [Insulins: Time Course of Action of Human Insulin Preparations]
-0.25. Ryzodeg 70/30 (70% degludec, 30% aspart), Peak Action (h) = Dual. Ryzodeg 70/30 (70% degludec, 30% aspart), Effective Duration of Action (h) = >24. Ryzodeg 70/30 (70% degludec, 30% aspart), Maximum Duration of Action (h) = >36. Fiasp U-100 (Insulin aspart combined with, Onset of Action (h) = 0-0.05 niacinamide. Fiasp U-100 (Insulin aspart combined with, Peak Action (h) = 0.5-1.0 for rapid. Fiasp U-100 (Insulin aspart combined with, Effective Duration of Action (h) = 2-4 absorption). Fiasp U-100 (Insulin aspart combined with, Maximum Duration of Action (h) = 2-4
-UNIVERSITY OF ILLINOIS
+aspart), Peak Action (h) = Dual. Ryzodeg 70/30 (70% degludec, 30% aspart), Effective Duration of Action (h) = >24. Ryzodeg 70/30 (70% degludec, 30% aspart), Maximum Duration of Action (h) = >36. Fiasp U-100 (Insulin aspart combined with, Onset of Action (h) = 0-0.05 niacinamide. Fiasp U-100 (Insulin aspart combined with, Peak Action (h) = 0.5-1.0 for rapid absorption). Fiasp U-100 (Insulin aspart combined with, Effective Duration of Action (h) = 2-4. Fiasp U-100 (Insulin aspart combined with, Maximum Duration of Action (h) = 2-4
 
 --- CHUNK BREAK ---
 
@@ -300,6 +211,7 @@ UNIVERSITY OF ILLINOIS
 Basal insulin ~50-60% TDD
 - Controls glucose production between meals and overnight
 - Near-constant levels
+十
 For ideal insulin replacement therapy, each component should come from a different insulin with a specific profile or via an insulin pump (with 1 insulin)
 Bolus insulin ~40-50% TDD
 - Limits hyperglycemia after meals
@@ -321,66 +233,64 @@ Bolus insulin ~40-50% TDD
 - Immediate rise and sharp peak at 1 hour
 - 10% to 20% of total daily insulin requirement at each meal
 Ideally, for insulin replacement therapy, each component should come from a different insulin with a specific profile…or is delivered with a system that allows for physiological matching.
+UNIVERSITY OF ILLINOIS
 
 --- CHUNK BREAK ---
 
 [Basal/Bolus Treatment]
 4:00
+UNIVERSITY OF ILLINOIS
+COLLEGE OF MEDICINE
 29
 
 --- CHUNK BREAK ---
 
 [Question - Poll]
-A patient with long-standing type2DM is currently on 3 different oral hypoglycemic medications and on both basal and bolus insulins.  Recent HgA1c continues to be suboptimal at 9.2%.
+A patient with long-standing type2DM is currently on 3 different oral hypoglycemic medications and on both basal and bolus insulins. Recent HgA1c continues to be suboptimal at 9.2%.
 Which of the following insulins is the most appropriate to make adjustment for better glucose control?
 
 --- CHUNK BREAK ---
 
-[Question -answer]
-A patient with long-standing type2DM is currently on 3 different oral hypoglycemic medications and on both basal and bolus insulins.  Recent HgA1c continues to be suboptimal at 10.9%.
+[Question - answer]
+A patient with long-standing type2DM is currently on 3 different oral hypoglycemic medications and on both basal and bolus insulins. Recent HgA1c continues to be suboptimal at 10.9%.
 Which of the following insulins is the most appropriate to make adjustment for better glucose control?
-A. Bolus insulin
 
 --- CHUNK BREAK ---
 
 [Insulins: Time Course of Action of Human Insulin Preparations]
-Rapid acting analogs Lispro/Aspart/Glulisine, Onset of Action (h) = <0.25. Rapid acting analogs Lispro/Aspart/Glulisine, Peak Action (h) = 0.5-1.5. Rapid acting analogs Lispro/Aspart/Glulisine, Effective Duration of Action (h) = 2-4. Rapid acting analogs Lispro/Aspart/Glulisine, Maximum Duration of Action (h) = 4-6. Short acting, Onset of Action (h) = . Short acting, Peak Action (h) = . Short acting, Effective Duration of Action (h) = . Short acting, Maximum Duration of Action (h) = . Regular (soluble), Onset of Action (h) = 0.5-1. Regular (soluble), Peak Action (h) = 2-3. Regular (soluble), Effective Duration of Action (h) = 3-6. Regular (soluble), Maximum Duration of Action (h) = 6-8. Regular U-500, Onset of Action (h) =
+Rapid acting analogs Lispro/Aspart/Glulisine, Onset of Action (h) = <0.25. Rapid acting analogs Lispro/Aspart/Glulisine, Peak Action (h) = 0.5-1.5. Rapid acting analogs Lispro/Aspart/Glulisine, Effective Duration of Action (h) = 2-4. Rapid acting analogs Lispro/Aspart/Glulisine, Maximum Duration of Action (h) = 4-6. Short acting, Onset of Action (h) = . Short acting, Peak Action (h) = . Short acting, Effective Duration of Action (h) = . Short acting, Maximum Duration of Action (h) = . Regular (soluble), Onset of Action (h) = 0.5-1. Regular (soluble), Peak Action (h) = 2-3. Regular (soluble), Effective Duration of Action (h) = 3-6. Regular (soluble), Maximum Duration of Action (h) = 6-8. Regular U-500, Onset of Action (h) = 0.5-1. Regular U-500, Peak Action
 
 --- CHUNK BREAK ---
 
 [Insulins: Time Course of Action of Human Insulin Preparations]
-0.5-1. Regular U-500, Peak Action (h) = 2-3. Regular U-500, Effective Duration of Action (h) = 12-24. Regular U-500, Maximum Duration of Action (h) = >24. Intermediate acting NPH (isophane), Onset of Action (h) = 2-4. Intermediate acting NPH (isophane), Peak Action (h) = 4-10. Intermediate acting NPH (isophane), Effective Duration of Action (h) = 10-16. Intermediate acting NPH (isophane), Maximum Duration of Action (h) = 14-18. Long acting - basal analogs Glargine Detemir, Onset of Action (h) = 1-2 1-2. Long acting - basal analogs Glargine Detemir, Peak Action (h) = None relatively flat. Long acting - basal analogs Glargine Detemir, Effective Duration of Action (h) = >24 16-20. Long acting - basal analogs Glargine Detemir, Maximum Duration of Action (h) = Unknown
+(h) = 2-3. Regular U-500, Effective Duration of Action (h) = 12-24. Regular U-500, Maximum Duration of Action (h) = >24. Intermediate acting NPH (isophane), Onset of Action (h) = 2-4. Intermediate acting NPH (isophane), Peak Action (h) = 4-10. Intermediate acting NPH (isophane), Effective Duration of Action (h) = 10-16. Intermediate acting NPH (isophane), Maximum Duration of Action (h) = 14-18. Long acting - basal analogs Glargine Detemir, Onset of Action (h) = 1-2 1-2. Long acting - basal analogs Glargine Detemir, Peak Action (h) = None relatively flat. Long acting - basal analogs Glargine Detemir, Effective Duration of Action (h) = >24 16-20. Long acting - basal analogs Glargine Detemir, Maximum Duration of Action (h) = Unknown 20-24. Degludec, Onset of Action (h) = 1-2. Degludec, Peak Action
 
 --- CHUNK BREAK ---
 
 [Insulins: Time Course of Action of Human Insulin Preparations]
-20-24. Degludec, Onset of Action (h) = 1-2. Degludec, Peak Action (h) = None. Degludec, Effective Duration of Action (h) = 28-36. Degludec, Maximum Duration of Action (h) = >36. Inhaled Insulin, Onset of Action (h) = . Inhaled Insulin, Peak Action (h) = . Inhaled Insulin, Effective Duration of Action (h) = . Inhaled Insulin, Maximum Duration of Action (h) = . Afrezza, Onset of Action (h) = <0.25. Afrezza, Peak Action (h) = 0.5-1. Afrezza, Effective Duration of Action (h) = 2-3. Afrezza, Maximum Duration of Action (h) = 4-6
-UNIVERSITY OF ILLINOIS
-COLLEGE OF MEDICINE
-NovoPen® 3
+(h) = None. Degludec, Effective Duration of Action (h) = 28-36. Degludec, Maximum Duration of Action (h) = >36. Inhaled Insulin, Onset of Action (h) = . Inhaled Insulin, Peak Action (h) = . Inhaled Insulin, Effective Duration of Action (h) = . Inhaled Insulin, Maximum Duration of Action (h) = . Afrezza, Onset of Action (h) = <0.25. Afrezza, Peak Action (h) = 0.5-1. Afrezza, Effective Duration of Action (h) = 2-3. Afrezza, Maximum Duration of Action (h) = 4-6
 
 --- CHUNK BREAK ---
 
 [Insulin Delivery Systems]
 Injectors
 Injection Aids
-Pen delivery
+Pen delivery Insulin Pump
 Medtronics Diabetes / AP
-Insulin Pump
 
 --- CHUNK BREAK ---
 
 [What's Wrong with these Values?]
-TJ is a 52-year-old male with type 1 diabetes and hyperlipidemia presents to the clinic for DM follow-up.  He denies of any complaints. Patient is on multiple medications including glargine insulin and lispro insulin before meals. He brings in home glucose readings as shown here.  HgA1c 9.1%.
+TJ is a 52-year-old male with type 1 diabetes and hyperlipidemia presents to the clinic for DM follow-up. He denies of any complaints. Patient is on multiple medications including glargine insulin and lispro insulin before meals. He brings in home glucose readings as shown here. HgA1c 9.1%.
 What is the most appropriate recommendation for this patient?
 150, After Break- fast = 142. 150, Befor e Lunc h = 90. 150, After Lunch = 226. 150, Before Dinne r = 101. 150, After Dinn er = . 150, Bed- Time = 206. 166, After Break- fast = . 166, Befor e Lunc h = 85. 166, After Lunch = 244. 166, Before Dinne r = 96. 166, After Dinn er = 199. 166, Bed- Time = . 158, After Break- fast = 132. 158, Befor e Lunc h = . 158, After Lunch = 238. 158, Before Dinne r = . 158, After Dinn er = . 158, Bed- Time = 198
 
 --- CHUNK BREAK ---
 
 [What's Wrong with these Values? - Answer]
-TJ is a 52-year-old male with type 1 diabetes and hyperlipidemia presents to the clinic for DM follow-up.  He denies of any complaints.  Patient is on multiple medications including glargine insulin and lispro insulin before meals.  He brings in home glucose readings as shown here.  HgA1c 9.1%.
+TJ is a 52-year-old male with type 1 diabetes and hyperlipidemia presents to the clinic for DM follow-up. He denies of any complaints. Patient is on multiple medications including glargine insulin and lispro insulin before meals. He brings in home glucose readings as shown here. HgA1c 9.1%.
 What is the most appropriate recommendation for this patient?
-Answer:  increase lispro (bolus insulin) since post meals are elevated.  Pre-meals are normal
+Answer: increase lispro (bolus insulin) since post meals are elevated. Pre-meals are normal
 
 --- CHUNK BREAK ---
 
@@ -393,32 +303,26 @@ Answer:  increase lispro (bolus insulin) since post meals are elevated.  Pre-mea
 Commonly use Agents: Glyburide, Glipizide, Glimepiride
 MOA: Enhances Insulin Secretion by closing K-ATP channels on Beta cell membranes
 Kinetic: eliminated renally
-Effect on Weight:
-Increased (~2kg)
+Effect on Weight: Increased (~2kg)
 HbA1c: up to 1.5% reduction
 
 --- CHUNK BREAK ---
 
 [Major Side Effect: Hypoglycemia]
-- Esp is 1 st and 2 nd  generation agents (ex: glyburide)
-- Hypoglycemia is worse in elderly or with liver/ renal insufficiency
+- Esp is 1 st and 2 nd generation agents (ex: glyburide)
+- Hypoglycemia is worse in elderly or with liver/renal insufficiency
 - Hypoglycemia can be prolonged and severe requiring hospitalization (esp with glyburide!)
 - Less hypoglycemia with glimepiride & glipizide
 
 --- CHUNK BREAK ---
 
 [Major Side Effect: Hypoglycemia]
-FIRST GENERATION, Daily Dose Range (Average) = . FIRST GENERATION, Elimination Half-life (Hours) = . FIRST GENERATION, Duration of Action (Hours) = . FIRST GENERATION, Potency = . Chlorpropamide, Daily Dose Range (Average) = 100 mg-500 mg (250 mg). Chlorpropamide, Elimination Half-life (Hours) = 30-36. Chlorpropamide, Duration of Action (Hours) = 2-3 days. Chlorpropamide, Potency = +++. Tolazamide, Daily Dose Range (Average) = 100 mg-1 g (250 mg). Tolazamide, Elimination Half-life (Hours) = 4.7-8. Tolazamide, Duration of Action (Hours) = 10-14. Tolazamide, Potency = +++. Tolbutamide, Daily Dose Range (Average) = 500 mg-2 g (2 g). Tolbutamide, Elimination Half-life (Hours) = 4-8. Tolbutamide, Duration of Action (Hours) = 6-12. Tolbutamide, Potency =
+FIRST GENERATION, Daily Dose Range (Average) = . FIRST GENERATION, Elimination Half-life (Hours) = . FIRST GENERATION, Duration of Action (Hours) = . FIRST GENERATION, Potency = . Chlorpropamide, Daily Dose Range (Average) = 100 mg-500 mg (250 mg). Chlorpropamide, Elimination Half-life (Hours) = 30-36. Chlorpropamide, Duration of Action (Hours) = 2-3 days. Chlorpropamide, Potency = +++. Tolazamide, Daily Dose Range (Average) = 100 mg-1 g (250 mg). Tolazamide, Elimination Half-life (Hours) = 4.7-8. Tolazamide, Duration of Action (Hours) = 10-14. Tolazamide, Potency = +++. Tolbutamide, Daily Dose Range (Average) = 500 mg-2 g (2 g). Tolbutamide, Elimination Half-life (Hours) = 4-8. Tolbutamide, Duration of Action (Hours) = 6-12. Tolbutamide, Potency = +. SECOND GENERATION, Daily Dose Range (Average)
 
 --- CHUNK BREAK ---
 
 [Major Side Effect: Hypoglycemia]
-+. SECOND GENERATION, Daily Dose Range (Average) = . SECOND GENERATION, Elimination Half-life (Hours) = . SECOND GENERATION, Duration of Action (Hours) = . SECOND GENERATION, Potency = . Glipizide, Daily Dose Range (Average) = 5 mg-30 mg (15-20 mg). Glipizide, Elimination Half-life (Hours) = 2-4. Glipizide, Duration of Action (Hours) = 10-24. Glipizide, Potency = ++++. Glyburide, Daily Dose Range (Average) = 1.25 mg-20 mg. Glyburide, Elimination Half-life (Hours) = 4.6-12. Glyburide, Duration of Action (Hours) = 10-24. Glyburide, Potency = ++++. Glimepiride, Daily Dose Range (Average) = 1 mg-8 mg. Glimepiride, Elimination Half-life (Hours) = ---. Glimepiride, Duration of Action (Hours) = 12-24. Glimepiride, Potency =
-
---- CHUNK BREAK ---
-
-[Major Side Effect: Hypoglycemia]
-++++
+= . SECOND GENERATION, Elimination Half-life (Hours) = . SECOND GENERATION, Duration of Action (Hours) = . SECOND GENERATION, Potency = . Glipizide, Daily Dose Range (Average) = 5 mg-30 mg (15-20 mg). Glipizide, Elimination Half-life (Hours) = 2-4. Glipizide, Duration of Action (Hours) = 10-24. Glipizide, Potency = ++++. Glyburide, Daily Dose Range (Average) = 1.25 mg-20 mg. Glyburide, Elimination Half-life (Hours) = 4.6-12. Glyburide, Duration of Action (Hours) = 10-24. Glyburide, Potency = ++++. Glimepiride, Daily Dose Range (Average) = 1 mg-8 mg. Glimepiride, Elimination Half-life (Hours) = ---. Glimepiride, Duration of Action (Hours) = 12-24. Glimepiride, Potency = ++++
 
 --- CHUNK BREAK ---
 
@@ -427,9 +331,8 @@ Agents: Repaglinide, Nateglinide
 MOA: enhances insulin secretion thru the K-ATP channels
 - Shorter duration of action than sulfonylureas
 Effect on Weight: Increase
-HbA1c: up to
-1.5% reduction (with repaglinide)
-Hypoglycemia : Yes (less than the SU's)
+HbA1c: up to 1.5% reduction (with repaglinide)
+Hypoglycemia: Yes (less than the SU's)
 
 --- CHUNK BREAK ---
 
@@ -443,14 +346,14 @@ A 52-year-old man with recently diagnosed type 2 diabetes mellitus comes to the 
 
 --- CHUNK BREAK ---
 
-[Question -answer]
+[Question - answer]
 A 52-year-old man with recently diagnosed type 2 diabetes mellitus comes to the physician for a follow-up examination. Physical examination shows no abnormalities. Laboratory studies show an increased hemoglobin A1c despite patient compliance with diet and exercise recommendations. Treatment with a sulfonylurea is started. Which of the following is most likely to occur in this patient?
 - A. Decreased entry of glucose into the muscle cells
 - B. Decreased secretion of insulin from the pancreas
 - C. Decreased speed of carbohydrate absorption from the intestines
 - D. Increased production of glucose from the liver
 - E. Increased secretion of insulin from the pancreas
-Group 3 -Drugs that Lower Glucose Levels by Actions on Liver, Muscle, Adipose tissue, and Brain
+Group 3 - Drugs that Lower Glucose Levels by Actions on Liver, Muscle, Adipose tissue, and Brain
 
 --- CHUNK BREAK ---
 
@@ -460,12 +363,12 @@ Agent: pioglitazone
 --- CHUNK BREAK ---
 
 [MOA:]
-- PPARϒ activators (peroxisome proliferator-activated receptor gamma) in adipocytes
+- PPAR-ϒ activators (peroxisome proliferator-activated receptor gamma) in adipocytes
 - Peripheral 'Insulin sensitizer': promotes fatty acid uptake peripherally
 - Increase muscle, fat and liver sensitivity to insulin by decreasing free fatty acids levels
-Effect on Weight: Increased ('but it's good fat')
+Effect on Weight: Increased ("but it's good fat")
 HbA1c: up to 0.5-1.4% reduction
-Side effects: risk of hypoglycemia, weight gain, fluid retention , hepatotoxicity
+Side effects: risk of hypoglycemia, weight gain, fluid retention, hepatotoxicity
 
 --- CHUNK BREAK ---
 
@@ -492,7 +395,7 @@ Effect on Weight: Decrease (3-4kg)*
 --- CHUNK BREAK ---
 
 [Side Effects:]
-- GI most common (nausea, vomiting, diarrhea), pancreatitis , cholecystitis
+- GI most common (nausea, vomiting, diarrhea), pancreatitis, cholecystitis
 - medullary thyroid cancer/ C cell hyperplasia in rats, no reported cases in humans at this time
 
 --- CHUNK BREAK ---
@@ -503,20 +406,14 @@ Effect on Weight: Decrease (3-4kg)*
 --- CHUNK BREAK ---
 
 [Hypoglycemia: minimal]
-TODAY
-UNIVERSITY OF ILLINOIS
-COLLEGE OF MEDICINE
+Profound loss of weight can lead to changes in appearance that some may view as undesirable.
 The weight loss is visible on Jeannine DellaVecchia's face. Courtesy Jeannine DellaVecchia
 Ozempic brand name for semaglutide
-Profound loss of weight can lead to changes in appearance that some may view as undesirable.
-ON THE SHOW SHOP WELLNESS PARENTS FOOD
-• TODAY all day
-Q
 
 --- CHUNK BREAK ---
 
 [DPP-IV inhibitors]
-Agents: Sitagliptin, Saxagliptin , Linagliptin, Alogliptin
+Agents: Sitagliptin, Saxagliptin, Linagliptin, Alogliptin
 MOA: Dipeptidyl peptidase-4 degrades GLP-1 and GIP (incretins), DPP-4 inhibitors enhance incretin effects
 HbA1c: reduced by up to 0.6-0.9%
 Weight: neutral
@@ -529,46 +426,36 @@ Agent: Pramlintide (Injectable synthetic analogue of the protein amylin)
 MOA: Slows gastric emptying, inhibits glucagon production, decreases postprandial glucose
 HbA1c: reduced up to 0.5-0.7%
 Side Effects: GI, nausea that abates with time, headache
-Weight loss:
-1-1.5kg
+Weight loss: 1-1.5kg
 For use with regular or rapid-acting insulin
 
 --- CHUNK BREAK ---
 
-[Biguanide]
-Agent:  Metformin
-
---- CHUNK BREAK ---
-
 [MOA:]
-- Decrease Hepatic Glucose Output
-- Decrease Intestinal Glucose Absorption
+- ◦Decrease Hepatic Glucose Output
+- ◦Decrease Intestinal Glucose Absorption
 - Insulin sensitizer
 
 --- CHUNK BREAK ---
 
 [Metformin]
-Effect on weight:
-Neutral
+Effect on weight: Neutral
 Hypoglycemia: None when used as monotherapy
-HbA1c: up to
-2.0% reduction
-Elimination:
-excreted unchanged in the urine
-Side Effects:
-Gastrointestinal, B12 deficiency, lactic acidosis (1/100,000 cases)
+HbA1c: up to 2.0% reduction
+Elimination: excreted unchanged in the urine
+Side Effects: Gastrointestinal, B12 deficiency, lactic acidosis (1/100,000 cases)
 
 --- CHUNK BREAK ---
 
 [Renal function considerations:]
-- eGFR 30-45 mL /minute/1.73 m 2 is not recommended  (contraindicated <30 mL/minute/1.73 m 2 )
+- eGFR 30-45 mL/minute/1.73 m 2 is not recommended (contraindicated <30 mL/minute/1.73 m 2 )
 - Recommended to hold for 48 hours before and after iodinated contrast media if eGFR is 30-60.
 
 --- CHUNK BREAK ---
 
 [Alpha-glucosidase inhibitors]
 Agents: acarbose, miglitol
-MOA:  inhibit alpha-glucosidase enzymes that convert complex carbohydrates into simple carbohydrates
+MOA: inhibit alpha-glucosidase enzymes that convert complex carbohydrates into simple carbohydrates
 HgA1c reduction: 0.3-1%
 Side effects: mainly GI related, minimal hypoglycemia
 
@@ -577,7 +464,7 @@ Side effects: mainly GI related, minimal hypoglycemia
 [Question - Poll]
 Drugs from which of the following classes are most likely to promote weight loss?
 - A. sulfonylureas
-- B. α -glucosidase inhibitors
+- B. α-glucosidase inhibitors
 - C. incretin mimetics
 - D. thiazolidinediones
 - E. synthetic insulins
@@ -587,7 +474,7 @@ Drugs from which of the following classes are most likely to promote weight loss
 [Question - answer]
 Drugs from which of the following classes are most likely to promote weight loss?
 - A. sulfonylureas
-- B. α -glucosidase inhibitors
+- B. α-glucosidase inhibitors
 - C. incretin mimetics
 - D. thiazolidinediones
 - E. synthetic insulins
@@ -595,7 +482,7 @@ Drugs from which of the following classes are most likely to promote weight loss
 --- CHUNK BREAK ---
 
 [Case - Poll]
-64yo M h/o DMII comes in for follow up.  He was diagnosed about 3 months ago, he is morbidly obese and having a difficult time losing weight.  Since diagnosis you have titrated him up to the maximum recommended dose of metformin.  His A1C is still 8.7%, with his logs revealing both elevated fasting and post-prandial sugars.  Which of the following is the next best step in management?
+64yo M h/o DMII comes in for follow up. He was diagnosed about 3 months ago, he is morbidly obese and having a difficult time losing weight. Since diagnosis you have titrated him up to the maximum recommended dose of metformin. His A1C is still 8.7%, with his logs revealing both elevated fasting and post-prandial sugars. Which of the following is the next best step in management?
 - A. rapid acting insulin with meals
 - B. stop the metformin
 - C. long-acting insulin once daily
@@ -605,8 +492,8 @@ Drugs from which of the following classes are most likely to promote weight loss
 --- CHUNK BREAK ---
 
 [Case - answer]
-64yo M h/o DMII comes in for follow up.  He was diagnosed about 3 months ago, he is morbidly obese and having a difficult time losing weight.  Since diagnosis you have titrated him up to the maximum recommended dose of metformin.  His A1C is still 8.7%, with his logs revealing both elevated fasting and post-prandial sugars.  Which of the following is the next best step in management?
-- A. rapid acting insulin with meals
+64yo M h/o DMII comes in for follow up. He was diagnosed about 3 months ago, he is morbidly obese and having a difficult time losing weight. Since diagnosis you have titrated him up to the maximum recommended dose of metformin. His A1C is still 8.7%, with his logs revealing both elevated fasting and post-prandial sugars. Which of the following is the next best step in management?
+A. rapid acting insulin with meals
 - B. stop the metformin
 - C. long-acting insulin once daily
 - D. acarbose
@@ -619,22 +506,22 @@ A 45-year-old woman presents to your office with a serum glucose of 250 mg/dL an
 - B. Na+ > 140
 - C. HCO3- > 30
 - D. Glucose > 300
-- E. eGFR  25 mL/minute/1.73 m 2
+- E. eGFR 25 mL/minute/1.73 m 2
 
 --- CHUNK BREAK ---
 
-[Question -answer]
+[Question - answer]
 A 45-year-old woman presents to your office with a serum glucose of 250 mg/dL and you diagnose diabetes mellitus type II. You intend to prescribe the patient metformin, but you decide to order laboratory tests before proceeding. Which of the following basic metabolic panel values would serve as a contraindication to the use of metformin?
 - A. K+ > 4.0
 - B. Na+ > 140
 - C. HCO3- > 30
 - D. Glucose > 300
-- E. eGFR  25 mL/minute/1.73 m 2
+- E. eGFR 25 mL/minute/1.73 m 2
 
 --- CHUNK BREAK ---
 
 [SGLT2 inhibitors]
-Agents: Canagliflozin, Dapagliflozin, Empagliflozin , Ertugliflozin, Bexagliflozin
+Agents: Canagliflozin, Dapagliflozin, Empagliflozin, Ertugliflozin, Bexagliflozin
 MOA: SGLT2 (sodium glucose transporter) responsible in reabsorption of glucose in proximal tubule of the kidney. SGLT2 inhibitors reduce glucose reabsorption, thus increasing glycosuria
 Effect on weight: 2- 3Kg reduction
 Hba1c: 0.5-1% reduction
@@ -659,7 +546,7 @@ In monotherapy, medication from which of the following classes is most likely to
 
 --- CHUNK BREAK ---
 
-[Question -answer]
+[Question - answer]
 In monotherapy, medication from which of the following classes is most likely to cause hypoglycemia as an adverse effect?
 - A. sulfonylurea
 - B. SGLT2 inhibitor
@@ -669,8 +556,8 @@ In monotherapy, medication from which of the following classes is most likely to
 
 --- CHUNK BREAK ---
 
-[Question -poll]
-A patient with history of long-standing type 2 DM, hypertension, depression, and gastroparesis. Her current A1c is 8.2% and she is unable to tolerate metformin due to gastroinstestinal side effects.  Which of the following agent is NOT the most appropriate option for this patient's diabetes care?
+[Question - poll]
+A patient with history of long-standing type 2 DM, hypertension, depression, and gastroparesis. Her current A1c is 8.2% and she is unable to tolerate metformin due to gastroinstestinal side effects. Which of the following agent is NOT the most appropriate option for this patient's diabetes care?
 A. liraglutide
 B. glipizide
 C. pioglitazone
@@ -678,8 +565,8 @@ D. canagliflozin
 
 --- CHUNK BREAK ---
 
-[Question -answer]
-A patient with history of long-standing type 2 DM, hypertension, depression, and gastroparesis. Her current A1c is 8.2% and she is unable to tolerate metformin due to gastroinstestinal side effects.  Which of the following agent is NOT the most appropriate option for this patient's diabetes care?
+[Question - answer]
+A patient with history of long-standing type 2 DM, hypertension, depression, and gastroparesis. Her current A1c is 8.2% and she is unable to tolerate metformin due to gastroinstestinal side effects. Which of the following agent is NOT the most appropriate option for this patient's diabetes care?
 
 --- CHUNK BREAK ---
 
@@ -691,7 +578,7 @@ D. canagliflozin
 --- CHUNK BREAK ---
 
 [Question - Poll]
-19yo F with DM I on insulin presents to your clinic for routine follow up.  She was diagnosed about 3 months ago, and she is currently taking insulin glargine 15 units at nighttime, and insulin aspart 6 units with breakfast, 6 units with lunch and 8 units with dinner.  She denies any sweats, confusion, jitteriness.  She brings her meter with her today, which shows fasting AM blood sugars of 170-190, with post-prandial sugars of 120-150.  How would you like to change her regimen?
+19yo F with DM I on insulin presents to your clinic for routine follow up. She was diagnosed about 3 months ago, and she is currently taking insulin glargine 15 units at nighttime, and insulin aspart 6 units with breakfast, 6 units with lunch and 8 units with dinner. She denies any sweats, confusion, jitteriness. She brings her meter with her today, which shows fasting AM blood sugars of 170-190, with post-prandial sugars of 120-150. How would you like to change her regimen?
 A. Increase her breakfast aspart to 8, lunch to 8 and dinner to 10 units
 - B. Start her on metformin
 - C. Start her on glipizide
@@ -701,78 +588,66 @@ A. Increase her breakfast aspart to 8, lunch to 8 and dinner to 10 units
 --- CHUNK BREAK ---
 
 [Question - Poll]
-19yo F with DM I on insulin presents to your clinic for routine follow up.  She was diagnosed about 3 months ago, and she is currently taking insulin glargine 15 units at nighttime, and insulin aspart 6 units with breakfast, 6 units with lunch and 8 units with dinner.  She denies any sweats, confusion, jitteriness.  She brings her meter with her today, which shows fasting AM blood sugars of 170-190, with post-prandial sugars of 120-150.  How would you like to change her regimen?
+19yo F with DM I on insulin presents to your clinic for routine follow up. She was diagnosed about 3 months ago, and she is currently taking insulin glargine 15 units at nighttime, and insulin aspart 6 units with breakfast, 6 units with lunch and 8 units with dinner. She denies any sweats, confusion, jitteriness. She brings her meter with her today, which shows fasting AM blood sugars of 170-190, with post-prandial sugars of 120-150. How would you like to change her regimen?
 A. Increase her breakfast aspart to 8, lunch to 8 and dinner to 10 units
 - B. Start her on metformin
 - C. Start her on glipizide
 - D. Increase her lunch aspart to 12 units
 - E. Increase her glargine to 18 units
-UNIVERSITY OF ILLINOIS
-COLLEGE OF MEDICINE
-HgbAle
-4
-Average Blood Sugar
-61
-92
 
 --- CHUNK BREAK ---
 
 [Relationship of average Blood Glucose to HbA1c]
-188
-6.6 and above - Diabetic
-The HbA1c test is a measure of the average long term Blood Glucose level because RBC's tend to remain in circulation for 100 to 120 days treatment should ideally have a
-11
-12
-314
-283
-HgbAle less than 7.0
-Interpretation
-5.6 and less -Normal
+The HbA1c test is a measure of the average long term Blood Glucose level because RBC's tend to remain in circulation for 100 to 120 days
 
 --- CHUNK BREAK ---
 
-[Figure 23-24]
-Lehninger Principles of Biochemistry, Sixth Edition
-© 2013 W.H. Freeman and Company
-76
+[Relationship of average Blood Glucose to HbA1c]
+4, Average Blood Sugar = 61. 4, Interpretation = 5.6 and less-Normal. 5, Average Blood Sugar = 92. 5, Interpretation = 5.6 and less-Normal. 6, Average Blood Sugar = 124. 6, Interpretation = 5.7-6.5 - Pre-diabetic. 7, Average Blood Sugar = 156. 7, Interpretation = 6.6 and above-Diabetic Diabetic patients under treatment should ideally have a HgbA1c less than 7.0. 8, Average Blood Sugar = 188. 8, Interpretation = 6.6 and above-Diabetic Diabetic patients under treatment should ideally have a HgbA1c less than 7.0. 9, Average Blood Sugar = 219. 9, Interpretation = 6.6 and above-Diabetic Diabetic patients under treatment should ideally have a HgbA1c less than 7.0. 10, Average Blood Sugar = 251. 10, Interpretation = 6.6 and above-Diabetic Diabetic patients under treatment should ideally have a HgbA1c less than 7.0. 11, Average Blood Sugar = 283. 11, Interpretation = 6.6 and above-Diabetic Diabetic patients
+
+--- CHUNK BREAK ---
+
+[Relationship of average Blood Glucose to HbA1c]
+under treatment should ideally have a HgbA1c less than 7.0. 12, Average Blood Sugar = 314. 12, Interpretation = 6.6 and above-Diabetic Diabetic patients under treatment should ideally have a HgbA1c less than 7.0
+
+--- CHUNK BREAK ---
+
+[Symptoms of moderate to severe hypoglycemia?]
+Copyi2 COLLEGE OF MEDICINE
 
 --- CHUNK BREAK ---
 
 [Classification of Hypoglycemia]
-Level 1 : A glucose alert value of 70 mg/dL or less.
-Level 2 : A glucose level of 54 mg/dL is sufficiently low to indicate potentially serious, clinically important hypoglycemia.
-Level 3 : Severe hypoglycemia, as defined by the ADA, denotes severe cognitive impairment requiring external assistance for recovery.
-Ibrahim M, Baker J, Cahn A, et al. Hypoglycemia and its management in primary care setting [published online ahead of print, 2020 Apr 28]. Diabetes Metab Res Rev . 2020;e3332. doi:10.1002/dmrr.3332
+Level 1: A glucose alert value of 70 mg/dL or less.
+Level 2: A glucose level of 54 mg/dL is sufficiently low to indicate potentially serious, clinically important hypoglycemia.
+Level 3: Severe hypoglycemia, as defined by the ADA, denotes severe cognitive impairment requiring external assistance for recovery.
+Ibrahim M, Baker J, Cahn A, et al. Hypoglycemia and its management in primary care setting [published online ahead of print, 2020 Apr 28]. Diabetes Metab Res Rev. 2020;e3332. doi:10.1002/dmrr.3332
 
 --- CHUNK BREAK ---
 
 [Hypoglycemia]
-- Common complication
-- Major limiting factors to optimal glycemic control
+- ◦Common complication
+- ◦Major limiting factors to optimal glycemic control
 
 --- CHUNK BREAK ---
 
 [Intervention]
-- 'rule of 15'
+- ◦"rule of 15"
 - 15 gram of fast-acting carbohydrates (1/2 cup of milk/juice/soda)
 - Check glucose in 15 minutes, if glucose below 70mg/dl, repeat
 - If glucose is above 70mg/dl, eat a normal snack or meal
-UNIVERSITY OF ILLINOIS
 
 --- CHUNK BREAK ---
 
 [Glucagon]
-Gvoke HypoPen®
-(glucagon injection)
 Indicated as a treatment for severe hypoglycemia, which may occur in patients with diabetes mellitus.
 Supplementary carbohydrate should be given as soon as possible, especially in pediatric patients.
 
 --- CHUNK BREAK ---
 
 [Case]
-A 67 y/o woman with uncontrolled type 2 DM despite maximal dosage of glucophage, pioglitazone,and insulin 70/30  35units qam, 28 units qpm, presents to the clinic and is wondering if any herbal supplement that will help control her diabetes?
-HgA1C is 9.2 today
-Herbal Supplements (extra information)
+A 67 y/o woman with uncontrolled type 2 DM despite maximal dosage of glucophage, pioglitazone,and insulin 70/30 35units qam, 28 units qpm, presents to the clinic and is wondering if any herbal supplement that will help control her diabetes?
+HgA1C is 9.2 today Herbal Supplements (extra information)
 
 --- CHUNK BREAK ---
 
@@ -825,7 +700,7 @@ Dosage: 15-40mg/day
 --- CHUNK BREAK ---
 
 [Gymnema]
-- native plant of India ' sugar blocker '
+- native plant of India "sugar blocker"
 - enhances endogenous insulin production
 - 400mg/day extract
 - reduces taste sensation of sweetness & bitterness
@@ -840,21 +715,21 @@ Dosage: 15-40mg/day
 --- CHUNK BREAK ---
 
 [Remember...]
-- Individualize treatment and glycemic goals to your patient
-- Always emphasize lifestyle changes
-- Review diabetic diet, low fat diet
-- Assess for medication adherence
-- Encourage weight loss and regular exercise (there is always some form exercise for everyone)
+- ·Individualize treatment and glycemic goals to your patient
+- ·Always emphasize lifestyle changes
+- ·Review diabetic diet, low fat diet
+- ·Assess for medication adherence
+- ·Encourage weight loss and regular exercise (there is always some form exercise for everyone)
 
 --- CHUNK BREAK ---
 
 [Key Points: Drugs for T2DM]
-- Metformin is the typical initial agent, provided there is no contraindication for its use or compelling reasons for an alternative agent
-- Multiple classes of agents are available as add-on agents or if metformin is not an option
-- Each class of anti-diabetes medications has its own good and bad features
-- Agents such as metformin, GLP-1R agonists, DPP-4 inhibitors, and SGLT2 inhibitors are weight neutral or have potential for weight loss
+- ·Metformin is the typical initial agent, provided there is no contraindication for its use or compelling reasons for an alternative agent
+- ·Multiple classes of agents are available as add-on agents or if metformin is not an option
+- ·Each class of anti-diabetes medications has its own good and bad features
+- ·Agents such as metformin, GLP-1R agonists, DPP-4 inhibitors, and SGLT2 inhibitors are weight neutral or have potential for weight loss
 
 --- CHUNK BREAK ---
 
 [Summary of Agents]
-Drug, 1 = Major Side Effects. Insulin, 1 = Acute hypoglycemia, weight gain. Sulfonylurea, 1 = Acute hypoglycemia, weight gain. TZD, 1 = Weight gain, edema, risk of bladder cancer (pioglitazone), hepatic failure. GLP-1R &GLP-1R/GIP-R agonists, 1 = Pancreatitis, cholelithiasis, theoretical risk of medullary thyroid cancer. DPP-4 inhibitor, 1 = Pancreatitis. Amylin analog, 1 = N/V, headache. Metformin, 1 = Lactic acidosis, N/V/D, B12 deficiency. Avoid in severe renal impairment.. SGLT2 Inhibitor, 1 = Increased urination, weight loss, hypotension, genital mycotic infection, UTI. Avoid in severe renal impairment.. Alpha-glucosidase inhibitor, 1 = GI
+Drug, 1 = Major Side Effects. Insulin, 1 = Acute hypoglycemia, weight gain. Sulfonylurea, 1 = Acute hypoglycemia, weight gain. TZD, 1 = Weight gain, edema, risk of bladder cancer (pioglitazone), hepatic failure. GLP-1R & GLP-1R/GIP-R agonists, 1 = Pancreatitis, cholelithiasis, theoretical risk of medullary thyroid cancer. DPP-4 inhibitor, 1 = Pancreatitis. Amylin analog, 1 = N/V, headache. Metformin, 1 = Lactic acidosis, N/V/D, B12 deficiency. Avoid in severe renal impairment.. SGLT2 Inhibitor, 1 = Increased urination, weight loss, hypotension, genital mycotic infection, UTI. Avoid in severe renal impairment.. Alpha-glucosidase inhibitor, 1 = GI

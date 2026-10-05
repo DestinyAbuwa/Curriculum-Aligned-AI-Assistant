@@ -23,6 +23,9 @@ htmlcov/
 # Linting
 .ruff_cache/
 
+# Local vector store (generated)
+discovery/embedding-retrieval-prototype/chroma_db/
+
 # Editors / OS
 .vscode/
 .idea/
