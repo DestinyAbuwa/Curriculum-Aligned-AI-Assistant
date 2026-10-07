@@ -65,7 +65,7 @@ for path in (BASE_DIR / "sample_pdfs").glob("*.*"):
         encoding="utf-8",
     )
 
-    # Plain text: easy to eyeball where the cuts landed
+    # Plain text: easy to eyeball where the cuts lannded
     (out_dir / f"{path.stem}_semantic.txt").write_text(
         "\n\n--- CHUNK BREAK ---\n\n".join(c.strip() for c in chunks),
         encoding="utf-8",
