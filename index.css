@@ -1,0 +1,259 @@
+import React, { useState, useRef, useEffect } from 'react';
+import {
+    Plus, 
+    Ribbon,
+    Paperclip,
+    Mic,
+    ArrowUp,
+    Circle, 
+    Menu,
+    X,
+    MessageSquare
+} from 'lucide-react';
+
+export  default function App(){
+    //tracks message input, sets boolean for sidebar open
+    const [inputMessage, setInputMessage] = useState('');
+    const [isSideBarOpen, setIsSideBarOpen] = useState(false);
+    const messagesEndRef = useRef(null);
+
+    //stores all threads in array and tracks current thread w id
+    const [threads, setThreads] = useState([]);
+    const [activeThreadId, setActiveThreadId] = useState(null);
+
+    const activeThread = threads.find((t) => t.id === activeThreadId);
+    
+    //scroll to message when called; smooth -> animated
+    const scrollToBottom = () => {
+        messagesEndRef.current?.scrollIntoView({ behavior: 'smooth'});
+    };
+    //scroll to bottom affter app renders. automatic scroll
+    useEffect(() => {
+        scrollToBottom();
+    }, [activeThread?.messages]);
+
+    //function to be called -- turns current date to string to store as ID -- gives you time stamp
+    const createNewChat = () => {
+        const newThreadId = Date.now().toString();
+        const currentTime = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit'});
+
+        //create thread object w own properties
+        const newThread = {
+            id: newThreadId,
+            title: 'New Chat',
+            preview: 'No messages yet',
+            date: 'Just now',
+            messages: [
+                {
+                    id: `welcome-${newThreadId}`, //same thread ID but + welcome to distinguish
+                    sender: 'assistant',
+                    author: 'UICOMP Assistant',
+                    time: currentTime,
+                    content: 'Welcome to the UICOMP Curriculum Assistant. Ask questions about lecture slides, clinical guidelines, course syllabi, or exam preparation topics.'
+                }
+            ]
+        };
+        //puts new thread first, makes new thread current
+        setThreads((prev) => [newThread, ...prev]);
+        setActiveThreadId(newThreadId);
+        setIsSideBarOpen(false);
+        return newThreadId;
+    }
+
+    //preventDefault lets react handle submission behavior
+    const handleSendMessage = (e) => {
+        e.preventDefault();
+        if(!inputMessage.trim()) return; //if empty-leaves this function
+
+        let currentId = activeThreadId; //let can be reassigned
+
+        //auto makes a new thread if none selected
+        if(!currentId){
+            currentId = createNewChat();
+        }
+        //formats time and trims message for use
+        const currentTime = new Date().toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
+        const userText = inputMessage.trim();
+
+        const newUserMessage = {
+          id: Date.now().toString(),
+          sender: 'user',
+          author: 'You',
+         time: currentTime,
+         content: userText
+        };
+
+        setThreads((prevThreads) =>
+            prevThreads.map((thread) => { //.map goes through every thread
+                if (thread.id === currentId){ //if != leave thread alone
+                    //renames on prompt if title is default
+                    const isDefaultTitle = thread.title === 'New Chat';
+                    const newTitle = isDefaultTitle ? userText : thread.title;
+
+                    return{ 
+                        ...thread, //copy thread
+                        title: newTitle, //overwrite
+                        preview: userText,
+                        messages: [...thread.messages, newUserMessage]//... spread operator.. unpacks thread -- take olf and add new messages
+                    };
+                }
+                return thread;
+            }) 
+        );
+        setInputMessage(''); //input box is reset after message is sent
+    
+    };
+    return(
+  /*
+    COLOR SCHEME 
+    navy    #13294B  sidebar, headings, assistant avatar, user bubble border
+    red     #D41F34  buttons and the "UICOMP" in titles
+    text    #111827  message text
+    muted   #6B7280  subtitles, times, input icons, disclaimer
+    panel   #F9FAFB  assistant bubble
+    field   #F4F4F6  input bar
+    line    #E5E7EB  bubble border and dividers
+    link    #2563EB  related document links
+    online  #10B981  online dot
+    sidebar text is white at 100 / 80 / 70 / 50 percent, sidebar cards are white at 6 / 7 / 8 percent
+  */
+  <div className="flex h-screen bg-white text-[#111827]" style={{ fontFamily: "'Plus Jakarta Sans', Inter, system-ui, sans-serif" }}>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" />
+
+    {/* Sidebar.*/}
+    <aside className="flex w-[280px] shrink-0 flex-col bg-[#13294B] px-5 pb-6 pt-6">
+      <div className="flex items-center gap-2.5">
+        {/*UIC LOGO */}
+        <img src="/uic-logo.png" alt="UIC" className="h-10 w-10 shrink-0 rounded-full object-cover" />
+        <div>
+          <h2 className="text-base font-semibold leading-[1.3] text-white">UICOMP Assistant</h2>
+          <p className="text-xs leading-[18px] text-white/70">Medical Education &amp; Curriculum</p>
+        </div>
+      </div>
+      <div className="mt-4 flex gap-2">
+        <button onClick={createNewChat} className="flex h-[41px] flex-1 cursor-pointer items-center gap-1.5 rounded-xl bg-[#D41F34] pl-[13px] text-sm font-semibold text-white hover:bg-[#BC1A2D]">
+          <Plus size={17} />New Chat
+        </button>
+        <button aria-label="Close sidebar" className="flex h-[41px] w-[41px] shrink-0 cursor-pointer items-center justify-center rounded-xl bg-[#D41F34] text-white hover:bg-[#BC1A2D]">
+          {/* lucide panel-left-close icon drawn inline so the import line does not need to change */}
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="3" rx="2" /><path d="M9 3v18" /><path d="m16 15-3-3 3-3" /></svg>
+        </button>
+      </div>
+      <p className="mt-6 text-xs font-semibold uppercase leading-4 text-white/50">Conversation History</p>
+      <div className="mt-[11px] flex-1 space-y-3 overflow-y-auto pb-4">
+        {threads.map((thread) => (
+          <button key={thread.id} type="button"
+            onClick={() => setActiveThreadId(thread.id)}
+            className={`flex w-full cursor-pointer items-center gap-3 rounded-[14px] p-3 text-left ${activeThreadId === thread.id ? 'bg-white/[0.07]' : 'hover:bg-white/5'}`}>
+            <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/[0.08] text-white">
+              {/* lucide stethoscope icon drawn inline */}
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M11 2v2" /><path d="M5 2v2" /><path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1" /><path d="M8 15a6 6 0 0 0 12 0v-3" /><circle cx="20" cy="10" r="2" /></svg>
+            </div>
+            {/* title and date share a row, the preview sits under the title and is cut with */}
+            <div className="grid min-w-0 flex-1 grid-cols-[minmax(0,1fr)_auto] gap-x-2">
+              <h3 className="line-clamp-2 break-words text-sm font-semibold leading-[17px] text-white">{thread.title}</h3>
+              <span className="self-end text-[11px] leading-4 text-white/50">{thread.date}</span>
+              <p className="col-start-1 mt-1 truncate text-xs leading-[15px] text-white/70">{thread.preview}</p>
+            </div>
+          </button>
+        ))}
+      </div>
+      <div className="shrink-0 rounded-2xl bg-white/[0.06] p-4">
+        <p className="text-sm font-semibold leading-[17px] text-white">UICOMP Curriculum AI Assistant</p>
+        <p className="mt-1 text-xs leading-[15px] text-white/70">College of Medicine curriculum guidance</p>
+        <div className="mt-3 flex items-center gap-1.5 text-[11px] font-medium leading-[13px] text-white/80">
+          <span className="h-1.5 w-1.5 rounded-full bg-[#10B981]" />Online
+        </div>
+      </div>
+    </aside>
+
+    {/* Main Chat Area */}
+    <main className="flex min-w-0 flex-1 flex-col px-8 pb-4 pt-6">
+
+      {/* Top Bar */}
+      <header className="flex flex-col items-center">
+        <div className="flex items-center gap-2.5">
+          <img src="/uic-logo.png" alt="UIC" className="h-9 w-9 shrink-0 rounded-full object-cover" />
+          <h1 className="text-2xl font-semibold leading-[31px] text-[#13294B]"><span className="text-[#D41F34]">UICOMP</span> Curriculum AI Assistant</h1>
+        </div>
+        <p className="mt-2 text-center text-[13px] leading-[19px] text-[#6B7280]">UICOMP Medical Education &amp; Curriculum Knowledge Base</p>
+      </header>
+
+      {/* Messages */}
+      <div className="mt-[22px] flex-1 overflow-y-auto">
+        <div className="mx-auto w-full max-w-[700px] space-y-5 pb-5">
+          {activeThread?.messages?.map((msg) => {
+            const isAssistant = msg.sender === 'assistant';
+            return (
+              <div key={msg.id}>
+                <div className={`mb-3 flex items-center gap-3 ${isAssistant ? 'h-9' : 'h-4'}`}>
+                  {isAssistant && (
+                    <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#13294B] text-white">
+                      {/* lucide stethoscope icon drawn inline */}
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M11 2v2" /><path d="M5 2v2" /><path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1" /><path d="M8 15a6 6 0 0 0 12 0v-3" /><circle cx="20" cy="10" r="2" /></svg>
+                    </div>
+                  )}
+                  <div className="flex items-center gap-2">
+                    <span className="text-[13px] font-medium leading-4 text-[#13294B]">
+                      {isAssistant ? (<><span className="text-[#D41F34]">UICOMP</span> Assistant</>) : (msg.author)}
+                    </span>
+                    <span className="text-xs leading-[14px] text-[#6B7280]">{msg.time}</span>
+                  </div>
+                </div>
+                <div className={`rounded-2xl p-4 text-[15px] leading-6 text-[#111827] ring-1 ring-inset ${isAssistant ? 'bg-[#F9FAFB] ring-[#E5E7EB]' : 'bg-white ring-[#13294B]'}`}>
+                  <p>{msg.content}</p>
+                  
+                  {msg.bullets && (
+                    <ul role="list" className="mt-3 space-y-2">
+                      {msg.bullets.map((item) => (
+                        <li key={item} className="flex items-start gap-[9px]">
+                          <span className="mt-[7px] h-1 w-1 shrink-0 bg-[#13294B]" />{item}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                  {msg.sources && (
+                    <div className="mt-3 border-t border-[#E5E7EB] pt-[11px]">
+                      <p className="text-[10px] font-bold leading-[15px] text-[#111827]">Related Documents</p>
+                      <div className="mt-[2px]">
+                        {msg.sources.map((src, i) => (
+                          <button key={src.title} type="button" className="block cursor-pointer text-left text-[10px] leading-[15px] text-[#2563EB] hover:underline">
+                            {i + 1}. {src.title} – (Slide {src.slide})
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <div ref={messagesEndRef} />
+      </div>
+
+      {/* Input Bar */}
+      <form onSubmit={handleSendMessage} className="mx-auto w-full max-w-[936px] border-t border-[#E5E7EB] pt-[15px]">
+        <div className="mx-auto w-full max-w-[888px]">
+          <div className="flex h-14 items-center gap-4 rounded-full bg-[#F4F4F6] pl-[21px] pr-4">
+            <button type="button" aria-label="Attach a file" className="shrink-0 cursor-pointer text-[#6B7280] hover:text-[#4B5563]"><Paperclip size={18} /></button>
+            <input type="text" value={inputMessage} onChange={(e) => setInputMessage(e.target.value)} placeholder="Summarize week 1 materials"
+                   className="min-w-0 flex-1 bg-transparent text-sm text-[#111827] outline-none placeholder:text-[#111827]" />
+            <button type="button" aria-label="Voice input" className="shrink-0 cursor-pointer text-[#6B7280] hover:text-[#4B5563]"><Mic size={19} /></button>
+            <button type="submit" aria-label="Send message" className="flex h-11 w-11 shrink-0 cursor-pointer items-center justify-center rounded-full bg-[#D41F34] text-white hover:bg-[#BC1A2D]"><ArrowUp size={17} /></button>
+          </div>
+          <p className="mt-2.5 text-center text-[11px] leading-[15px] text-[#6B7280]">Official UICOMP Internal Medical Education Assistant — Answers generated strictly from verified course materials.</p>
+        </div>
+      </form>
+    </main>
+  </div>
+);
+
+    
+}
+
+
+
+
+
