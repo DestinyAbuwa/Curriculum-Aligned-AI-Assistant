@@ -11,6 +11,7 @@ dependencies = [
     "langchain>=1.4.3",
     "langchain-community>=0.4.2",
     "langchain-core>=1.6.6",
+    "langchain-experimental>=0.4.2",
     "langchain-huggingface>=1.2.2",
     "langchain-openai>=1.6.7",
     "pypdf>=6.19.0",
