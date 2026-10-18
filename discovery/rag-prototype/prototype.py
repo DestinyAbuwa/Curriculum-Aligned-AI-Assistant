@@ -4,6 +4,7 @@ import re
 import streamlit as st
 from dotenv import load_dotenv
 from langchain_community.vectorstores import Chroma
+from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 
 st.set_page_config(page_title="UICOMP Assistant Prototype", page_icon="🩺")
@@ -75,7 +76,7 @@ def process_pdf(file_bytes, filename, key, method):
         chunks = recursive_alternative_chunker(temp_path)
 
     # Embeddings & Vector Store
-    embeddings = OpenAIEmbeddings(model="text-embedding-3-small", api_key=key)
+    embeddings = OpenAIEmbeddings(model="text-embedding-3-large", api_key=key)
 
     # Safe collection name based on filename AND full method string so collections don't mix
     safe_name = re.sub(r"[^a-zA-Z0-9]", "_", filename).strip("_")
@@ -122,13 +123,32 @@ if uploaded_file:
                 [doc.page_content for doc, score in matching_docs_with_scores]
             )
 
-            llm = ChatOpenAI(model="gpt-4o-mini", api_key=api_key, temperature=0)
-            prompt = (
-                f"Answer the question using ONLY the context below. If unknown, say so.\n\n"
-                f"Context:\n{context_text}\n\n"
-                f"Question: {user_query}"
+            llm = ChatOpenAI(model="gpt-5.1-mini", api_key=api_key, temperature=0)
+
+            # Define the strict behavior
+            system_instruction = (
+                "You are an accurate, objective Medical Curriculum AI Assistant. "
+                "Your role is to answer user questions strictly using the provided "
+                "context snippets below.\n"
+                "- Base your answer ONLY on the explicit facts provided in the "
+                "context chunks.\n"
+                "- Do NOT use outside medical knowledge to fill in gaps.\n"
+                "- If the provided context does not contain enough information, "
+                'state clearly: "Based on the provided documents, I do not have '
+                'enough information to answer this question."\n'
+                "- Keep answers clear and direct."
             )
-            response = llm.invoke(prompt)
+
+            # Combine context and question for the human message
+            human_input = f"Context:\n{context_text}\n\nQuestion: {user_query}"
+
+            # Invoke the model with structured messages
+            messages = [
+                SystemMessage(content=system_instruction),
+                HumanMessage(content=human_input),
+            ]
+
+            response = llm.invoke(messages)
 
             st.session_state.qa_history.append(
                 {
