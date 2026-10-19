@@ -1,0 +1,8 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "hybrid": "./src/curriculum_aligned_ai_assistant/studio.py:hybrid_graph",
+    "semantic": "./src/curriculum_aligned_ai_assistant/studio.py:semantic_graph"
+  },
+  "env": ".env"
+}

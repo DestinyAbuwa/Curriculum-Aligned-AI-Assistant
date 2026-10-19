@@ -30,3 +30,4 @@ discovery/embedding-retrieval-prototype/chroma_db/
 .vscode/
 .idea/
 .DS_Store
+.langgraph_api/

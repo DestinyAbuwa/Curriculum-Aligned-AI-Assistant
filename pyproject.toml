@@ -7,11 +7,18 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "chromadb>=1.5.9",
+    "langchain-ollama>=1.1.0",
+    "langgraph>=1.2.16",
     "python-dotenv>=1.2.3",
+    "sentence-transformers>=6.1.0",
+    "tavily-python>=0.8.5",
 ]
 
 [project.scripts]
 curriculum-aligned-ai-assistant = "curriculum_aligned_ai_assistant:main"
+ask-semantic = "curriculum_aligned_ai_assistant.ask_semantic:main"
+ask-hybrid = "curriculum_aligned_ai_assistant.ask_hybrid:main"
 
 [build-system]
 requires = ["uv_build>=0.12.2,<0.13.0"]
@@ -30,6 +37,7 @@ strict = true
 
 [dependency-groups]
 dev = [
+    "langgraph-cli[inmem]>=0.4.36",
     "mypy>=2.3.1",
     "pre-commit>=4.0.0",
     "pytest>=9.1.1",
@@ -43,3 +51,7 @@ chunking-discovery = [
     "chromadb>=0.5.0",
     "ollama>=0.4.0",
 ]
+
+[[tool.mypy.overrides]]
+module = ["tavily.*"]
+ignore_missing_imports = true

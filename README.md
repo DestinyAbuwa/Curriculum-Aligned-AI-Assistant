@@ -54,7 +54,26 @@ Open `.env` and add your specific API credentials as needed:
 
 ## Running the Project
 
-*(Application entry points will be added as backend and API routes are implemented.)*
+Prerequisites: Ollama running with the `qwen3:8b` model, a `.env` with `TAVILY_API_KEY`, and the
+Chroma index built by `discovery/embedding-retrieval-prototype/build_index.py`.
+
+```
+uv run ask-hybrid      # answers using the hybrid-chunked index
+uv run ask-semantic    # answers using the semantic-chunked index
+```
+
+Both programs run the same agent; only the chunking differs.
+
+### Viewing the agent graph
+
+```
+uv run langgraph dev
+```
+
+This opens LangGraph Studio with two graphs, `hybrid` and `semantic`. Studio draws the graph from
+the code and shows each node running with the state at every step, so it stays current as nodes are
+added. It needs a free LangSmith API key in `.env` as `LANGSMITH_API_KEY`; keep
+`LANGSMITH_TRACING=false` so runs are not sent to LangSmith.
 
 ---
 
