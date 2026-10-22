@@ -13,7 +13,10 @@ DEFAULT_CHROMA_PATH = REPO_ROOT / "discovery" / "embedding-retrieval-prototype" 
 @dataclass(frozen=True)
 class Settings:
     chroma_path: Path = DEFAULT_CHROMA_PATH
+    llm_provider: str = "openai"
     ollama_model: str = "qwen3:8b"
+    openai_model: str = "gpt-6-luna"
+    openai_api_key: str | None = None
     tavily_api_key: str | None = None
     retrieval_k: int = 5
     max_distance: float = 0.50
@@ -27,10 +30,14 @@ class Settings:
         if retrieval_k < 1:
             raise ValueError("RETRIEVAL_K must be at least 1")
         tavily_key = (environ.get("TAVILY_API_KEY") or "").strip() or None
+        openai_key = (environ.get("OPENAI_API_KEY") or "").strip() or None
         chroma_path = environ.get("CHROMA_PATH")
         return cls(
             chroma_path=Path(chroma_path) if chroma_path else DEFAULT_CHROMA_PATH,
+            llm_provider=(environ.get("LLM_PROVIDER") or "openai").strip().lower(),
             ollama_model=environ.get("OLLAMA_MODEL") or "qwen3:8b",
+            openai_model=environ.get("OPENAI_MODEL") or "gpt-6-luna",
+            openai_api_key=openai_key,
             tavily_api_key=tavily_key,
             retrieval_k=retrieval_k,
             max_distance=float(environ.get("MAX_DISTANCE", "0.50")),

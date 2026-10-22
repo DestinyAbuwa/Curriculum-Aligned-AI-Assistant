@@ -54,8 +54,9 @@ Open `.env` and add your specific API credentials as needed:
 
 ## Running the Project
 
-Prerequisites: Ollama running with the `qwen3:8b` model, a `.env` with `TAVILY_API_KEY`, and the
-Chroma index built by `discovery/embedding-retrieval-prototype/build_index.py`.
+Prerequisites: a `.env` with `OPENAI_API_KEY` and `TAVILY_API_KEY` (or Ollama running with the
+`qwen3:8b` model if you set `LLM_PROVIDER=ollama`), and the Chroma index built by
+`discovery/embedding-retrieval-prototype/build_index.py`.
 
 ```
 uv run ask-hybrid      # answers using the hybrid-chunked index
@@ -63,6 +64,9 @@ uv run ask-semantic    # answers using the semantic-chunked index
 ```
 
 Both programs run the same agent; only the chunking differs.
+
+By default the agent uses the OpenAI API, so `OPENAI_API_KEY` must be set in `.env`
+(`OPENAI_MODEL` is optional). To use the local Ollama model instead, set `LLM_PROVIDER=ollama`.
 
 ### Viewing the agent graph
 
