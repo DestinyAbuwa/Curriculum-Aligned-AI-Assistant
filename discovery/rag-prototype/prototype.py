@@ -3,7 +3,7 @@ import re
 
 import streamlit as st
 from dotenv import load_dotenv
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 
@@ -20,9 +20,7 @@ if "qa_history" not in st.session_state:
 # 1. Check API Key
 api_key = os.getenv("OPENAI_API_KEY")
 if not api_key:
-    st.warning(
-        "⚠️ No API key found in your environment! Please add OPENAI_API_KEY to your .env file."
-    )
+    st.warning("⚠️ No API key found in your environment! Please add OPENAI_API_KEY to your .env file.")
     st.stop()
 
 # ==========================================
@@ -33,7 +31,12 @@ st.sidebar.header("⚙️ Dev Menu")
 # Chunking Method Dropdown
 chunking_method = st.sidebar.selectbox(
     "Chunking Method",
-    options=["Recursive Character (1500)", "Semantic", "Recursive Character (600)"],
+    options=[
+        "Recursive Character (1500)",
+        "Semantic",
+        "Recursive Character (600)",
+        "Cloud Hybrid (LlamaParse)",
+    ],
     help="Select how the PDF is split into pieces before vectorizing.",
 )
 
@@ -51,61 +54,73 @@ st.sidebar.info("Upload a new PDF or change the chunking method to rebuild the v
 
 
 # ==========================================
-# 2. Cached Function to Load, Chunk, and Index PDF
+# 2. Cached Function to Load, Chunk, and Index PDFs
 # ==========================================
-@st.cache_resource(show_spinner="Processing document & generating embeddings...")
-def process_pdf(file_bytes, filename, key, method):
-    temp_path = f"temp_{filename}"
-    with open(temp_path, "wb") as f:
-        f.write(file_bytes)
+@st.cache_resource(show_spinner="Processing documents & generating embeddings...")
+def process_pdfs(uploaded_files, key, method):
+    all_chunks = []
 
-    # Apply Selected Chunking Method from chunkers.py
-    if method == "Recursive Character (1500)":
-        from chunkers import recursive_baseline_chunker
+    # Loop through every uploaded file
+    for uploaded_file in uploaded_files:
+        temp_path = f"temp_{uploaded_file.name}"
+        with open(temp_path, "wb") as f:
+            f.write(uploaded_file.getvalue())
 
-        chunks = recursive_baseline_chunker(temp_path)
+        # Apply Selected Chunking Method from chunkers.py
+        if method == "Recursive Character (1500)":
+            from chunkers import recursive_baseline_chunker
 
-    elif method == "Semantic":
-        from chunkers import semantic_chunker
+            chunks = recursive_baseline_chunker(temp_path)
+        elif method == "Semantic":
+            from chunkers import semantic_chunker
 
-        chunks = semantic_chunker(temp_path)
+            chunks = semantic_chunker(temp_path)
+        elif method == "Recursive Character (600)":
+            from chunkers import recursive_alternative_chunker
 
-    elif method == "Recursive Character (600)":
-        from chunkers import recursive_alternative_chunker
+            chunks = recursive_alternative_chunker(temp_path)
+        elif method == "Cloud Hybrid (LlamaParse)":
+            from chunkers import cloud_hybrid_chunker
 
-        chunks = recursive_alternative_chunker(temp_path)
+            chunks = cloud_hybrid_chunker(temp_path)
+
+        all_chunks.extend(chunks)
+
+    # After the loop finishes extending all_chunks:
+    if not all_chunks:
+        st.error("No chunks were generated. The chunker failed or the PDFs are empty.")
+        st.stop()
 
     # Embeddings & Vector Store
     embeddings = OpenAIEmbeddings(model="text-embedding-3-large", api_key=key)
 
-    # Safe collection name based on filename AND full method string so collections don't mix
-    safe_name = re.sub(r"[^a-zA-Z0-9]", "_", filename).strip("_")
-    method_safe = re.sub(r"[^a-zA-Z0-9]", "_", method).lower()  # e.g., 'recursive_character_1500'
-    collection_name = f"pdf_{safe_name[:20]}_{method_safe[:20]}".strip("_")
+    # Create a safe collection name based on file count and method
+    method_safe = re.sub(r"[^a-zA-Z0-9]", "_", method).lower()
+    collection_name = f"corpus_{len(uploaded_files)}_docs_{method_safe}".strip("_")
 
-    vector_store = Chroma.from_documents(chunks, embeddings, collection_name=collection_name)
-    return vector_store, chunks
+    vector_store = Chroma.from_documents(all_chunks, embeddings, collection_name=collection_name)
+    return vector_store, all_chunks
 
 
 # ==========================================
-# 3. Upload Document
+# 3. Upload Documents
 # ==========================================
-uploaded_file = st.file_uploader("Upload a course PDF to test:", type=["pdf"])
+# Added accept_multiple_files=True
+uploaded_files = st.file_uploader("Upload course PDFs to test:", type=["pdf"], accept_multiple_files=True)
 
-if uploaded_file:
-    file_bytes = uploaded_file.getvalue()
-    vector_store, chunks = process_pdf(file_bytes, uploaded_file.name, api_key, chunking_method)
+if uploaded_files:
+    vector_store, chunks = process_pdfs(uploaded_files, api_key, chunking_method)
 
     st.success(
-        f"Loaded **{uploaded_file.name}** using **{chunking_method}** ({len(chunks)} chunks ready)!"
+        f"Loaded **{len(uploaded_files)} documents** using **{chunking_method}** ({len(chunks)} total chunks ready)!"
     )
 
-    with st.expander("View Document Chunks"):
-        for i, chunk in enumerate(chunks):
-            st.markdown(f"**Chunk {i + 1}:**")
-            content = chunk.page_content if hasattr(chunk, "page_content") else chunk
-            st.text(content)
-            st.divider()
+    # with st.expander("View Document Chunks"):
+    #     for i, chunk in enumerate(chunks):
+    #         st.markdown(f"**Chunk {i + 1}** *(Source: {chunk.metadata.get('source', 'Unknown')})*")
+    #         content = chunk.page_content if hasattr(chunk, "page_content") else chunk
+    #         st.text(content)
+    #         st.divider()
 
     # ==========================================
     # 4. Query Form
@@ -116,14 +131,10 @@ if uploaded_file:
 
     if submitted and user_query:
         with st.spinner("Searching ChromaDB and generating answer..."):
-            matching_docs_with_scores = vector_store.similarity_search_with_score(
-                user_query, k=k_value
-            )
-            context_text = "\n\n---\n\n".join(
-                [doc.page_content for doc, score in matching_docs_with_scores]
-            )
+            matching_docs_with_scores = vector_store.similarity_search_with_score(user_query, k=k_value)
+            context_text = "\n\n---\n\n".join([doc.page_content for doc, score in matching_docs_with_scores])
 
-            llm = ChatOpenAI(model="gpt-5.1-mini", api_key=api_key, temperature=0)
+            llm = ChatOpenAI(model="gpt-6-luna", api_key=api_key)
 
             # Define the strict behavior
             system_instruction = (
@@ -162,12 +173,39 @@ if uploaded_file:
                 HumanMessage(content=human_input),
             ]
 
-            response = llm.invoke(messages)
+            # 2. Stream the response directly to the UI, filtering out <think> and markers
+            st.write("### **Answer:**")
 
+            def generate_filtered_stream():
+                in_think_block = False
+                for chunk in llm.stream(messages):
+                    token = chunk.content
+
+                    # Filter out the hidden reasoning tags
+                    if "<think>" in token:
+                        in_think_block = True
+                        token = token.replace("<think>", "")
+                    if "</think>" in token:
+                        in_think_block = False
+                        token = token.replace("</think>", "")
+                        continue  # Skip yielding the closing tag
+
+                    # Filter out specific backend markers
+                    if "NOT_FOUND" in token:
+                        token = token.replace("NOT_FOUND", "")
+
+                    # Only yield tokens if we are not inside a <think> block
+                    if not in_think_block and token:
+                        yield token
+
+            # st.write_stream prints progressively and returns the final cleaned string
+            full_response = st.write_stream(generate_filtered_stream)
+
+            # 3. Save to QA history after streaming completes
             st.session_state.qa_history.append(
                 {
                     "query": user_query,
-                    "answer": response.content,
+                    "answer": full_response,
                     "retrieved": matching_docs_with_scores,
                     "k_used": k_value,
                     "method_used": chunking_method,
@@ -187,9 +225,7 @@ if uploaded_file:
 
             st.caption(f"⚙️ *Tested with: {item['method_used']} | k={item['k_used']}*")
 
-            with st.expander(
-                f"🔍 View Retrieved Chunks for Query #{len(st.session_state.qa_history) - item_idx}"
-            ):
+            with st.expander(f"🔍 View Retrieved Chunks for Query #{len(st.session_state.qa_history) - item_idx}"):
                 for idx, (doc, score) in enumerate(item["retrieved"]):
                     st.markdown(f"**Chunk {idx + 1}** — *Distance Score:* `{score:.4f}`")
                     st.info(doc.page_content)
