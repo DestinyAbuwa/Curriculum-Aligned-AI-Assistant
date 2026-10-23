@@ -20,6 +20,8 @@ class Settings:
     tavily_api_key: str | None = None
     retrieval_k: int = 5
     max_distance: float = 0.50
+    image_max_distance: float = 0.45
+    image_margin: float = 0.05
 
     @classmethod
     def from_env(cls, environ: Mapping[str, str] | None = None) -> Self:
@@ -41,4 +43,6 @@ class Settings:
             tavily_api_key=tavily_key,
             retrieval_k=retrieval_k,
             max_distance=float(environ.get("MAX_DISTANCE", "0.50")),
+            image_max_distance=float(environ.get("IMAGE_MAX_DISTANCE", "0.45")),
+            image_margin=float(environ.get("IMAGE_MARGIN", "0.05")),
         )

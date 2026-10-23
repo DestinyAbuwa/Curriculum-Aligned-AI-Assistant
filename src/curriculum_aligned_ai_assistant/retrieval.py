@@ -1,4 +1,4 @@
-from collections.abc import Callable, Sequence
+from collections.abc import Callable, Mapping, Sequence
 from functools import cache
 
 import chromadb
@@ -10,6 +10,13 @@ from curriculum_aligned_ai_assistant.errors import AgentStartupError
 from curriculum_aligned_ai_assistant.state import Chunk
 
 Embedder = Callable[[str], list[float]]
+
+
+def _image_path(metadata: Mapping[str, object]) -> str | None:
+    path = metadata.get("image_path")
+    if metadata.get("kind") == "image" and isinstance(path, str) and path:
+        return path
+    return None
 
 
 class ChromaRetriever:
@@ -29,6 +36,7 @@ class ChromaRetriever:
                 source=str(metadata["source"]),
                 chunk_id=str(metadata["chunk_id"]),
                 distance=float(distance),
+                image_path=_image_path(metadata),
             )
             for document, metadata, distance in zip(documents, metadatas, distances, strict=True)
         ]
@@ -42,7 +50,12 @@ def _load_model(model_name: str) -> SentenceTransformer:
 def open_retriever(
     settings: Settings, collection_name: str, model_name: str = "BAAI/bge-m3"
 ) -> ChromaRetriever:
-    rebuild_hint = "Build it with discovery/embedding-retrieval-prototype/build_index.py."
+    script = (
+        "discovery/image-parsing/build_image_index.py"
+        if collection_name.endswith("_images")
+        else "discovery/embedding-retrieval-prototype/build_index.py"
+    )
+    rebuild_hint = f"Build it with {script}."
     if not settings.chroma_path.exists():
         raise AgentStartupError(f"No Chroma index at {settings.chroma_path}. {rebuild_hint}")
     client = chromadb.PersistentClient(path=str(settings.chroma_path))

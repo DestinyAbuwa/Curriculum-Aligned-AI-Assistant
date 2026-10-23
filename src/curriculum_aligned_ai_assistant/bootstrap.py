@@ -22,6 +22,12 @@ def build_agent(
             "will not be searched on the web."
         )
     graph = build_graph(
-        retriever, web_searcher, llm, k=settings.retrieval_k, max_distance=settings.max_distance
+        retriever,
+        web_searcher,
+        llm,
+        k=settings.retrieval_k,
+        max_distance=settings.max_distance,
+        image_max_distance=settings.image_max_distance,
+        image_margin=settings.image_margin,
     )
     return graph, warnings

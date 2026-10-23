@@ -41,8 +41,23 @@ Web results:
 
 def format_excerpts(chunks: list[Chunk]) -> str:
     return "\n\n".join(
-        f"[{i}] ({c.source} #{c.chunk_id})\n{c.text}" for i, c in enumerate(chunks, start=1)
+        f"[{i}] ({c.source} #{c.chunk_id})\n{'Figure: ' if c.image_path else ''}{c.text}"
+        for i, c in enumerate(chunks, start=1)
     )
+
+
+def returned_images(chunks: list[Chunk], max_distance: float, margin: float) -> tuple[str, ...]:
+    """Image paths of retrieved image chunks to return with a course answer.
+
+    An image chunk qualifies if its distance is at or below max_distance. Of those, only the ones
+    within margin of the closest qualifying image are kept. Deduplicated, in retrieval order.
+    """
+    qualifying = [c for c in chunks if c.image_path and c.distance <= max_distance]
+    if not qualifying:
+        return ()
+    cutoff = min(c.distance for c in qualifying) + margin
+    paths = (c.image_path for c in qualifying if c.distance <= cutoff and c.image_path)
+    return tuple(dict.fromkeys(paths))
 
 
 def format_web_results(results: list[WebResult]) -> str:
@@ -74,12 +89,16 @@ class Nodes:
         llm: Llm,
         k: int,
         max_distance: float,
+        image_max_distance: float = 0.45,
+        image_margin: float = 0.05,
     ) -> None:
         self._retriever = retriever
         self._web_searcher = web_searcher
         self._llm = llm
         self._k = k
         self._max_distance = max_distance
+        self._image_max_distance = image_max_distance
+        self._image_margin = image_margin
 
     def retrieve(self, state: AgentState) -> AgentState:
         return {"chunks": self._retriever.search(state["question"], self._k)}
@@ -111,7 +130,12 @@ class Nodes:
             if text is None:
                 return _none_answer()
             citations = [f"{c.source} #{c.chunk_id}" for c in chunks]
-            return {"answer": Answer(text=text, source_type="course", citations=citations)}
+            images = returned_images(chunks, self._image_max_distance, self._image_margin)
+            return {
+                "answer": Answer(
+                    text=text, source_type="course", citations=citations, images=images
+                )
+            }
 
         results = state.get("web_results", [])
         if not results:

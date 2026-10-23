@@ -10,6 +10,7 @@ class Chunk:
     source: str
     chunk_id: str
     distance: float
+    image_path: str | None = None
 
 
 @dataclass(frozen=True)
@@ -24,6 +25,7 @@ class Answer:
     text: str
     source_type: SourceType
     citations: list[str]
+    images: tuple[str, ...] = ()
 
 
 class AgentState(TypedDict, total=False):

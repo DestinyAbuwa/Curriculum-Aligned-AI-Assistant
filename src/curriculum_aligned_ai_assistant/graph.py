@@ -14,8 +14,18 @@ def build_graph(
     llm: Llm,
     k: int,
     max_distance: float,
+    image_max_distance: float = 0.45,
+    image_margin: float = 0.05,
 ) -> AgentGraph:
-    nodes = Nodes(retriever, web_searcher, llm, k=k, max_distance=max_distance)
+    nodes = Nodes(
+        retriever,
+        web_searcher,
+        llm,
+        k=k,
+        max_distance=max_distance,
+        image_max_distance=image_max_distance,
+        image_margin=image_margin,
+    )
     builder = StateGraph(AgentState)
     builder.add_node("retrieve", nodes.retrieve)
     builder.add_node("grade", nodes.grade)

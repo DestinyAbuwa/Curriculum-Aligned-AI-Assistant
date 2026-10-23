@@ -1,9 +1,13 @@
-from collections.abc import Callable
+from collections.abc import Callable, Sequence
 
 from curriculum_aligned_ai_assistant.bootstrap import build_agent
 from curriculum_aligned_ai_assistant.errors import AgentStartupError, LlmUnavailableError
 
 QUIT_WORDS = {"quit", "exit"}
+
+
+def collection_for(base: str, argv: Sequence[str]) -> str:
+    return f"{base}_images" if "--images" in argv else f"{base}_chunks"
 
 
 def run_cli(
@@ -36,3 +40,7 @@ def run_cli(
             output_fn("Sources:")
             for citation in answer.citations:
                 output_fn(f"  - {citation}")
+        if answer.images:
+            output_fn("Figures:")
+            for image in answer.images:
+                output_fn(f"  - {image}")

@@ -1,5 +1,7 @@
-from curriculum_aligned_ai_assistant.cli import run_cli
+import sys
+
+from curriculum_aligned_ai_assistant.cli import collection_for, run_cli
 
 
 def main() -> None:
-    raise SystemExit(run_cli("hybrid_chunks"))
+    raise SystemExit(run_cli(collection_for("hybrid", sys.argv[1:])))

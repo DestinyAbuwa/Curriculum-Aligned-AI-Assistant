@@ -31,3 +31,6 @@ discovery/embedding-retrieval-prototype/chroma_db/
 .idea/
 .DS_Store
 .langgraph_api/
+
+# Extracted figure images (regenerable)
+discovery/image-parsing/images/

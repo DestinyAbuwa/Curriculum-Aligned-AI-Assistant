@@ -43,6 +43,7 @@ dev = [
     "pre-commit>=4.0.0",
     "pytest>=9.1.1",
     "ruff>=0.16.9",
+    "streamlit>=1.66.1",
 ]
 chunking-discovery = [
     "docling>=2.0.0",
