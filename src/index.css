@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/*
+  Page-wide basics only. Every screen is styled with Tailwind classes inside
+  its component, so nothing here should set sizes or colors for headings.
+*/
+
+/* Plus Jakarta Sans is the font used in the Figma (loaded in index.html). */
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+/* Let the app fill the whole browser window. */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
