@@ -24,7 +24,7 @@ htmlcov/
 .ruff_cache/
 
 # Local vector store (generated)
-discovery/embedding-retrieval-prototype/chroma_db/
+data/chroma_db/
 
 # Editors / OS
 .vscode/
@@ -33,4 +33,4 @@ discovery/embedding-retrieval-prototype/chroma_db/
 .langgraph_api/
 
 # Extracted figure images (regenerable)
-discovery/image-parsing/images/
+data/images/

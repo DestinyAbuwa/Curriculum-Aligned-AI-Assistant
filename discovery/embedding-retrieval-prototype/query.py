@@ -1,12 +1,10 @@
-from pathlib import Path
-
 import chromadb
 from sentence_transformers import SentenceTransformer
 
-BASE_DIR = Path(__file__).parent
+from curriculum_aligned_ai_assistant.config import DEFAULT_CHROMA_PATH
 
 model = SentenceTransformer("BAAI/bge-m3", device="cpu")
-client = chromadb.PersistentClient(path=str(BASE_DIR / "chroma_db"))
+client = chromadb.PersistentClient(path=str(DEFAULT_CHROMA_PATH))
 
 # Grounded in the sample PDFs: each question's answer is known to sit in a
 # specific part of the source doc, so we can eyeball whether retrieval found it.
@@ -33,7 +31,9 @@ def run() -> None:
             dists = results["distances"][0]
             for rank, (doc, meta, dist) in enumerate(zip(docs, metas, dists), start=1):
                 snippet = doc[:220].replace("\n", " ")
-                print(f"[{rank}] (dist={dist:.4f}) {meta['source']} #{meta['chunk_id']}: {snippet}...")
+                print(
+                    f"[{rank}] (dist={dist:.4f}) {meta['source']} #{meta['chunk_id']}: {snippet}..."
+                )
 
 
 if __name__ == "__main__":

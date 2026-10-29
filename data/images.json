@@ -4,7 +4,7 @@
     "page": 1,
     "heading": "",
     "caption": "",
-    "file": "discovery/image-parsing/images/Adrenal_Gland_Pathology_Segment_1_-_Over/p1_0.png",
+    "file": "data/images/Adrenal_Gland_Pathology_Segment_1_-_Over/p1_0.png",
     "context": "Greetings students and welcome to a 4-part series on adrenal gland pathology. This first video is an overview that provides a limited physiologic and pathologic framework for understanding adrenal disease. The clinical and laboratory analysis of adrenal disease can be challenging because of the system complexity and the physiologic consequences of too little or too much hormone."
   },
   {
@@ -12,7 +12,7 @@
     "page": 2,
     "heading": "",
     "caption": "",
-    "file": "discovery/image-parsing/images/Adrenal_Gland_Pathology_Segment_1_-_Over/p2_1.png",
+    "file": "data/images/Adrenal_Gland_Pathology_Segment_1_-_Over/p2_1.png",
     "context": "These are the learning objectives for this session. The essential diseases center on hyperfunction or hypofunction of the layers or zones of the adrenal gland. So we'll talk about excess cortisol, too little cortisol, excess aldosterone or too little aldosterone, and enzyme abnormalities that result in virulizing syndromes. The remaining disease category is adrenal gland tumors, which can be functional or nonfunctional. Functional means they secrete unregulated amounts of hormone. All of these problems are expressed clinically."
   },
   {
@@ -20,7 +20,7 @@
     "page": 3,
     "heading": "",
     "caption": "",
-    "file": "discovery/image-parsing/images/Adrenal_Gland_Pathology_Segment_1_-_Over/p3_2.png",
+    "file": "data/images/Adrenal_Gland_Pathology_Segment_1_-_Over/p3_2.png",
     "context": "This is a four part series. This recording is an overview. The second covers hyperfunction of the cortex. The third covers hypofunction of the cortex. The last recording summarizes tumors of the cortex and medulla and some of the multiple endocrine neoplasia syndromes that include adrenal medullary tumors."
   },
   {
@@ -28,7 +28,7 @@
     "page": 4,
     "heading": "",
     "caption": "",
-    "file": "discovery/image-parsing/images/Adrenal_Gland_Pathology_Segment_1_-_Over/p4_3.png",
+    "file": "data/images/Adrenal_Gland_Pathology_Segment_1_-_Over/p4_3.png",
     "context": "This is anatomy and physiology information that should be or will be covered in the discussions of the normal endocrine system. It is however important framework for understanding the diseases of adrenal gland. So you need to understand the anatomy and the hormones produced. The GFR memory hint is useful to remember the layers and hormones. Understanding what those hormones do is also key to understanding the disease expression. The salt-sugar-sex implies regulation of sodium, glucose, and sex steroids, which are predominantly androgens in the adrenal gland. Estrogens are usually derived from"
   },
   {
@@ -36,7 +36,7 @@
     "page": 5,
     "heading": "",
     "caption": "",
-    "file": "discovery/image-parsing/images/Adrenal_Gland_Pathology_Segment_1_-_Over/p5_4.png",
+    "file": "data/images/Adrenal_Gland_Pathology_Segment_1_-_Over/p5_4.png",
     "context": "This slide shows the synthetic pathways in each zone of the adrenal cortex. While you don't need to memorize intermediates, it is important to recognize some of the enzymes, particularly 21-hydroxylase. Deficiency of that enzyme is an important cause of adrenal hyperplasia and a virulizing syndrome that I'll discuss in the second recording."
   },
   {
@@ -44,7 +44,7 @@
     "page": 6,
     "heading": "",
     "caption": "",
-    "file": "discovery/image-parsing/images/Adrenal_Gland_Pathology_Segment_1_-_Over/p6_5.png",
+    "file": "data/images/Adrenal_Gland_Pathology_Segment_1_-_Over/p6_5.png",
     "context": "The adrenal medulla secretes epinephrine. This is the synthetic pathway for that compound, but intermediates are also important neurotransmitters. The most significant disease of the adrenal medulla is pheochromocytoma, a tumor that can be productive for catecholamines. The tumor is often associated with intractable hypertension."
   },
   {
@@ -52,7 +52,7 @@
     "page": 7,
     "heading": "",
     "caption": "",
-    "file": "discovery/image-parsing/images/Adrenal_Gland_Pathology_Segment_1_-_Over/p7_6.png",
+    "file": "data/images/Adrenal_Gland_Pathology_Segment_1_-_Over/p7_6.png",
     "context": "You should also realize that secretion of cortisol varies during the day. This concept is actually very important in the interpretation of laboratory measurements of cortisol and ACTH. It is also critical to realize that while laboratory values may be within the reference range, loss of the diurnal cycling is a clinically significant finding."
   },
   {
@@ -60,7 +60,7 @@
     "page": 8,
     "heading": "",
     "caption": "",
-    "file": "discovery/image-parsing/images/Adrenal_Gland_Pathology_Segment_1_-_Over/p8_7.png",
+    "file": "data/images/Adrenal_Gland_Pathology_Segment_1_-_Over/p8_7.png",
     "context": "The laboratory testing of the adrenal gland is based on the physiologic regulation of that gland. So, this testing involves consideration of pituitary hormones produced by the pituitary or produced by some other neuroendocrine tumor. The testing involves glucocorticoids, mineralocorticoids, and many regulated analytes altered by these hormones. All of these tests can be used to evaluate adrenal function. The choice of testing depends to a large degree on the clinical presentation. I'll cover this testing in the second and third recording."
   },
   {
@@ -68,7 +68,7 @@
     "page": 9,
     "heading": "",
     "caption": "",
-    "file": "discovery/image-parsing/images/Adrenal_Gland_Pathology_Segment_1_-_Over/p9_8.png",
+    "file": "data/images/Adrenal_Gland_Pathology_Segment_1_-_Over/p9_8.png",
     "context": "Adrenal gland disease falls into three big categories. They are hyperfunction, hypofunction and neoplasia. The clinical presentation depends entirely on what hormones are in excess or deficient and co-morbidities that may be operating. By the end of the series, you'll have some familiarity with these clinical problems."
   },
   {
@@ -76,7 +76,7 @@
     "page": 5,
     "heading": "The hypothalamic-pituitaryliver axis",
     "caption": "",
-    "file": "discovery/image-parsing/images/B7W1_Growth_Hormone_Physiology_STUDENT_S/p5_5.png",
+    "file": "data/images/B7W1_Growth_Hormone_Physiology_STUDENT_S/p5_5.png",
     "context": "Describe the regulation of growth hormone secretion, and identify the roles of hypothalamic factors, glucose, and IGF-1.\nThe hypothalamic-pituitaryliver axis"
   },
   {
@@ -84,7 +84,7 @@
     "page": 15,
     "heading": "Summary of factors that regulate GH secretion",
     "caption": "",
-    "file": "discovery/image-parsing/images/B7W1_Growth_Hormone_Physiology_STUDENT_S/p15_15.png",
+    "file": "data/images/B7W1_Growth_Hormone_Physiology_STUDENT_S/p15_15.png",
     "context": "Summary of factors that regulate GH secretion"
   },
   {
@@ -92,7 +92,7 @@
     "page": 20,
     "heading": "Limited clinical utility of measuring serum GH levels",
     "caption": "",
-    "file": "discovery/image-parsing/images/B7W1_Growth_Hormone_Physiology_STUDENT_S/p20_22.png",
+    "file": "data/images/B7W1_Growth_Hormone_Physiology_STUDENT_S/p20_22.png",
     "context": "Limited clinical utility of measuring serum GH levels\nMarked variation in serum GH levels:\nPulsatile secretion\nShort half life\nDiurnal rhythm of secretion\nPeak secretion in early morning before awakening\nLowest secretion during the day"
   },
   {
@@ -100,7 +100,7 @@
     "page": 24,
     "heading": "Prostate cancer cells produce IGF-binding protein proteases. Why?",
     "caption": "",
-    "file": "discovery/image-parsing/images/B7W1_Growth_Hormone_Physiology_STUDENT_S/p24_26.png",
+    "file": "data/images/B7W1_Growth_Hormone_Physiology_STUDENT_S/p24_26.png",
     "context": "Prostate cancer cells produce IGF-binding protein proteases. Why?"
   },
   {
@@ -108,7 +108,7 @@
     "page": 30,
     "heading": "",
     "caption": "",
-    "file": "discovery/image-parsing/images/B7W1_Growth_Hormone_Physiology_STUDENT_S/p30_33.png",
+    "file": "data/images/B7W1_Growth_Hormone_Physiology_STUDENT_S/p30_33.png",
     "context": "Describe the relationship between growth hormone and the insulin like growth factors and their plasma binding proteins in the regulation of growth.\nIdentify the target organs or cell types for insulin like growth factors that account for longitudinal growth.\nGH does have some direct effects on bone independent of IGF-1.\nIGF-1 is also produced locally in bone without the involvement GH, coming from local paracrine actions or from other hormones such as PTH or estradiol\nDescribe the metabolic and growth promoting actions of growth hormone."
   },
   {
@@ -116,7 +116,7 @@
     "page": 5,
     "heading": "Type 2 (T2D)",
     "caption": "",
-    "file": "discovery/image-parsing/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p5_5.png",
+    "file": "data/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p5_5.png",
     "context": "Diabetes Mellitus\nChronic disease characterized by hyperglycemia and glucosuria.\nType 1 (T1D)\nPatient secretes little to no insulin (absolute deficiency). Autoimmune disorder.\nType 2 (T2D)\nMost common type (90%).\nInsulin resistance and relative insulin deficiency.\nAssociated with obesity, dyslipidemia, hypertension, and other conditions.\nSource: Lippincott's Illustrated Review of Pharmacology, 7 th Ed."
   },
   {
@@ -124,7 +124,7 @@
     "page": 8,
     "heading": "",
     "caption": "",
-    "file": "discovery/image-parsing/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p8_8.png",
+    "file": "data/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p8_8.png",
     "context": "Case\nA 19 yo woman with Type 1 DM on insulin presents to your clinic for routine follow up. She was diagnosed with Type 1 DM 3 months ago, and she is currently taking insulin glargine 32 units at nighttime, and insulin aspart 6 units with breakfast, 6 units with lunch and 8 units with dinner. She denies any sweats, confusion, jitteriness. She brings her meter with her today, which shows fasting AM blood sugars of 170-190, with post-prandial sugars of 120-150.\nWhat is the glucose target goal for this patient?"
   },
   {
@@ -132,7 +132,7 @@
     "page": 12,
     "heading": "Target Sites of Anti-Diabetic Agents",
     "caption": "",
-    "file": "discovery/image-parsing/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p12_13.png",
+    "file": "data/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p12_13.png",
     "context": "Target Sites of Anti-Diabetic Agents"
   },
   {
@@ -140,7 +140,7 @@
     "page": 13,
     "heading": "Which agent to start --- think about the patient's co-morbidities",
     "caption": "",
-    "file": "discovery/image-parsing/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p13_14.png",
+    "file": "data/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p13_14.png",
     "context": "Which agent to start --- think about the patient's co-morbidities"
   },
   {
@@ -148,7 +148,7 @@
     "page": 20,
     "heading": "The Miracle of Insulin",
     "caption": "Patient J.L., December 15, 1922",
-    "file": "discovery/image-parsing/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p20_18.png",
+    "file": "data/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p20_18.png",
     "context": "The Miracle of Insulin\nPatient J.L., December 15, 1922"
   },
   {
@@ -156,7 +156,7 @@
     "page": 20,
     "heading": "The Miracle of Insulin",
     "caption": "",
-    "file": "discovery/image-parsing/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p20_19.png",
+    "file": "data/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p20_19.png",
     "context": "The Miracle of Insulin"
   },
   {
@@ -164,7 +164,7 @@
     "page": 21,
     "heading": "Normal Insulin Secretion",
     "caption": "Time (Hours)",
-    "file": "discovery/image-parsing/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p21_21.png",
+    "file": "data/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p21_21.png",
     "context": "Normal Insulin Secretion\nTime (Hours)"
   },
   {
@@ -172,7 +172,7 @@
     "page": 22,
     "heading": "",
     "caption": "",
-    "file": "discovery/image-parsing/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p22_23.png",
+    "file": "data/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p22_23.png",
     "context": "Structure of human proinsulin (C-peptide plus A and B chains) and insulin. Insulin is shown as the shaded (orange color) peptide chains, A and B. Differences in the A and B chains"
   },
   {
@@ -180,7 +180,7 @@
     "page": 24,
     "heading": "Pharmacokinetic Profiles of Insulins",
     "caption": "",
-    "file": "discovery/image-parsing/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p24_28.png",
+    "file": "data/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p24_28.png",
     "context": "Pharmacokinetic Profiles of Insulins\nExtent and duration of action of various types of insulin as indicated by the glucose infusion rates (mg/kg/min) required to maintain a constant glucose concentration. The durations of action shown are typical of an average dose of 0.2-0.3 U/kg. The durations of regular and NPH insulin increase considerably when dosage is increased.\n24"
   },
   {
@@ -188,7 +188,7 @@
     "page": 27,
     "heading": "Daily insulin need for a type 1DM with low insulin resistance -0.5 unit/kg/day",
     "caption": "",
-    "file": "discovery/image-parsing/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p27_36.png",
+    "file": "data/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p27_36.png",
     "context": "Physiologic Multiple Injection Regimens: The Basal-Bolus Insulin Concept\nDaily insulin need for a type 1DM with low insulin resistance -0.5 unit/kg/day\nBasal insulin ~50-60% TDD\nControls glucose production between meals and overnight\nNear-constant levels\nFor ideal insulin replacement therapy, each component should come from a different insulin with a specific profile or via an insulin pump (with 1 insulin)\nBolus insulin ~40-50% TDD\nLimits hyperglycemia after meals\nImmediate rise and sharp peak at 1 hour post-meal\n10% to 20% of total daily insulin requirement at each meal\n27"
   },
   {
@@ -196,7 +196,7 @@
     "page": 29,
     "heading": "Basal/Bolus Treatment",
     "caption": "",
-    "file": "discovery/image-parsing/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p29_39.png",
+    "file": "data/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p29_39.png",
     "context": "Basal/Bolus Treatment\n4:00\n29"
   },
   {
@@ -204,7 +204,7 @@
     "page": 34,
     "heading": "Insulin Delivery Systems",
     "caption": "",
-    "file": "discovery/image-parsing/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p34_48.png",
+    "file": "data/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p34_48.png",
     "context": "Insulin Delivery Systems\nInjectors\nInjection Aids\nPen delivery Insulin Pump"
   },
   {
@@ -212,7 +212,7 @@
     "page": 50,
     "heading": "",
     "caption": "",
-    "file": "discovery/image-parsing/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p50_62.png",
+    "file": "data/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p50_62.png",
     "context": "Profound loss of weight can lead to changes in appearance that some may view as undesirable.\nOzempic brand name for semaglutide"
   },
   {
@@ -220,7 +220,7 @@
     "page": 50,
     "heading": "",
     "caption": "",
-    "file": "discovery/image-parsing/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p50_63.png",
+    "file": "data/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p50_63.png",
     "context": "Profound loss of weight can lead to changes in appearance that some may view as undesirable.\nOzempic brand name for semaglutide"
   },
   {
@@ -228,7 +228,7 @@
     "page": 76,
     "heading": "Symptoms of moderate to severe hypoglycemia?",
     "caption": "",
-    "file": "discovery/image-parsing/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p76_90.png",
+    "file": "data/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p76_90.png",
     "context": "Symptoms of moderate to severe hypoglycemia?"
   },
   {
@@ -236,7 +236,7 @@
     "page": 76,
     "heading": "Symptoms of moderate to severe hypoglycemia?",
     "caption": "",
-    "file": "discovery/image-parsing/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p76_91.png",
+    "file": "data/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p76_91.png",
     "context": "Symptoms of moderate to severe hypoglycemia?"
   },
   {
@@ -244,7 +244,7 @@
     "page": 76,
     "heading": "Symptoms of moderate to severe hypoglycemia?",
     "caption": "",
-    "file": "discovery/image-parsing/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p76_92.png",
+    "file": "data/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p76_92.png",
     "context": "Symptoms of moderate to severe hypoglycemia?"
   },
   {
@@ -252,7 +252,7 @@
     "page": 79,
     "heading": "Glucagon",
     "caption": "",
-    "file": "discovery/image-parsing/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p79_95.png",
+    "file": "data/images/Drugs_for_Diabetes-2025-STUDENT_START-_F/p79_95.png",
     "context": "Glucagon\nIndicated as a treatment for severe hypoglycemia, which may occur in patients with diabetes mellitus.\nSupplementary carbohydrate should be given as soon as possible, especially in pediatric patients."
   },
   {
@@ -260,7 +260,7 @@
     "page": 3,
     "heading": "NEUROLOGIC",
     "caption": "Figure 1. Anatomy of the pituitary gland.",
-    "file": "discovery/image-parsing/images/Pituitary_adenomas_an_overview,_Review_A/p3_0.png",
+    "file": "data/images/Pituitary_adenomas_an_overview,_Review_A/p3_0.png",
     "context": "NEUROLOGIC\nThe most common neurologic symptoms in patients with pituitary adenomas are headaches and visual changes. Neurologic symptoms are more common in nonfunc-\nFigure 1. Anatomy of the pituitary gland.\ntioning adenomas or gonadotroph adenomas because these tumors do not secrete sufficient hormones to cause endocrine-type symptoms, and their diagnosis often is delayed until patients present with symptoms of mass effect. 11 Headaches, which are believed to result from stretching of the dural sheath, are nonspecific and do not necessarily correlate with tumor size. 5"
   },
   {
@@ -268,7 +268,7 @@
     "page": 6,
     "heading": "",
     "caption": "Figure 2. Macroadenoma (arrow) on computed tomography.",
-    "file": "discovery/image-parsing/images/Pituitary_adenomas_an_overview,_Review_A/p6_1.png",
+    "file": "data/images/Pituitary_adenomas_an_overview,_Review_A/p6_1.png",
     "context": "Figure 2. Macroadenoma (arrow) on computed tomography."
   },
   {
@@ -276,7 +276,7 @@
     "page": 6,
     "heading": "",
     "caption": "",
-    "file": "discovery/image-parsing/images/Pituitary_adenomas_an_overview,_Review_A/p6_2.png",
+    "file": "data/images/Pituitary_adenomas_an_overview,_Review_A/p6_2.png",
     "context": "A higher serum prolactin level (250 mcg per L [10,870 pmol per L] or more) suggests a prolactinoma over other causes of hyperprolactinemia (e.g., hypothyroidism, medications, non-prolactin-secreting pituitary adenomas, pregnancy, renal failure). 9,17 A serum prolactin level greater than 500 mcg per L (21,739 pmol per L) is diagnostic for a macroprolactinoma (98% specificity), although only about one-third of persons with prolactinoma have levels that high (35% sensitivity). 17 Nonprolactin-secreting pituitary tumors may cause moderate elevations in prolactin through compression of the pituitar"
   },
   {
@@ -284,7 +284,7 @@
     "page": 7,
     "heading": "",
     "caption": "Figure 4. Approach to the evaluation and management of a pituitary incidentaloma.",
-    "file": "discovery/image-parsing/images/Pituitary_adenomas_an_overview,_Review_A/p7_3.png",
+    "file": "data/images/Pituitary_adenomas_an_overview,_Review_A/p7_3.png",
     "context": "Pituitary Adenomas\nFigure 4. Approach to the evaluation and management of a pituitary incidentaloma.\nAdapted with permission from Freda PU, Beckers AM, Katznelson L, et al.; Endocrine Society. Pituitary incidentaloma: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2011;96(4):899."
   }
 ]

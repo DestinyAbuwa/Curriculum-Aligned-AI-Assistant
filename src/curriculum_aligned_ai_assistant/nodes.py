@@ -12,26 +12,41 @@ NOT_FOUND_MARKER = "NOT_FOUND"
 # Models sometimes append a note such as "**NOT_FOUND** (nothing more in the excerpts)" after a
 # real answer. Drop the marker and the rest of its line, keep the answer before it.
 _MARKER_TAIL = re.compile(rf"\*{{0,2}}{NOT_FOUND_MARKER}\*{{0,2}}.*$", re.IGNORECASE | re.MULTILINE)
+_EMBEDDED_QUESTION_BLOCK = re.compile(
+    r"(?:#{1,6}[ \t]*)?\[?[ \t]*Question[ \t]*-[ \t]*(?:Poll|answer)"
+    r"[ \t]*\]?[ \t]*.*?(?=#{1,6}[ \t]+|\[[A-Z][^\]]*\]|\Z)",
+    re.IGNORECASE | re.DOTALL,
+)
 
-GRADE_PROMPT = """You are checking whether course excerpts can answer a student's question.
+SYSTEM_PROMPT = """You are an accurate, objective medical curriculum AI assistant for preclinical
+medical students at UICOM-Peoria. Be clear, direct, educational, and encouraging.
 
-Question: {question}
+Answer every distinct part of the student's question. Use the provided source material only;
+do not fill gaps with outside medical knowledge. If the material does not support an answer to
+all parts, say so using the requested fallback behavior.
+Do not add an answer-choice letter unless the student's current question includes choices and
+asks you to select one. Never treat answer choices in retrieved excerpts as answers to this question.
 
-Excerpts:
-{excerpts}
+Generate NBME-style practice questions only when the student explicitly asks for practice
+questions or MCQs. Then write a clinical vignette, a focused positive lead-in, and 4–5 parallel,
+plausible answer choices. Avoid negative lead-ins, "all of the above," and "none of the above."""
 
-Do the excerpts contain the information needed to answer the question? Reply with only YES or NO."""
+COURSE_PROMPT = SYSTEM_PROMPT + """
 
-COURSE_PROMPT = """Answer the student's question using ONLY the course excerpts below.
-Be concise and accurate. If the excerpts do not contain the answer, reply with exactly NOT_FOUND.
+Answer using ONLY the course excerpts below. Be concise but include enough detail to address each
+part of the question. If the excerpts do not support an answer to every part, reply with exactly
+NOT_FOUND.
 
 Question: {question}
 
 Excerpts:
 {excerpts}"""
 
-WEB_PROMPT = """Answer the student's question using ONLY the web results below.
-Be concise and accurate. If the results do not contain the answer, reply with exactly NOT_FOUND.
+WEB_PROMPT = SYSTEM_PROMPT + """
+
+The course excerpts did not support an answer, so answer using ONLY these web results. Be concise
+but include enough detail to address each part. If the results do not support an answer to every
+part, reply with exactly NOT_FOUND. Do not add claims from memory.
 
 Question: {question}
 
@@ -40,10 +55,13 @@ Web results:
 
 
 def format_excerpts(chunks: list[Chunk]) -> str:
-    return "\n\n".join(
-        f"[{i}] ({c.source} #{c.chunk_id})\n{'Figure: ' if c.image_path else ''}{c.text}"
-        for i, c in enumerate(chunks, start=1)
-    )
+    excerpts = []
+    for i, chunk in enumerate(chunks, start=1):
+        text = _EMBEDDED_QUESTION_BLOCK.sub("", chunk.text).strip()
+        if text:
+            figure_label = "Figure: " if chunk.image_path else ""
+            excerpts.append(f"[{i}] ({chunk.source} #{chunk.chunk_id})\n{figure_label}{text}")
+    return "\n\n".join(excerpts)
 
 
 def returned_images(chunks: list[Chunk], max_distance: float, margin: float) -> tuple[str, ...]:
@@ -64,10 +82,6 @@ def format_web_results(results: list[WebResult]) -> str:
     return "\n\n".join(
         f"[{i}] {r.title} ({r.url})\n{r.content}" for i, r in enumerate(results, start=1)
     )
-
-
-def is_clear_yes(reply: str) -> bool:
-    return reply.strip().strip("*`\"' ").upper().startswith("YES")
 
 
 def usable_reply(reply: str) -> str | None:
@@ -107,8 +121,9 @@ class Nodes:
         chunks = state.get("chunks", [])
         if not chunks or chunks[0].distance > self._max_distance:
             return {"relevant": False}
-        prompt = GRADE_PROMPT.format(question=state["question"], excerpts=format_excerpts(chunks))
-        return {"relevant": is_clear_yes(self._llm.invoke(prompt))}
+        prompt = COURSE_PROMPT.format(question=state["question"], excerpts=format_excerpts(chunks))
+        answer = usable_reply(self._llm.invoke(prompt))
+        return {"relevant": answer is not None, "course_answer": answer or ""}
 
     def web_search(self, state: AgentState) -> AgentState:
         if self._web_searcher is None:
@@ -123,12 +138,7 @@ class Nodes:
         question = state["question"]
         if state.get("relevant"):
             chunks = state["chunks"]
-            reply = self._llm.invoke(
-                COURSE_PROMPT.format(question=question, excerpts=format_excerpts(chunks))
-            )
-            text = usable_reply(reply)
-            if text is None:
-                return _none_answer()
+            text = state.get("course_answer", "")
             citations = [f"{c.source} #{c.chunk_id}" for c in chunks]
             images = returned_images(chunks, self._image_max_distance, self._image_margin)
             return {

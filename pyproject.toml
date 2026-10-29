@@ -8,8 +8,8 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "chromadb>=1.5.9",
-    "langchain-ollama>=1.1.0",
     "langchain-openai>=1.7.2",
+    "mlx-vlm>=0.4.0; sys_platform == 'darwin' and platform_machine == 'arm64'",
     "langgraph>=1.2.16",
     "python-dotenv>=1.2.3",
     "sentence-transformers>=6.1.0",
@@ -20,6 +20,7 @@ dependencies = [
 curriculum-aligned-ai-assistant = "curriculum_aligned_ai_assistant:main"
 ask-semantic = "curriculum_aligned_ai_assistant.ask_semantic:main"
 ask-hybrid = "curriculum_aligned_ai_assistant.ask_hybrid:main"
+ingest = "curriculum_aligned_ai_assistant.ingest.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.12.2,<0.13.0"]
@@ -45,15 +46,20 @@ dev = [
     "ruff>=0.16.9",
     "streamlit>=1.66.1",
 ]
-chunking-discovery = [
+ingest = [
     "docling>=2.0.0",
     "langchain-experimental>=0.3.0",
     "langchain-huggingface>=0.1.0",
-    "sentence-transformers>=3.0.0",
-    "chromadb>=0.5.0",
-    "ollama>=0.4.0",
 ]
 
 [[tool.mypy.overrides]]
-module = ["tavily.*"]
+module = [
+    "tavily.*",
+    # The `ingest` group is not installed in CI.
+    "docling.*",
+    "docling_core.*",
+    "langchain_experimental.*",
+    "langchain_huggingface.*",
+    "langchain_text_splitters.*",
+]
 ignore_missing_imports = true

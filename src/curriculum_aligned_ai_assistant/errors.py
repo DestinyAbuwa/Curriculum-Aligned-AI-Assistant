@@ -3,4 +3,4 @@ class AgentStartupError(Exception):
 
 
 class LlmUnavailableError(Exception):
-    """The Ollama server or model could not be reached."""
+    """The configured language model could not be reached or loaded."""

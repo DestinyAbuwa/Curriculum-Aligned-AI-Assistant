@@ -1,25 +1,24 @@
 """Describe each extracted figure with a vision model, caching results on disk.
 
-Reads discovery/image-parsing/images.json and writes
-discovery/image-parsing/descriptions.json (image path -> description). The file is
-rewritten after every successful call, so an interrupted run resumes where it stopped.
+Reads data/images.json and writes data/descriptions.json (image path -> description).
+The file is rewritten after every successful call, so an interrupted run resumes where it
+stopped.
 """
 
 import base64
 import json
 import os
-from pathlib import Path
 
-from dotenv import load_dotenv
 from langchain_core.messages import HumanMessage
 from langchain_openai import ChatOpenAI
 
-from curriculum_aligned_ai_assistant.image_index import DECORATIVE, ImageRecord, describe_all
-
-REPO_ROOT = Path(__file__).resolve().parents[2]
-OUT_DIR = REPO_ROOT / "discovery" / "image-parsing"
-IMAGES_JSON = OUT_DIR / "images.json"
-DESCRIPTIONS_JSON = OUT_DIR / "descriptions.json"
+from curriculum_aligned_ai_assistant.config import (
+    DESCRIPTIONS_JSON,
+    IMAGES_JSON,
+    REPO_ROOT,
+    Settings,
+)
+from curriculum_aligned_ai_assistant.ingest.image_index import DECORATIVE, ImageRecord, describe_all
 
 PROMPT = (
     "You are indexing images from preclinical medical course materials so students can "
@@ -56,8 +55,7 @@ def save(descriptions: dict[str, str]) -> None:
 
 
 def main() -> None:
-    load_dotenv(REPO_ROOT / ".env")
-    llm = ChatOpenAI(model=os.getenv("OPENAI_MODEL") or "gpt-6-luna")
+    llm = ChatOpenAI(model=Settings.from_env().openai_model)
     records = [ImageRecord(**r) for r in json.loads(IMAGES_JSON.read_text(encoding="utf-8"))]
     cache: dict[str, str] = (
         json.loads(DESCRIPTIONS_JSON.read_text(encoding="utf-8"))

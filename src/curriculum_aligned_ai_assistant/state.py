@@ -32,5 +32,6 @@ class AgentState(TypedDict, total=False):
     question: str
     chunks: list[Chunk]
     relevant: bool
+    course_answer: str
     web_results: list[WebResult]
     answer: Answer

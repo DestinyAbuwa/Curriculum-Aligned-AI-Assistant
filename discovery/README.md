@@ -4,23 +4,28 @@ General context for everything under `discovery/` on this branch
 (`continued-discovery-chunking-embedding-retrieval-vince`), which continues the
 chunking research started on `discovery/chunking-methods-research-vince`. This
 is exploratory research toward the RAG pipeline for the Curriculum-Aligned AI
-Assistant — not wired into the main app yet.
+Assistant.
+
+> **The pipeline that came out of this research now lives in the package.** The
+> chunkers, image extraction/description and index build are in
+> `src/curriculum_aligned_ai_assistant/ingest/`, and the PDFs, chunk JSON, image
+> records and Chroma index are in `data/`. See the main README ("Building the
+> index"). What remains here is the research itself.
 
 ## Folder map
 
-- **`chunking-methods/`** — compares two chunking strategies against 3 sample
-  curriculum PDFs (physiology, pharmacology, pathology lecture decks):
-  - `tester.py` — LangChain `SemanticChunker` (sentence-embedding similarity
-    breakpoints), output in `semanticresults/`
-  - `tester_hybrid.py` — Docling's `HybridChunker` (document-structure-aware,
-    no embedding model needed), output in `hybridresults/`
+- **`chunking-methods/`** — (moved) the two chunking strategies compared here,
+  LangChain `SemanticChunker` and Docling's `HybridChunker`, are now
+  `ingest/chunking.py`; their output is in `data/chunks/`.
 - **`embedding-models/`** — research into which embedding model should power
   the actual retrieval index.
-- **`embedding-retrieval-prototype/`** — a working Chroma-based retrieval
-  prototype: `build_index.py` embeds both chunkers' output with the chosen
-  embedding model into two Chroma collections; `query.py` runs a fixed set of
-  test questions against both; `compare_cli.py` is an interactive loop to ask
-  ad hoc questions and see both chunkers' top matches side by side.
+- **`embedding-retrieval-prototype/`** — `query.py` runs a fixed set of test
+  questions against both chunkers' collections; `compare_cli.py` is an
+  interactive loop to ask ad hoc questions and see both chunkers' top matches
+  side by side (needs `ollama`, which is no longer a project dependency). The
+  index build moved to `ingest/indexing.py`.
+- **`image-parsing/`** — `evaluation-questions.md`, the figure-retrieval
+  question set. The extract/describe/index scripts moved to `ingest/`.
 
 ## Decisions made so far
 

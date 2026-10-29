@@ -1,10 +1,9 @@
-from pathlib import Path
-
 import chromadb
 import ollama
 from sentence_transformers import SentenceTransformer
 
-BASE_DIR = Path(__file__).parent
+from curriculum_aligned_ai_assistant.config import DEFAULT_CHROMA_PATH
+
 TOP_K = 3
 WIDTH = 88
 LLM_MODEL = "qwen3:8b"
@@ -21,7 +20,7 @@ SYSTEM_PROMPT = (
 
 print("Loading embedding model (bge-m3)...")
 model = SentenceTransformer("BAAI/bge-m3", device="cpu")
-client = chromadb.PersistentClient(path=str(BASE_DIR / "chroma_db"))
+client = chromadb.PersistentClient(path=str(DEFAULT_CHROMA_PATH))
 semantic = client.get_collection("semantic_chunks")
 hybrid = client.get_collection("hybrid_chunks")
 
@@ -36,7 +35,9 @@ def print_results(label: str, results: dict) -> None:
         return
     for rank, (doc, meta, dist) in enumerate(zip(docs, metas, dists), start=1):
         similarity = 1 - dist
-        print(f"\n[{rank}] similarity={similarity:.3f}  source={meta['source']}  chunk#{meta['chunk_id']}")
+        print(
+            f"\n[{rank}] similarity={similarity:.3f}  source={meta['source']}  chunk#{meta['chunk_id']}"
+        )
         print("-" * WIDTH)
         print(doc.strip())
     print()
@@ -54,7 +55,9 @@ def generate_answer(question: str, results: dict) -> str:
     context = build_context(results)
     if not context:
         return "(no retrieved context to answer from)"
-    user_prompt = f"Context:\n{context}\n\nQuestion: {question}\n\nAnswer using only the context above."
+    user_prompt = (
+        f"Context:\n{context}\n\nQuestion: {question}\n\nAnswer using only the context above."
+    )
     response = ollama.chat(
         model=LLM_MODEL,
         messages=[

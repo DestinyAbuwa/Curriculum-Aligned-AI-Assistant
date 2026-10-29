@@ -50,12 +50,7 @@ def _load_model(model_name: str) -> SentenceTransformer:
 def open_retriever(
     settings: Settings, collection_name: str, model_name: str = "BAAI/bge-m3"
 ) -> ChromaRetriever:
-    script = (
-        "discovery/image-parsing/build_image_index.py"
-        if collection_name.endswith("_images")
-        else "discovery/embedding-retrieval-prototype/build_index.py"
-    )
-    rebuild_hint = f"Build it with {script}."
+    rebuild_hint = "Build it with `uv run ingest index`."
     if not settings.chroma_path.exists():
         raise AgentStartupError(f"No Chroma index at {settings.chroma_path}. {rebuild_hint}")
     client = chromadb.PersistentClient(path=str(settings.chroma_path))

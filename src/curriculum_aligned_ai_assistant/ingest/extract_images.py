@@ -1,7 +1,7 @@
 """Extract usable figures from the sample course PDFs with Docling.
 
-Writes PNGs to discovery/image-parsing/images/<doc>/p<page>_<n>.png and a
-discovery/image-parsing/images.json list of ImageRecord dicts.
+Writes PNGs to data/images/<doc>/p<page>_<n>.png and a data/images.json list of
+ImageRecord dicts.
 """
 
 import json
@@ -11,14 +11,14 @@ from pathlib import Path
 from docling.datamodel.base_models import InputFormat
 from docling.datamodel.pipeline_options import PdfPipelineOptions
 from docling.document_converter import DocumentConverter, PdfFormatOption
-from docling_core.types.doc import DocItem, PictureItem, SectionHeaderItem, TitleItem
+from docling_core.types.doc.document import DocItem, PictureItem, SectionHeaderItem, TitleItem
 
-from curriculum_aligned_ai_assistant.image_index import ImageRecord, build_context, is_usable_size
-
-REPO_ROOT = Path(__file__).resolve().parents[2]
-PDF_DIR = REPO_ROOT / "discovery" / "chunking-methods" / "sample_pdfs"
-OUT_DIR = REPO_ROOT / "discovery" / "image-parsing"
-IMAGES_DIR = OUT_DIR / "images"
+from curriculum_aligned_ai_assistant.config import IMAGES_DIR, IMAGES_JSON, PDF_DIR, REPO_ROOT
+from curriculum_aligned_ai_assistant.ingest.image_index import (
+    ImageRecord,
+    build_context,
+    is_usable_size,
+)
 
 
 def _text_of(item: DocItem) -> str:
@@ -98,10 +98,8 @@ def main() -> None:
         print(f"{pdf.stem}: {found} pictures, {len(records)} kept", flush=True)
         total_found += found
         all_records.extend(records)
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    (OUT_DIR / "images.json").write_text(
-        json.dumps([asdict(r) for r in all_records], indent=2), encoding="utf-8"
-    )
+    IMAGES_JSON.parent.mkdir(parents=True, exist_ok=True)
+    IMAGES_JSON.write_text(json.dumps([asdict(r) for r in all_records], indent=2), encoding="utf-8")
     print(f"Total: {total_found} pictures, {len(all_records)} kept")
 
 
